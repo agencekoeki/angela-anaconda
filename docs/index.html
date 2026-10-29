@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Angela Anaconda, l'encyclopédie des fans</title>
+<meta name="description" content="Base de connaissances de fans sur la série Angela Anaconda (1999-2001) : découpages scène par scène, études de personnages, sans aucun dialogue ni image de la série.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Courier+Prime:wght@400;700&family=Fredoka:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3ead6;--paper2:#e9dcc0;--ink:#1f1a15;--muted:#6b5f50;--orange:#e5621b;--freckle:#d9772e;--pink:#e7a3b8;--navy:#24305e;--nanette:#a3142a;--card:#fffaf0;--line:#1f1a1522}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--paper:#1c1915;--paper2:#26211b;--ink:#f1e8d6;--muted:#b3a58f;--card:#2b251e;--line:#f1e8d622;--navy:#9aa8e0}}
+:root[data-theme="dark"]{--paper:#1c1915;--paper2:#26211b;--ink:#f1e8d6;--muted:#b3a58f;--card:#2b251e;--line:#f1e8d622;--navy:#9aa8e0}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper);color:var(--ink);font:400 17px/1.6 "Fredoka",system-ui,sans-serif;
+ background-image:radial-gradient(var(--line) 1px,transparent 1.2px);background-size:22px 22px;transition:filter .6s}
+a{color:var(--orange);text-decoration-thickness:2px;text-underline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 16px}
+header{padding:56px 0 24px;position:relative;overflow:hidden}
+.kicker{font:700 13px/1 "Courier Prime",monospace;letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+h1{font:400 clamp(38px,8.5vw,92px)/1.02 "Bowlby One",sans-serif;margin:14px 0 18px;display:flex;flex-wrap:wrap;gap:.06em .02em}
+h1 .w{display:flex;margin-right:.28em}
+h1 .l{display:inline-block;padding:.02em .09em;background:var(--card);border:2px solid var(--ink);box-shadow:3px 3px 0 var(--ink);
+ animation:jig 1.1s steps(2) infinite;transform:rotate(var(--r))}
+h1 .l:nth-child(3n){background:var(--orange);color:#fff}
+h1 .l:nth-child(4n+1){background:var(--pink);color:var(--ink)}
+h1 .l:nth-child(5n){background:var(--navy);color:#fff}
+@keyframes jig{0%{transform:rotate(var(--r)) translateY(0)}100%{transform:rotate(calc(var(--r) * -1)) translateY(-2px)}}
+@media (prefers-reduced-motion: reduce){h1 .l{animation:none}}
+.sub{font-size:clamp(18px,2.4vw,22px);max-width:640px;margin:0 0 22px}
+.freckles{position:absolute;right:-20px;top:30px;width:240px;height:180px;opacity:.9;pointer-events:none}
+.freckles i{position:absolute;width:12px;height:12px;border-radius:50%;background:var(--freckle)}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{font:600 16px "Fredoka",sans-serif;border:2px solid var(--ink);background:var(--card);color:var(--ink);padding:10px 16px;border-radius:3px;box-shadow:3px 3px 0 var(--ink);cursor:pointer;text-decoration:none}
+.btn:hover{transform:translate(-1px,-1px);box-shadow:4px 4px 0 var(--ink)}
+.btn.primary{background:var(--orange);color:#fff}
+section{padding:28px 0}
+h2{font:400 clamp(24px,3.6vw,34px)/1.1 "Bowlby One",sans-serif;margin:0 0 14px}
+.grid3{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px}
+.note{background:var(--card);border:2px solid var(--ink);padding:16px 18px;box-shadow:4px 4px 0 var(--ink);transform:rotate(var(--r,0deg))}
+.note h3{margin:0 0 6px;font:600 19px "Fredoka",sans-serif}
+.note p{margin:0;color:var(--muted)}
+.tape{position:relative}
+.tape:before{content:"";position:absolute;top:-10px;left:50%;width:70px;height:20px;margin-left:-35px;background:#f7e7a6cc;transform:rotate(-3deg);border:1px solid #0001}
+.stats{display:flex;flex-wrap:wrap;gap:20px;font:700 15px "Courier Prime",monospace;margin:6px 0 18px}
+.stats b{font-size:28px;display:block;font-family:"Bowlby One",sans-serif;font-weight:400;color:var(--orange)}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.filters button{font:600 14px "Fredoka",sans-serif;border:2px solid var(--ink);background:var(--card);color:var(--ink);padding:6px 12px;cursor:pointer;border-radius:999px}
+.filters button[aria-pressed="true"]{background:var(--ink);color:var(--paper)}
+.eps{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px}
+.ep{background:var(--card);border:2px solid var(--ink);padding:12px 14px 12px;position:relative;min-height:118px;transition:transform .15s}
+.ep:nth-child(odd){transform:rotate(-.6deg)} .ep:nth-child(even){transform:rotate(.5deg)}
+.ep .code{font:700 13px "Courier Prime",monospace;color:var(--muted)}
+.ep .t{font-weight:600;line-height:1.25;margin:4px 0 2px}
+.ep .t2{color:var(--muted);line-height:1.25;font-size:15px}
+.ep .st{position:absolute;right:10px;top:10px;font:700 11px "Courier Prime",monospace;text-transform:uppercase;letter-spacing:.06em;padding:2px 6px;border:1.5px solid currentColor;color:var(--muted)}
+.ep.done{border-color:var(--orange);box-shadow:4px 4px 0 var(--orange)}
+.ep.done .st{color:var(--orange)}
+.ep a.cover{position:absolute;inset:0}
+.ep.done:hover{transform:rotate(0) translateY(-2px)}
+footer{padding:36px 0 60px;color:var(--muted);font-size:15px;border-top:2px dashed var(--line);margin-top:20px}
+/* le mode imaginaire : comme dans la série, le réel ondule et les couleurs partent */
+body.dream{filter:hue-rotate(160deg) saturate(1.8)}
+body.dream h1 .l{animation-duration:.35s}
+.wave{position:fixed;inset:0;pointer-events:none;z-index:50;background:repeating-linear-gradient(180deg,transparent 0 14px,#fff4 14px 18px);opacity:0}
+.wave.on{animation:wave .9s ease-out}
+@keyframes wave{0%{opacity:0;transform:skewY(0)}30%{opacity:1;transform:skewY(3deg) scaleY(1.05)}60%{transform:skewY(-3deg)}100%{opacity:0;transform:skewY(0)}}
+@media (max-width:560px){.freckles{display:none}header{padding-top:36px}}
+</style>
+</head>
+<body>
+<div class="wave" id="wave"></div>
+<header class="wrap">
+  <div class="freckles" aria-hidden="true" id="freckles"></div>
+  <div class="kicker">Projet de fans, non officiel · en français · 1999–2001</div>
+  <h1 id="title" aria-label="Angela Anaconda">Angela Anaconda</h1>
+  <p class="sub">L'encyclopédie des fans de la petite fille aux taches de rousseur, de sa bande et de son ennemie jurée, Nanette Manoir. Les 130 histoires racontées scène par scène, sans recopier un seul dialogue.</p>
+  <div class="btns">
+    <a class="btn primary" href="#episodes">Les épisodes</a>
+    <a class="btn" href="https://github.com/agencekoeki/angela-anaconda/tree/main/kb">La base sur GitHub</a>
+    <button class="btn" id="dream" type="button">Imaginer la revanche</button>
+  </div>
+</header>
+
+<main class="wrap">
+  <section>
+    <h2>Comment c'est fait</h2>
+    <div class="grid3">
+      <div class="note tape" style="--r:-1deg"><h3>On regarde la chaîne officielle</h3><p>Les épisodes sont parcourus sur la chaîne YouTube de WildBrain, image par image, en planches-contact. Rien n'est téléchargé, rien n'est publié.</p></div>
+      <div class="note tape" style="--r:.8deg"><h3>On raconte avec nos mots</h3><p>Le lieu, qui est là, ce qui se passe, ce qu'Angela imagine. Aucune réplique n'est recopiée : chaque scène renvoie à la vidéo, à la minute près.</p></div>
+      <div class="note tape" style="--r:-.5deg"><h3>On dit d'où ça sort</h3><p>Chaque fait porte une étiquette : vu à l'image, déduit de la transcription, interprétation, à vérifier.</p></div>
+    </div>
+  </section>
+
+  <section id="episodes">
+    <h2>Les 65 épisodes</h2>
+    <div class="stats" id="stats"></div>
+    <div class="filters" role="group" aria-label="Filtrer par saison">
+      <button type="button" data-s="all" aria-pressed="true">Tout</button>
+      <button type="button" data-s="S1" aria-pressed="false">Saison 1</button>
+      <button type="button" data-s="S2" aria-pressed="false">Saison 2</button>
+      <button type="button" data-s="S3" aria-pressed="false">Saison 3</button>
+      <button type="button" data-s="done" aria-pressed="false">Découpés</button>
+    </div>
+    <div class="eps" id="eps"></div>
+  </section>
+
+  <section>
+    <h2>Regarder la série</h2>
+    <p>Sur la chaîne officielle <a href="https://www.youtube.com/@AngelaAnacondaWildbrain">Angela Anaconda - Wildbrain</a>. Elle publie surtout des compilations : la <a href="https://github.com/agencekoeki/angela-anaconda/blob/main/kb/_methode/couverture-chaine.md">carte de la chaîne</a> dit où trouver chaque histoire.</p>
+  </section>
+</main>
+
+<footer class="wrap">
+  Un projet de fans de <a href="https://github.com/agencekoeki">Kōeki</a>, petit frère de <a href="https://agencekoeki.github.io/the-it-crowd/">l'encyclopédie The IT Crowd</a>. Sans lien avec WildBrain, Decode Entertainment ni aucun ayant droit. La série, ses personnages et ses images appartiennent à leurs ayants droit ; aucun n'est reproduit ici. Code MIT, textes CC BY-SA 4.0.
+</footer>
+
+<script>
+const EPS = [{"c": "S1E01", "a": "Pet Peeves", "b": "Rat Heroes", "d": "1999-10-04", "f": "episodes/S1E01-pet-peeves-rat-heroes.md"}, {"c": "S1E02", "a": "Ice Breakers", "b": "You're So Vain", "d": "1999-10-04", "f": null}, {"c": "S1E03", "a": "The Substitute", "b": "Model Behaviour", "d": "1999-10-06", "f": null}, {"c": "S1E04", "a": "Touched by an Angel-a", "b": "Puppy Love", "d": "1999-10-07", "f": null}, {"c": "S1E05", "a": "Who's Sari Now?", "b": "Saving Private Gordy", "d": "1999-10-08", "f": null}, {"c": "S1E06", "a": "Fairweather Friends", "b": "Turtle Confessions", "d": "1999-10-11", "f": null}, {"c": "S1E07", "a": "Cloak and Dagger", "b": "The Dog Ate It", "d": "1999-10-12", "f": null}, {"c": "S1E08", "a": "Hot Bob and Chocolate", "b": "Pizza Wars", "d": "1999-10-13", "f": null}, {"c": "S1E09", "a": "Stuck on You", "b": "Hard to Swallow", "d": "1999-10-14", "f": null}, {"c": "S1E10", "a": "Gone Fishing", "b": "100 Yard Lash", "d": "1999-10-15", "f": null}, {"c": "S1E11", "a": "My Fair Lulu", "b": "Johnny Doesn't Live Here Anymore", "d": "1999-10-18", "f": null}, {"c": "S1E12", "a": "Bathroom Blues", "b": "Garbage Swingers", "d": "1999-10-19", "f": null}, {"c": "S1E13", "a": "Mapperson's Daughter", "b": "Big Ho-Down", "d": "1999-10-20", "f": null}, {"c": "S1E14", "a": "Rough Times Tables", "b": "Works of Art", "d": "1999-10-21", "f": null}, {"c": "S1E15", "a": "Angela Who?", "b": "Rockabye Abatti", "d": "1999-10-22", "f": null}, {"c": "S1E16", "a": "Green with Envy", "b": "Two Can Play", "d": "1999-10-25", "f": null}, {"c": "S1E17", "a": "Cut to the Chase", "b": "Dirty Work", "d": "1999-10-26", "f": null}, {"c": "S1E18", "a": "Super Mom", "b": "Skipping Lessons", "d": "1999-10-27", "f": null}, {"c": "S1E19", "a": "View to a Brinks", "b": "Injury to Insult", "d": "1999-10-28", "f": null}, {"c": "S1E20", "a": "The Martyrdom of St. Nanette", "b": "The Crossing", "d": "1999-10-29", "f": null}, {"c": "S1E21", "a": "Labor Pains", "b": "Cyrano d'Angela", "d": "1999-10-30", "f": null}, {"c": "S1E22", "a": "Crazed and Confused", "b": "Strange Bedfellows", "d": "1999-10-31", "f": null}, {"c": "S1E23", "a": "Everybody Loves Gina", "b": "Halls of Justice", "d": "1999-11-03", "f": null}, {"c": "S1E24", "a": "Cabin Fever", "b": "Don't Overdue It", "d": "1999-11-04", "f": null}, {"c": "S1E25", "a": "Kar-Lean on Me", "b": "Slice of Life", "d": "1999-11-07", "f": null}, {"c": "S1E26", "a": "The Nanette Lock", "b": "Gordy Floats", "d": "1999-11-08", "f": null}, {"c": "S2E01", "a": "Vicious Cycle", "b": "To Catch a Thief", "d": "2000-09-11", "f": null}, {"c": "S2E02", "a": "French Connection", "b": "The List", "d": "2000-09-18", "f": null}, {"c": "S2E03", "a": "A Bug Responsibility", "b": "Pogo-A-Go-Go", "d": "2000-09-25", "f": null}, {"c": "S2E04", "a": "Snow Mercy", "b": "Be-Trayed", "d": "2000-10-02", "f": null}, {"c": "S2E05", "a": "Earhart's Heirloom", "b": "Ancient Greeks", "d": "2000-10-09", "f": null}, {"c": "S2E06", "a": "Brinks of No Return", "b": "Operation Ringside", "d": "2000-10-16", "f": null}, {"c": "S2E07", "a": "Eating with the Enemy", "b": "Brocc-Fest", "d": "2000-10-23", "f": null}, {"c": "S2E08", "a": "All for One", "b": "Uncle Nicky's Midlife Crisis", "d": "2000-10-30", "f": null}, {"c": "S2E09", "a": "Oh the Hu-manatees", "b": "In a Pepper Pickle", "d": "2000-11-06", "f": null}, {"c": "S2E10", "a": "Boo-Who?", "b": "The Haunting of Angela Anaconda", "d": "2000-11-13", "f": null}, {"c": "S2E11", "a": "The Lion, the Witch and the Weasel?", "b": "Curse of the Mummy", "d": "2000-11-20", "f": null}, {"c": "S2E12", "a": "No Thanksgiving", "b": "Family Tree", "d": "2000-11-27", "f": null}, {"c": "S2E13", "a": "Goodbye Mrs. Brinks", "b": "The Birdlady of Tapwater Springs", "d": "2000-12-04", "f": null}, {"c": "S2E14", "a": "Secret Santa", "b": "Hooray for Chanukah", "d": "2000-12-11", "f": null}, {"c": "S2E15", "a": "Return to Sender", "b": "I Wanna Mold Your Band", "d": "2000-12-18", "f": null}, {"c": "S2E16", "a": "Don't Be Caddie", "b": "The Pup Who Would Be King", "d": "2000-12-25", "f": null}, {"c": "S2E17", "a": "Cheese Under Pressure", "b": "Troop or Consequences", "d": "2001-01-01", "f": null}, {"c": "S2E18", "a": "The Great Granny Grudge", "b": "News at Eleven", "d": "2001-01-08", "f": null}, {"c": "S2E19", "a": "The Girl with All the Answers", "b": "Good Seats", "d": "2001-01-15", "f": null}, {"c": "S2E20", "a": "Abra-Abatti", "b": "Stupid Cupid", "d": "2001-01-22", "f": null}, {"c": "S2E21", "a": "Gordy in a Plastic Bubble", "b": "Camp Anaconda", "d": "2001-01-29", "f": null}, {"c": "S2E22", "a": "Sound of Silence", "b": "Johnny Learns to Swing", "d": "2001-02-05", "f": null}, {"c": "S2E23", "a": "Firm-a-Foam", "b": "For the Love of the Game", "d": "2001-02-12", "f": null}, {"c": "S2E24", "a": "Jiggly Fruit Classic", "b": "Race Car Race", "d": "2001-02-19", "f": null}, {"c": "S2E25", "a": "Surf's Up", "b": "Dog Gone It", "d": "2001-02-26", "f": null}, {"c": "S3E01", "a": "Childhood for Sale", "b": "The Best Is Yeti to Come", "d": "2001-09-10", "f": null}, {"c": "S3E02", "a": "Canine to Five", "b": "Yellow Book Road", "d": "2001-09-17", "f": null}, {"c": "S3E03", "a": "Jimmy Jamal, Super Beetle", "b": "I'm With Stupid", "d": "2001-09-24", "f": null}, {"c": "S3E04", "a": "Saturday Night Gordy", "b": "Derek's Better Half", "d": "2001-10-01", "f": null}, {"c": "S3E05", "a": "There Goes the Neighborhood", "b": "Open All Night", "d": "2001-10-08", "f": null}, {"c": "S3E06", "a": "Pranks for the Memories", "b": "Space Camp", "d": "2001-10-15", "f": null}, {"c": "S3E07", "a": "The Curse of Baby Lulu", "b": "Funny Photos", "d": "2001-10-22", "f": null}, {"c": "S3E08", "a": "Nonna's Lib", "b": "All My Students", "d": "2001-10-29", "f": null}, {"c": "S3E09", "a": "Snow Day", "b": "The Puck Stops Here", "d": "2001-11-05", "f": null}, {"c": "S3E10", "a": "Diving Miss Angela", "b": "Window Pain", "d": "2001-11-12", "f": null}, {"c": "S3E11", "a": "Part-Time Jerks", "b": "Out on a Limb", "d": "2001-11-19", "f": null}, {"c": "S3E12", "a": "Enter the Angela", "b": "If the Shoe Fits", "d": "2001-11-26", "f": null}, {"c": "S3E13", "a": "Sir Ducksworthy", "b": "Speak No Evil", "d": "2001-12-03", "f": null}, {"c": "S3E14", "a": "The Non-Fight", "b": "Driving Me Crazy", "d": "2001-12-10", "f": null}];
+const GH = "https://github.com/agencekoeki/angela-anaconda/blob/main/kb/";
+// titre en lettres découpées
+const h1 = document.getElementById('title');
+h1.innerHTML = h1.textContent.split(' ').map(w => '<span class="w" aria-hidden="true">' + [...w].map(c => '<span class="l" style="--r:' + ((Math.random() * 8 - 4).toFixed(1)) + 'deg">' + c + '</span>').join('') + '</span>').join('');
+// taches de rousseur
+const fr = document.getElementById('freckles');
+for (let i = 0; i < 22; i++) { const d = document.createElement('i'); d.style.left = (Math.random() * 220) + 'px'; d.style.top = (Math.random() * 160) + 'px'; const s = 7 + Math.random() * 9; d.style.width = d.style.height = s + 'px'; fr.appendChild(d); }
+// épisodes
+const done = EPS.filter(e => e.f).length;
+document.getElementById('stats').innerHTML = '<div><b>65</b>épisodes</div><div><b>130</b>histoires</div><div><b>' + done + '</b>découpé' + (done > 1 ? 's' : '') + '</div>';
+const box = document.getElementById('eps');
+function render(f) {
+  box.innerHTML = EPS.filter(e => f === 'all' ? true : f === 'done' ? e.f : e.c.startsWith(f)).map(e =>
+    '<article class="ep' + (e.f ? ' done' : '') + '"><div class="code">' + e.c + ' · ' + e.d.slice(0, 4) + '</div>' +
+    '<div class="t">' + e.a + '</div><div class="t2">' + e.b + '</div>' +
+    '<span class="st">' + (e.f ? 'découpé' : 'à venir') + '</span>' +
+    (e.f ? '<a class="cover" href="' + GH + e.f + '" aria-label="Lire le découpage de ' + e.c + '"></a>' : '') + '</article>').join('');
+}
+render('all');
+document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('.filters button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  render(b.dataset.s);
+}));
+// le mode imaginaire
+const wave = document.getElementById('wave');
+document.getElementById('dream').addEventListener('click', e => {
+  wave.classList.remove('on'); void wave.offsetWidth; wave.classList.add('on');
+  setTimeout(() => { const on = document.body.classList.toggle('dream'); e.target.textContent = on ? 'Revenir au réel' : 'Imaginer la revanche'; }, 300);
+});
+</script>
+</body>
+</html>

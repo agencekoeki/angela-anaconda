@@ -1,0 +1,95 @@
+Angela Anaconda, l'encyclopédie des fans
+Copyright (c) 2026 Kōeki
+
+Ce dépôt est un projet de fans, non officiel. Il contient trois sortes de
+choses, chacune sous sa licence. Ce choix est une proposition appliquée par
+défaut ; voir LICENSE-NOTES.md.
+
+  1. Le code                                        Licence MIT
+     Les fichiers de tools/, et le JavaScript et le CSS de docs/.
+
+  2. Les textes                                     CC BY-SA 4.0
+     Tout ce qui est dans kb/, ainsi que README.md, LICENSE-NOTES.md et le
+     texte des pages de docs/.
+
+  3. Le graphisme original                          CC BY 4.0
+     Les dessins faits pour le projet, dans assets/ et docs/. Aucun ne
+     reproduit une image de la série.
+
+CE QUE CES LICENCES NE COUVRENT PAS
+
+Aucune de ces licences ne porte sur la série « Angela Anaconda » elle-même,
+ni sur ses personnages, ses dialogues, ses titres, ses marques ou ses images.
+Tout cela appartient à ses ayants droit. Le projet n'a aucun lien avec
+WildBrain, Decode Entertainment, C.O.R.E., Sue Rose, Joanna Ferrone ni aucun
+ayant droit, et n'est ni approuvé ni soutenu par eux. Le dépôt ne contient
+aucune image, aucun son, aucun extrait, aucune réplique et aucune
+transcription de la série.
+
+Crédit suggéré pour une reprise :
+  « Angela Anaconda, l'encyclopédie des fans », Kōeki,
+  https://github.com/agencekoeki/angela-anaconda (licence de la partie reprise).
+
+
+==============================================================================
+1. CODE : LICENCE MIT
+==============================================================================
+
+MIT License
+
+Copyright (c) 2026 Kōeki
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+==============================================================================
+2. TEXTES : CREATIVE COMMONS ATTRIBUTION - PARTAGE DANS LES MÊMES CONDITIONS
+   4.0 INTERNATIONAL (CC BY-SA 4.0)
+==============================================================================
+
+Les textes désignés au point 2 ci-dessus sont mis à disposition selon les
+termes de la licence Creative Commons Attribution - Partage dans les mêmes
+conditions 4.0 International.
+
+Vous pouvez les partager et les adapter, y compris à des fins commerciales, à
+condition de créditer le projet, d'indiquer si des modifications ont été
+faites, et de diffuser vos adaptations sous la même licence.
+
+Ce résumé ne remplace pas la licence. Texte juridique complet :
+  https://creativecommons.org/licenses/by-sa/4.0/legalcode.fr
+  https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Identifiant SPDX : CC-BY-SA-4.0
+
+
+==============================================================================
+3. GRAPHISME ORIGINAL : CREATIVE COMMONS ATTRIBUTION 4.0 INTERNATIONAL
+   (CC BY 4.0)
+==============================================================================
+
+Le graphisme désigné au point 3 ci-dessus est mis à disposition selon les
+termes de la licence Creative Commons Attribution 4.0 International.
+
+Vous pouvez le partager et l'adapter, y compris à des fins commerciales, à
+condition de créditer le projet et d'indiquer si des modifications ont été
+faites.
+
+Ce résumé ne remplace pas la licence. Texte juridique complet :
+  https://creativecommons.org/licenses/by/4.0/legalcode.fr
+  https://creativecommons.org/licenses/by/4.0/legalcode
+Identifiant SPDX : CC-BY-4.0

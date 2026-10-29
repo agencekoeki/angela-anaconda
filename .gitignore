@@ -1,0 +1,31 @@
+# Tout ce qui sort de la série reste hors du dépôt (voir LICENSE-NOTES.md) :
+# planches-contact, captures, études de personnages, transcriptions de travail.
+media-local/
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+*.m4v
+*.mp3
+*.m4a
+*.wav
+*.flac
+*.srt
+*.vtt
+*.ass
+
+# Python / Node
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+
+# Systèmes et éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/
