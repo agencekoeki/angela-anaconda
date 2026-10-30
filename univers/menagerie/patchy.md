@@ -2,12 +2,14 @@
 title: "Patchy"
 espece: "Petit chat gris et blanc"
 statut_image_maitre: "portrait de face validé"
-last_updated: 2026-10-29
+last_updated: 2026-10-30
 ---
 
 # Patchy
 
 Petit chat gris et blanc. Image maître : `media-local/illustrations-brutes/aa-portrait-patchy.png`, hors Git.
+
+**À chaque pose, joindre son portrait ET une de ses photos** : sans la photo, la pose PA1 v1 a perdu ses marques et il est devenu un chat gris foncé quelconque. Poses faites : PA1 v2 (la charge, « on garde »), la planche du galop (4 poses, dans `media-local/menagerie-poses/`). À faire : PA2 (la balle).
 
 ## Reconnaissable à
 

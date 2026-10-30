@@ -35,10 +35,14 @@ Chienne, colley à poil long bleu merle. Image maître : `media-local/illustrati
 - Couchée, le menton levé, qui boude.
 - **Son « bonjour »** : quand on lui dit bonjour et qu'elle est debout, elle étire ses pattes avant loin devant elle, à plat sur le sol, le petit derrière en l'air, et tire tout son long de devant, la tête comprise. Comme elle est raide, l'étirement reste raide lui aussi. C'est sa pose la plus attendrissante.
 
+## Poses faites (30/10/2026)
+
+Dans `media-local/menagerie-poses/` : o1 (couchée, refuse), o2 (aboie), la planche « aboiement » couchée (menton sur les pattes, tête levée, aboie, contente d'elle : seul l'avant bouge), et la planche « bonjour » v2 (debout, descente, révérence, se relève), refaite avec la queue basse du colley : la première version lui avait prêté la queue enroulée de Django.
+
 ## Sur le site
 
 Elle est couchée en bas de page. Si on la survole, elle lève la tête et aboie, avec une bulle sans texte, juste un symbole. Si on essaie de la déplacer, elle reste plantée.
 
 ## Prompt d'ancrage
 
-> Low-poly 1998 PlayStation-era 3D model of a BLUE MERLE ROUGH COLLIE (Lassie-type long coat): very long narrow wedge muzzle, small almond eyes, small semi-erect ears with tipped-over tips, silver-grey coat marbled with black, light tan face, eyebrow and leg markings, huge white ruff, white muzzle tip and legs, long feathered tail. Haughty, head held high. Medium size, same scale as Django. Visible facets, blurry low-res texture, stiff pose, flat lighting, muted colours, painted eyes.
+> Low-poly 1998 PlayStation-era 3D model of a BLUE MERLE ROUGH COLLIE (Lassie-type long coat): very long narrow wedge muzzle, small almond eyes, small semi-erect ears with tipped-over tips, silver-grey coat marbled with black, light tan face, eyebrow and leg markings, huge white ruff, white muzzle tip and legs, long feathered tail carried LOW, hanging down (never curled over the back, even in a play bow). Rather stiff, never supple. Haughty, head held high. Medium size, same scale as Django. Visible facets, blurry low-res texture, stiff pose, flat lighting, muted colours, painted eyes.

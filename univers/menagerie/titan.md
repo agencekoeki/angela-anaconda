@@ -1,13 +1,13 @@
 ---
 title: "Titan"
 espece: "Chat, maine coon entièrement blanc"
-statut_image_maitre: "portrait en cours (photos reçues par mail le 30/10/2026)"
-last_updated: 2026-10-29
+statut_image_maitre: "portrait fait (media-local/illustrations-brutes/aa-portrait-titan.png) ; pose TI1 avachi demandée, résultat à vérifier"
+last_updated: 2026-10-30
 ---
 
 # Titan
 
-Chat, maine coon entièrement blanc. Image maître : `media-local/illustrations-brutes/aa-portrait-titan.png`, hors Git.
+Chat, maine coon entièrement blanc. Image maître : `media-local/illustrations-brutes/aa-portrait-titan.png`, hors Git. Ses photos viennent du mail reçu le 30/10/2026 (`media-local/references/mail-tian/`).
 
 ## Reconnaissable à
 

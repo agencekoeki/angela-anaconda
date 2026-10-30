@@ -1,17 +1,18 @@
-// Planche-contact d'une vidéo YouTube, construite dans la page elle-même.
+// Planche contact d'une vidéo YouTube, dessinée dans la page elle-même.
 //
-// Usage : ouvrir la vidéo officielle dans le navigateur de l'app Claude,
-// exécuter ce fichier dans la page (outil JavaScript ou console), puis :
-//   __run(0, 4)                                        // 32 vignettes de 0:00 à 2:04, pas de 4 s
-//   __run([606, 607, 608], 0, 0, {cols: 2, tw: 659})   // instants choisis, grandes vignettes
-//   await __wait()                                     // attend la fin, renvoie le journal
-// La planche s'affiche en haut de la page, par-dessus YouTube ; une capture
-// d'écran du navigateur l'enregistre, puis elle est rangée dans media-local/
-// (ignoré par git). __plancheOff() retire la planche.
+// Usage, dans l'onglet de la vidéo officielle (Claude in Chrome, outil JavaScript) :
+//   1. coller ce fichier entier dans javascript_tool ;
+//   2. __run(30, 5)          // 30 vignettes à partir de 0:30, une toutes les 5 s
+//      await __wait(44000)   // attend la fin (relancer __wait si busy:true)
+//   3. capture d'écran avec save_to_disk:true : c'est la planche ;
+//   4. __plancheOff() pour la retirer.
+//   __run([606, 607, 608], 0, 0, {cols: 3})  // instants choisis, grandes vignettes
 //
-// Rien n'est téléchargé : les images sont dessinées depuis l'élément <video>
-// de la page, le temps de la capture. Les publicités sont attendues ou
-// passées avant chaque image ; une image prise pendant une pub est refaite.
+// La planche occupe toute la fenêtre (6 colonnes × 5 rangées par défaut), pour que
+// la capture soit lisible : c'est la taille de la fenêtre qui fixe celle des vignettes.
+// Rien n'est téléchargé : les images sont dessinées depuis l'élément <video> le temps
+// de la capture. Les pubs sont attendues ou passées ; une image prise pendant une pub
+// est refaite. Les planches restent dans media-local/, jamais dans un dépôt.
 
 window.__noAd = async () => {
   const p = document.querySelector('#movie_player');
@@ -25,14 +26,16 @@ window.__noAd = async () => {
 };
 
 window.__planche = async function (times, opts = {}) {
-  const cols = opts.cols || 4, tw = opts.tw || 329, th = Math.round(tw * 9 / 16), lab = 14;
+  const cols = opts.cols || 6;
+  const tw = opts.tw || Math.floor(innerWidth / cols);
+  const th = Math.round(tw * 9 / 16), lab = 14;
   const rows = Math.ceil(times.length / cols);
   let c = document.getElementById('__pl');
   if (!c) { c = document.createElement('canvas'); c.id = '__pl'; document.body.appendChild(c); }
   c.width = cols * tw; c.height = rows * (th + lab);
   Object.assign(c.style, { position: 'fixed', left: '0', top: '0', zIndex: 2147483647, background: '#000', width: c.width + 'px', height: c.height + 'px' });
   const g = c.getContext('2d'); g.fillStyle = '#000'; g.fillRect(0, 0, c.width, c.height);
-  const fmt = s => { const m = Math.floor(s / 60), r = s - m * 60; return m + ':' + (Number.isInteger(r) ? String(r).padStart(2, '0') : r.toFixed(1).padStart(4, '0')); };
+  const fmt = s => { const m = Math.floor(s / 60), r = Math.round(s - m * 60); return m + ':' + String(r).padStart(2, '0'); };
   const log = [];
   for (let i = 0; i < times.length; i++) {
     const t = times[i];
@@ -53,7 +56,9 @@ window.__planche = async function (times, opts = {}) {
   return log;
 };
 
-window.__run = (start, step, n = 32, opts = { cols: 4, tw: 329 }) => {
+// L'outil JavaScript coupe au bout d'environ 45 s : __run lance en tâche de fond,
+// __wait sonde. Une planche de 30 images prend de 40 à 70 s.
+window.__run = (start, step, n = 30, opts = {}) => {
   window.__st = { busy: true, start };
   const ts = Array.isArray(start) ? start : Array.from({ length: n }, (_, i) => start + i * step);
   window.__planche(ts, opts).then(log => { window.scrollTo(0, 0); window.__st = { busy: false, from: ts[0], to: ts[ts.length - 1], log }; });

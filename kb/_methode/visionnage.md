@@ -1,7 +1,7 @@
 ---
 title: "Méthode de visionnage des épisodes"
 scope: "Comment les découpages de kb/episodes/ sont établis : source, planches-contact, transcription, étiquettes, limites. À lire avant de s'appuyer sur une étiquette [VU À L'IMAGE] ou [TRANSCRIPTION AUTO]."
-last_updated: 2026-10-29
+last_updated: 2026-10-30
 ---
 
 # Méthode de visionnage
@@ -18,7 +18,7 @@ C'est la méthode de [l'encyclopédie *The IT Crowd*](https://github.com/agencek
 
 1. **Repérage.** Pour la vidéo, on relève le titre, la durée, la description et les chapitres. On cherche le carton-titre de chaque segment : le titre et le scénariste sont incrustés en lettres orangées sur la première image du segment.
 2. **Transcription.** On lit la transcription automatique de YouTube, avec ses minutages, pour comprendre qui fait quoi. Elle reste un outil de travail : **aucune réplique n'est recopiée dans les découpages**, même courte.
-3. **Planches-contact.** La vidéo est parcourue par sauts réguliers, et les images obtenues sont assemblées dans la page en planches de 32 vignettes, légendées du minutage, sans rien télécharger (`tools/planche-contact.js`). Le pas est de 4 s. On le resserre à 1 ou 2 s sur les cartons-titres, les gags visuels, les transitions vers l'imaginaire et les textes lisibles.
+3. **Planches-contact.** La vidéo est parcourue par sauts réguliers dans Chrome (Claude in Chrome), et les images obtenues sont assemblées dans la page en planches de 6 colonnes sur 5 rangées qui remplissent la fenêtre, légendées du minutage, sans rien télécharger (`tools/planche-contact.js`). La planche est capturée puis rangée dans `media-local/planches/<épisode>/`. Le pas est de 4 à 5 s. On le resserre à 1 ou 2 s sur les cartons-titres, les gags visuels, les transitions vers l'imaginaire et les textes lisibles.
 4. **Études de personnages.** Sur les gros plans, des planches à grandes vignettes isolent les expressions du visage, les formes de bouche (au tiers de seconde sur une réplique), les gestes et les poses des bras, et les tenues. Ce qu'elles montrent est décrit avec des mots dans `kb/personnages/`.
 5. **Rédaction.** Chaque scène est racontée avec les mots du rédacteur : le lieu, qui est là, ce qui se passe, ce qu'on voit.
 
@@ -40,6 +40,6 @@ Les planches sont gardées pour ne pas avoir à tout refaire, mais **elles ne qu
 - **Échantillonnage** : ce n'est pas un visionnage continu. Un geste de moins de 4 s peut avoir échappé.
 - **Son non écouté** : la voix off d'Angela, le faux accent français de Nanette, la musique et les bruitages ne sont pas observés directement.
 - **Transcription automatique** : pas de nom de locuteur, des noms propres déformés (« Nanette » devient « Ninnie War », « Abatti » devient « Abati »…). Les graphies retenues sont celles de sources écrites, pas celles de la machine.
-- **Définition** : les planches sont des captures réduites à 800 px de large. Les petits textes, comme les cartons-titres, sont parfois à la limite du lisible.
+- **Définition** : les vignettes font la taille d'un trentième de la fenêtre. Les petits textes, comme les cartons-titres, sont parfois à la limite du lisible : on les reprend en grandes vignettes (`{cols: 3}`).
 - **Publicités** : elles coupent la lecture. Le script les attend ou les passe, et refait l'image si une pub s'est glissée dedans.
 - **Montage de la chaîne** : les compilations enchaînent les segments sans générique. Rien ne garantit que chaque segment soit dans son montage de diffusion d'origine.
