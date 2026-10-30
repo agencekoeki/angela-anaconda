@@ -11,9 +11,9 @@ La série est publiée sur la chaîne **SEO Addict**. Chaque fiche détaillée e
 
 ## Les règles de la saison, telles qu'appliquées
 
-- **La pépite** est dite une seule fois, par un seul personnage, et personne ne la dit avant lui. Elle revient surtout à **Diana et Kristina**, à parts égales (5 et 5), avec leur complicité et leur tendresse moqueuse ; **Tara** la dit une fois (ép. 10, sur ses propres pages) ; le boulanger et Sébastien, jamais.
+- **La pépite** est dite une seule fois, par un seul personnage, et personne ne la dit avant lui. Elle revient surtout à **Diana et Kristina**, presque à parts égales (Kristina 6 avec l'ép. 2, Diana 5), avec leur complicité et leur tendresse moqueuse ; **Tara** la dit une fois (ép. 10, sur ses propres pages) ; le boulanger et Sébastien, jamais.
 - **Le rêve** tombe entre 70 et 78 % de la durée. Le rêve de gloire avec **le chœur des Tara** n'existe que deux fois : l'ép. 3 (la statue) et l'ép. 13 (la statue revient, en écho). Partout ailleurs, le rêve sort du sujet de l'épisode.
-- **Le démarrage de Tara** est un gag qui court : la version monte d'un cran à chaque épisode (1.0 → 2.0), avec une ligne liée à l'histoire, trois secondes au plus. Quand l'épisode n'allume pas d'écran (ép. 8 et 8), Tara est déjà là et sa version s'écrit seulement en tête de l'écran qu'elle affiche.
+- **Le démarrage de Tara** est un gag qui court : la version monte d'un cran à chaque épisode (1.0 → 2.0), avec une ligne liée à l'histoire, trois secondes au plus. Quand l'épisode n'allume pas d'écran (ép. 8 et 9), Tara est déjà là et sa version s'écrit seulement en tête de l'écran qu'elle affiche.
 - **L'ouverture** : une question à la première seconde ; « l'IA », jamais « Tara », à l'ouverture ; un seul « Papa… » d'ouverture dans la saison, à l'ép. 3.
 - **Le boulanger** : inconnu et vouvoyé à l'ép. 3, qui finit sur son premier tutoiement ; ensuite, ils se connaissent et se tutoient.
 - **Kristina** est adulte (elle travaille, chez ses parents, dans son bureau) ; c'est un rayon de soleil, lucide, ironique, et elle rit beaucoup de son père, avec Diana.
@@ -22,7 +22,7 @@ La série est publiée sur la chaîne **SEO Addict**. Chaque fiche détaillée e
 
 | Ép. | Durée | La question (1re seconde) | La pépite (qui la dit) | Le flocage | Le rêve (moment) | Tara |
 |---|---|---|---|---|---|---|
-| 2 · Le nom parfait | 2:35 (154,8 s) | Kristina : « C'est quoi, ce truc ? » (un pull moche) | **Kristina** : « Un nom ne classe pas un site. C'est dedans qui compte. » | n° 197 « Dernière sauvegarde : — » | le roi du pull moche, couronne, pulls qui volent · 1:35 (61 %, plus tôt que la règle : il doit précéder la révélation des chiffres) | Tara apparaît dans le présent, hors de l'écran, sans démarrage |
+| 2 · Le nom parfait | 2:36 (156,1 s) | Kristina : « C'est quoi, ce truc ? » (un pull moche) | **Kristina** : « Un nom ne classe pas un site. C'est dedans qui compte. » (le bandeau : Google, « presque aucun effet ») | n° 197 « Dernière sauvegarde : — » | le roi du pull moche, couronne, pulls qui volent · 1:35 (61 %, plus tôt que la règle : il doit précéder la révélation des chiffres) | Tara apparaît dans le présent, hors de l'écran, sans démarrage |
 | 3 · Personne ne me cite | 2:47 (167,2 s) | Kristina : « Papa… l'IA ne sait pas qui tu es. » | **Kristina** : « L'IA ne te croit pas sur parole. Elle répète ce que les autres disent de toi. » | n° 089 « Chez moi, je suis cité » | sa statue sur la place, le **chœur des Tara** (« Sébastien ! ») · 1:58 (71 %) | **1.1** · « Nouveau : connaît tout Tarascon » |
 | 4 · Olympe a plus d'avis que moi | 2:42 (162,4 s) | Sébastien : « Deux avis. Et la chienne… 214 ?! » | **Diana** : « Plus d'avis, de bonnes notes : ça peut te faire remonter. Mais ça se demande. » | n° 030 « 4,9 étoiles (2 avis) » | il est Olympe : couché au milieu du parcours, une collerette, une pluie d'étoiles · 1:54 (71 %) | **1.2** · « Nouveau : compte les étoiles » |
 | 5 · Interdit aux robots | 2:49 (169,6 s) | Sébastien : « Pourquoi le robot n'entre pas dans le bureau de ma fille ? » | **Kristina** : « Pour qu'il n'en parle pas… il faut le laisser entrer. Et lui dire : pas un mot. » | n° 010 « noindex, nofollow introverti » | Sébastien en araignée de fer-blanc, qui « lit » tout Tarascon · 2:00 (71 %) | **1.3** · « Plan de la maison : introuvable » |
@@ -35,7 +35,7 @@ La série est publiée sur la chaîne **SEO Addict**. Chaque fiche détaillée e
 | 12 · La panne | 2:41 (161,6 s) | Sébastien : « L'IA ne répond plus… on fait comment ? » | **Kristina** : « Ce qu'on écrit soi-même, on s'en souvient mieux. » | n° 433 « Débranchez, rebranchez » | Frère Sébastien, moine copiste aux lettrines parfaites · 1:53 (70 %) | **1.99** · « Chargement… · … » qui bégaie, puis « Redémarrage… » |
 | 13 · Sébastien est remplacé | 2:36 (156,8 s) | Sébastien : « Si l'IA fait mon métier mieux que moi… je sers à quoi ? » | **Diana** : « Elle fait des tâches. Toi, tu fais un métier. » | n° 065 « Humain dans la boucle » | la statue revient, le **chœur des Tara** (« Irrempla-ça-ble ! ») · 1:52 (72 %) | **2.0** · « Nouveau : fait le métier de Sébastien » |
 
-Pépites : Kristina 5 (ép. 3, 4, 5, 8, 11), Diana 5 (ép. 4, 6, 7, 10, 12), Tara 1 (ép. 10). Toutes les durées sont entre 2:36 et 2:49.
+Pépites : Kristina 6 (ép. 2, 3, 5, 6, 9, 12), Diana 5 (ép. 4, 7, 8, 11, 13), Tara 1 (ép. 10). Toutes les durées sont entre 2:36 et 2:49 (l'ép. 2 : 2:36).
 
 ## Ce qu'il faut fabriquer pour toute la saison
 
@@ -67,7 +67,7 @@ Une seule fois chaque chose, dans l'ordre où la saison en a besoin ; entre pare
 4. Planche « ménage et flagrant délit » : gants de ménage et carton, en pyjama à la porte, assise sur le bureau qui le câline (ép. 7)
 5. Planche « jusqu'au bout » : le livret, les **lunettes de soleil papillon** derrière la planche à repasser, le gros plan aux lunettes, le paquet contre la joue (ép. 8)
 6. Planche « le gratin », debout puis assise (ép. 9)
-7. Deux têtes de gros plan : le sourcil levé du détective, l'attendrie (ép. 11 ; le sourcil levé sert aussi aux ouvertures des ép. 7 et 8, en attendant)
+7. Deux têtes de gros plan : le sourcil levé du détective, l'attendrie (ép. 11 ; le sourcil levé sert aussi aux ouvertures des ép. 7 et 9, en attendant)
 
 **Kristina** (adulte ; rayon de soleil ; on la voit rire)
 1. Planche dans la chemise noire du bureau : le grand rouleau sous le bras et le clin d'œil, assise contre sa porte, qui décroche le panneau, qui retourne son écran vers nous (ép. 5)
@@ -89,7 +89,7 @@ Une seule fois chaque chose, dans l'ordre où la saison en a besoin ; entre pare
 2. Les yeux plissés ; de dos, qui boude ; qui lit la bande de papier, émue (ép. 7)
 3. **En panne** : grise et figée, puis à moitié rallumée (ép. 12 ; la fiche de Tara la demandait déjà)
 4. La patte tendue qui pousse ; triste, la tête basse (ép. 13)
-5. Qui sort de l'écran (demandé par sa fiche ; utile aux ép. 11 et 12)
+5. Qui sort de l'écran (demandé par sa fiche ; utile aux ép. 11 et 13)
 
 **Rampette**
 1. La révérence, le « non » de l'œil, la pointe des pattes, **sur le dos** (ép. 5)
@@ -126,7 +126,7 @@ Tous les autres lieux existent déjà (bureau de jour et de nuit, cuisine, salon
 4. L'imprimante à aiguilles, le papier en continu, la pile, le ticket, l'aimant, les boîtes à pizza, la pizza, la part ; **la pizza géante qui pleure** (ép. 6)
 5. Le carton au cœur, la torche, la bande de papier, les deux tasses, le hamac (ép. 7)
 6. Le paquet bleu à ruban jaune, entier et à moitié ouvert, la boîte ouverte, les lunettes papillon, le livret, la toile d'araignée, la cloche de verre, le yaourt, les portes du rêve (ép. 8)
-7. Le gratin (fumant, entamé, vide), la corbeille et la tranche de pain, la salière, le **téléphone posé à plat**, la fourchette (ép. 9 ; le téléphone à plat resert aux ép. 11 et 11)
+7. Le gratin (fumant, entamé, vide), la corbeille et la tranche de pain, la salière, le **téléphone posé à plat**, la fourchette (ép. 9 ; le téléphone à plat resert aux ép. 11 et 12)
 8. Le téléphone du boulanger (ép. 10)
 9. La boîte en fer à post-it, la boulette de papier, le balcon de cœurs, la plume d'oie (ép. 11)
 10. Le vieux carnet, le livre de recettes, la carte routière, les deux stylos, le crayon mâchouillé, la poêle, la prise (ép. 12)
@@ -148,8 +148,8 @@ Tous les autres lieux existent déjà (bureau de jour et de nuit, cuisine, salon
 
 ### Les voix et les bruits nouveaux
 
-- **Voix** : le boulanger, babil grave (ép. 3) ; le chœur des Tara (ép. 3, 12) ; Rampette, cliquetis et bips (ép. 5) ; l'ex, modem plus grave et plus lent (ép. 7) ; le chœur des Sébastien, sa voix doublée et décalée (ép. 10) ; le client, babil filtré « téléphone » (ép. 12, 12).
-- **Bruits** : les volets qui claquent (ép. 3) ; le *pouf* de l'avis effacé (ép. 4) ; l'imprimante à aiguilles (ép. 6 ; reprise ép. 7 et 10) ; le vieux disque dur (ép. 7) ; le papier qui se déchire, le tic-tac grave (ép. 8) ; les couverts, le lapement (ép. 9) ; la feuille arrachée (ép. 10) ; le stylo qui crisse (ép. 11) ; le tube qui meurt, *bzzt* (ép. 12) ; la flamme qui s'éteint, *pschhh* (ép. 13).
+- **Voix** : le boulanger, babil grave (ép. 3) ; le chœur des Tara (ép. 3, 13) ; Rampette, cliquetis et bips (ép. 5) ; l'ex, modem plus grave et plus lent (ép. 7) ; le chœur des Sébastien, sa voix doublée et décalée (ép. 10) ; le client, babil filtré « téléphone » (ép. 12, 13).
+- **Bruits** : les volets qui claquent (ép. 3) ; le *pouf* de l'avis effacé (ép. 4) ; l'imprimante à aiguilles (ép. 6 ; reprise ép. 7 et 11) ; le vieux disque dur (ép. 7) ; le papier qui se déchire, le tic-tac grave (ép. 8) ; les couverts, le lapement (ép. 9) ; la feuille arrachée (ép. 10) ; le stylo qui crisse (ép. 11) ; le tube qui meurt, *bzzt* (ép. 12) ; la flamme qui s'éteint, *pschhh* (ép. 13).
 
 ### Les captures et les enregistrements d'écran
 
@@ -177,5 +177,5 @@ Toujours sur l'ordinateur de Sébastien, sur des sites ou des propriétés de K�
 - La carte d'anniversaire de l'ép. 3 (pour toi) : la seule fête qui reste dans la saison (l'ép. 8 est à Noël, l'ép. 11 est une lettre pour rien).
 - Les bandeaux qui nomment leur source (Ahrefs, Google, OIT, MIT) : nommer, ou renvoyer à la description ?
 - Les onze flocages (fichiers, liens, commandables).
-- Ce que tu acceptes de montrer de ta vraie écriture (ép. 10, 10, 11) et de ton propre dessin (ép. 11).
+- Ce que tu acceptes de montrer de ta vraie écriture (ép. 10, 11, 12) et de ton propre dessin (ép. 11).
 - Le reste, épisode par épisode, est dans la section « À trancher par Sébastien » en bas de chaque fiche.

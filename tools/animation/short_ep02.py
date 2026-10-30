@@ -117,6 +117,12 @@ def capture(chemin, h, y=0.62, x=0.5, debut=0.0, fin=1e9, trajet=None):
                   opacite=[(debut, 0.0), (debut + 0.25, 1.0)], trajet=trajet or [])
 
 
+def glose(t, en, es):
+    """Une ligne d'écran qui traduit le mot-clé français (« pull moche » = ugly sweater), en anglais et en espagnol seulement :
+    sans elle, on ne voit pas que le nom de domaine EST le mot-clé."""
+    return [] if LANGUE == 'fr' else [(t, L('', en, es))]
+
+
 def accessoire(nom, chemin, x, y, h, **kw):
     kw.setdefault('ombre', False)
     return Acteur(nom, chemin, x=x, y=y, h=h, echelle_libre=True, **kw)
@@ -186,7 +192,7 @@ plans = [
     # ---------------------------------------------------------------- 2016 (le passé, en sépia)
     # 4. Le volet bleu : la date, et la fête du jour (vrai : le 3e vendredi de décembre)
     Plan(2.6, fond='bleu', cartons=[(0.1, 2.6, L('16 décembre 2016…', 'December 16, 2016…', '16 de diciembre de 2016…'),
-                                     L('Journée du pull moche', 'Ugly Sweater Day', 'Día del jersey feo'), 0.40, 1.0)],
+                                     L('Journée du pull moche', 'Ugly Christmas Sweater Day', 'Día del jersey feo navideño'), 0.40, 1.0)],
          bruits=[(0.0, 'whoosh')], volet=[(2.0, 2.6, 'couvre')]),
     # 5. 7 h 23 : l'idée (« pull moche »… personne n'a le nom !)
     Plan(5.0, BUREAU1, cam=(0.52, 0.52), zoom=(1.25, 1.30), cam_y=0.52, souvenir=True, volet=[(0.0, 0.5, 'decouvre')],
@@ -196,8 +202,8 @@ plans = [
          bruits=[(0.4, 'clavier'), (1.2, 'whoosh')], horloge=[(0.0, 5.0, L('VEN. 07:23', 'FRI 7:23 AM', 'VIE. 07:23'))]),
     # 6. Plein écran : les deux noms achetés, à deux secondes d'écart (vrai, RDAP)
     Plan(5.4, fond='crt', souvenir=True,
-         crt={'allume': 0.0, 'lignes': [(0.3, 'lepullmoche.shop'), (0.9, L('✔ acheté 07:23:09', '✔ bought 07:23:09', '✔ comprado 07:23:09')),
-                                         (2.4, 'lepullmoche.com'), (3.0, L('✔ acheté 07:23:11', '✔ bought 07:23:11', '✔ comprado 07:23:11'))]},
+         crt={'allume': 0.0, 'lignes': [(0.3, 'lepullmoche.shop')] + glose(0.6, '(= ugly sweater)', '(= jersey feo)') + [(0.9, L('✔ acheté 07:23:09', '✔ bought 07:23:09', '✔ pagado 07:23:09')),
+                                         (2.4, 'lepullmoche.com'), (3.0, L('✔ acheté 07:23:11', '✔ bought 07:23:11', '✔ pagado 07:23:11'))]},
          repliques=[r('seb', 2.3, "Et le .com, au cas où.", "And the .com, just in case.", "Y el .com, por si acaso.", off=True)],
          bruits=[(0.3, 'clavier'), (0.9, 'tada'), (2.4, 'clavier'), (3.0, 'pop')]),
     # 7. Diana arrive : sa théorie
@@ -216,7 +222,7 @@ plans = [
     # 8. Lundi : page 9
     Plan(3.4, fond='crt', souvenir=True,
          crt={'allume': 0.0, 'lignes': [(0.0, ' '), (0.0, ' '), (0.1, '« pull moche »'), (0.6, L('nous :', 'us:', 'nosotros:')), (1.0, L('page 9', 'page 9', 'página 9'))]},
-         repliques=[r('seb', 1.6, "Normal. Demain.", "Normal. Tomorrow.", "Normal. Mañana.", off=True)],
+         repliques=[r('seb', 1.6, "Normal. Demain.", "It's fine. Tomorrow.", "Normal. Mañana.", off=True)],
          bruits=[(0.1, 'clavier')], horloge=[(0.0, 3.4, L('LUN. 09:00', 'MON 9:00 AM', 'LUN. 09:00'))]),
     # 9. Mercredi : page 9
     Plan(3.0, fond='crt', souvenir=True,
@@ -239,7 +245,7 @@ plans = [
          acteurs=[Acteur('diana', DIA_STY[2], x=0.36, y=0.97, h=0.46, poses=[(0, DIA_STY[2]), (3.4, DIA_STY[0])]),
                   seb([(0, M('seb-m02-blase'))], x=0.68, y=0.93, h=0.46,
                       trajet=[(0.0, 0.62, 0.93), (1.6, 0.62, 0.93), (2.4, 0.75, 0.94)])],
-         repliques=[r('diana', 0.4, "Pousse-toi.", "Move over.", "Quítate."),
+         repliques=[r('diana', 0.4, "Pousse-toi.", "Move over.", "Aparta."),
                     r('diana', 2.6, "Un site, ça se remplit.", "A website needs filling.", "Una web hay que llenarla."),
                     r('diana', 4.5, "De vrais pulls moches.", "With real ugly sweaters.", "Con jerséis feos de verdad.")],
          bruits=[(0.4, 'whoosh'), (3.4, 'clavier')]),
@@ -260,39 +266,39 @@ plans = [
 
     # ---------------------------------------------------------------- ÇA DÉCOLLE (les vraies captures)
     # 15. Le volet : un soir de 2019, la télé
-    Plan(2.2, fond='bleu', cartons=[(0.1, 2.2, L('Un soir de 2019…', 'One evening in 2019…', 'Una noche de 2019…'),
-                                     L('la télé en parle', 'TV talks about it', 'la tele habla de ello'), 0.40, 1.0)],
+    Plan(2.2, fond='bleu', cartons=[(0.1, 2.2, L('En 2019…', 'In 2019…', 'En 2019…'),
+                                     L('un reportage à la télé', 'a TV report', 'un reportaje en la tele'), 0.40, 1.0)],
          bruits=[(0.0, 'whoosh')]),
     # 16. Le compteur en temps réel (vraie capture)
-    Plan(5.4, fond='crt',
+    Plan(5.4, fond='crt', souvenir=True,
          crt={'allume': 0.0, 'lignes': [(0.2, L('Sur le site,', 'On the site,', 'En la web,')), (0.7, L('en ce moment :', 'right now:', 'ahora mismo:'))]},
          acteurs=[capture(C + 'temps-reel-1159.png', 0.25, y=0.62, debut=1.2)],
          repliques=[r('seb', 2.4, "1 159. En même temps !", "1,159. All at once!", "1.159. ¡A la vez!", off=True)],
          bruits=[(1.2, 'pop'), (2.3, 'tada')]),
     # 17. Seb et Diana sautent de joie, Django aussi
-    Plan(4.0, JOUR, cam=(0.50, 0.50), zoom=(1.0, 1.0), cam_y=0.55,
+    Plan(4.0, JOUR, cam=(0.50, 0.50), zoom=(1.0, 1.0), cam_y=0.55, souvenir=True,
          acteurs=[seb([(0, SEB_CLE[2])], x=0.66, y=0.93, h=0.46, trajet=[(0, 0.66, 0.93), (0.4, 0.66, 0.90), (0.8, 0.66, 0.93), (1.2, 0.66, 0.90), (1.6, 0.66, 0.93)]),
                   Acteur('diana', DIA_P[3], x=0.32, y=0.97, h=0.45, poses=[(0, DIA_P[3])]),
                   Acteur('django', DJ_SAUT[1], x=0.48, y=0.99, h=0.21, poses=[(0, ('brut', DJ_SAUT[1])), (0.5, ('brut', DJ_SAUT[2])), (1.0, ('brut', DJ_SAUT[3]))])],
          repliques=[r('diana', 1.6, "Et maintenant, notre pull à nous.", "And now, our very own sweater.", "Y ahora, nuestro propio jersey.")],
          bruits=[(0.0, 'tada'), (0.6, 'ouaf'), (1.0, 'boing')]),
     # 18. Diana dessine le leur (sa mère était couturière)
-    Plan(5.8, JOUR, cam=(0.42, 0.42), zoom=(1.20, 1.24), cam_y=0.62,
+    Plan(5.8, JOUR, cam=(0.42, 0.42), zoom=(1.20, 1.24), cam_y=0.62, souvenir=True,
          acteurs=[Acteur('diana', DIA_STY[0], x=0.40, y=0.97, h=0.46, poses=[(0, DIA_STY[0]), (2.2, DIA_STY[1]), (4.0, DIA_STY[3])])],
          repliques=[r('diana', 0.4, "Ma mère cousait.", "My mother was a seamstress.", "Mi madre era costurera."),
-                    r('diana', 2.4, "Moi, je dessine.", "I draw.", "Yo dibujo.")],
+                    r('diana', 2.4, "Moi, je dessine.", "I design.", "Yo diseño.")],
          bruits=[(0.2, 'clavier'), (2.2, 'pop'), (4.0, 'tada')]),
     # 19. Le vrai pull (photo), puis en tête de la recherche (vraie capture)
-    Plan(6.0, fond='crt',
+    Plan(6.0, fond='crt', souvenir=True,
          acteurs=[capture(C + 'photo-vrai-pull.png', 0.34, y=0.60, debut=0.2, fin=3.0),
                   Acteur('capture', C + 'choix-amazon.png', x=0.5, y=0.63, h=0.47, ombre=False, cadre=GLACE_CRT, echelle_libre=True,
                          debut=3.0, opacite=[(3.0, 0.0), (3.3, 1.0)])],
          repliques=[r('seb', 0.6, "Le vrai. Il existe.", "The real one. It exists.", "El de verdad. Existe.", off=True),
-                    r('seb', 3.4, "Et il sort en premier !", "And it comes up first!", "¡Y sale el primero!", off=True)],
+                    r('seb', 3.4, "Et il se vend !", "And it sells!", "¡Y se vende!", off=True)],
          bruits=[(0.2, 'pop'), (3.0, 'pop'), (3.4, 'tada')]),
     # 20. Search Console, six mois : 301 000 clics (vraie capture)
-    Plan(5.4, fond='crt',
-         crt={'allume': 0.0, 'lignes': [(0.1, L('6 mois :', '6 months:', '6 meses:')), (0.5, L('301 000 clics', '301,000 clicks', '301.000 clics'))]},
+    Plan(5.4, fond='crt', souvenir=True,
+         crt={'allume': 0.0, 'lignes': [(0.1, L('6 mois :', '6 months:', '6 meses:')), (0.5, L('301 k clics', '301k clicks', '301 k clics'))]},
          acteurs=[capture(C + 'sc-performances.png', 0.19, y=0.62, debut=1.0)],
          repliques=[r('seb', 2.0, "Tu vois ? C'est le nom !", "See? It's the name!", "¿Ves? ¡Es el nombre!", off=True)],
          bruits=[(1.0, 'pop'), (2.0, 'tada')]),
@@ -301,7 +307,8 @@ plans = [
     Plan(6.2, fond='reve', vague=(0.0, 0.7),
          acteurs=pulls_qui_volent()
                  + [Acteur('seb', SEB_PULL[2], x=0.5, y=0.70, h=0.40, poses=[(0, SEB_PULL[2]), (3.0, SEB_PULL[1])], ombre=False),
-                    accessoire('couronne', M('couronne'), 0.5, 0.315, 0.06, rot=-8)],
+                    accessoire('couronne', M('couronne'), 0.5, 0.315, 0.06, rot=-8, tourne=0,
+                               trajet=[(0.0, 0.5, 0.315), (4.8, 0.5, 0.315), (6.2, 0.62, 0.95)])],
          repliques=[r('seb', 0.9, "Le roi du pull moche !", "The king of ugly sweaters!", "¡El rey del jersey feo!"),
                     r('seb', 3.4, "Et tout ça, grâce au nom !", "And all thanks to the name!", "¡Y todo gracias al nombre!")],
          bruits=[(0.0, 'whoosh'), (3.0, 'tada')]),
@@ -309,34 +316,37 @@ plans = [
     # ---------------------------------------------------------------- AUJOURD'HUI : la pépite
     # 22. Coupe sèche : le salon, Kristina essaie le pull contre elle, Tara sur la table basse
     Plan(6.4, SALON, cam=(0.52, 0.52), zoom=(1.12, 1.12), cam_y=0.55,
+         cartons=[(0.0, 1.8, L("Aujourd'hui", 'Today', 'Hoy'), None, 0.30, 1.0)],
          acteurs=[tara(0.52, 0.555, 0.06, poses=[(0, TARA[0]), (2.6, TARA[2])]),
                   Acteur('kristina', KRI_PULL[1], x=0.74, y=0.97, h=0.45, poses=[(0, KRI_PULL[1])]),
                   seb([(0, SEB_DISC[0])], x=0.34, y=0.94, h=0.46)],
          repliques=[r('kristina', 0.3, "Donc c'est le nom qui a tout fait ?", "So the name did everything?", "¿Así que el nombre lo hizo todo?"),
-                    r('tara', 3.0, "Le nom ? Presque rien.", "The name? Almost nothing.", "¿El nombre? Casi nada.")],
+                    r('tara', 3.0, "Le nom ? Regarde.", "The name? Look.", "¿El nombre? Mira.")],
          bruits=[(0.0, 'scratch'), (3.0, 'pop')]),
     # 23. Ce que Tara montre (vrais chiffres, Search Console, hiver 2020)
     Plan(6.4, fond='crt',
-         crt={'allume': 0.0, 'lignes': [(0.2, '« pull moche »'), (0.7, L('  3 942 clics', '  3,942 clicks', '  3.942 clics')),
-                                         (2.4, '« pull de Noël »'), (2.9, L(' 44 518 clics', ' 44,518 clicks', ' 44.518 clics'))]},
+         crt={'allume': 0.0, 'lignes': [(0.0, L('IA de la maison :', 'House AI:', 'IA de casa:')), (0.4, '« pull moche »')]
+                                        + glose(0.6, '(ugly sweater)', '(jersey feo)') + [(0.9, L('  3 942 clics', '  3,942 clicks', '  3.942 clics')),
+                                         (2.4, '« pull de noel »')] + glose(2.6, '(Xmas sweater)', '(jersey Navidad)') + [
+                                         (2.9, L(' 44 518 clics', ' 44,518 clicks', ' 44.518 clics'))]},
          repliques=[r('tara', 3.6, "Et « pull de Noël » n'est pas dans le nom.", "And “Christmas sweater” isn't in the name.",
                       "Y «jersey de Navidad» no está en el nombre.")],
          bruits=[(0.2, 'clavier'), (2.4, 'clavier'), (3.6, 'pop')]),
     # 24. LA PÉPITE : Kristina la dit, le bandeau l'écrit
-    gros_plan('kristina', KRI_T, SALON, 7.2,
+    gros_plan('kristina', KRI_T, SALON, 8.6,
               [r('kristina', 0.3, "Un nom ne classe pas un site.", "A name doesn't rank a site.", "Un nombre no posiciona una web."),
-               r('kristina', 2.9, "C'est dedans qui compte.", "What's inside does.", "Cuenta lo de dentro.")],
-              h=0.36, y=0.62, cam=0.72, cam_y=0.45, expression=[(0, KT[0]), (5.2, KT[2])],
-              bandeaux=[(2.8, 7.2, L('EMD : le nom = le mot-clé', 'EMD: the name = the keyword', 'EMD: el nombre = la palabra clave'),
-                         L('Depuis 2012, Google ne donne plus de bonus au nom : il juge le contenu.',
-                           'Since 2012, Google gives the name no bonus: it judges the content.',
-                           'Desde 2012, Google no premia el nombre: juzga el contenido.'), 0.145, 1.0)],
-              bruits=[(2.8, 'pop')]),
+               r('kristina', 2.9, "C'est dedans qui compte.", "What's inside does.", "Lo que cuenta es lo de dentro.")],
+              h=0.36, y=0.62, cam=0.72, cam_y=0.45, expression=[(0, KT[0]), (6.6, KT[2])],
+              bandeaux=[(4.4, 8.6, L('EMD : le nom = le mot-clé', 'EMD: the name = the keyword', 'EMD: el nombre = la palabra clave'),
+                         L("Pour Google, un mot-clé dans le nom n'a « presque aucun effet ». Il juge ce qu'il y a dedans.",
+                           'For Google, a keyword in the name has “almost no effect”. It judges what\'s inside.',
+                           'Para Google, una palabra clave en el nombre «casi no tiene efecto». Juzga lo de dentro.'), 0.145, 1.0)],
+              bruits=[(4.4, 'pop')]),
     # 25. Diana, tendre
     Plan(4.2, SALON, cam=(0.40, 0.40), zoom=(1.25, 1.25), cam_y=0.52,
          acteurs=[Acteur('diana', DIA_P[1], x=0.38, y=0.97, h=0.46, poses=[(0, DIA_P[1]), (2.6, DIA_P[3])]),
                   seb([(0, M('seb-m02-blase')), (2.6, M('seb-m03-sourire-en-coin'))], x=0.60, y=0.94, h=0.46)],
-         repliques=[r('diana', 0.3, "Dedans, il y avait nous.", "Inside, there was us.", "Dentro, estábamos nosotros.")],
+         repliques=[r('diana', 0.3, "Dedans, il y avait nous.", "What was inside was us.", "Dentro, estábamos nosotros.")],
          bruits=[(2.6, 'soupir')]),
     # 26. Sébastien ne lâche rien
     gros_plan('seb', seb_t(M('seb-t02-sourire-en-coin')), SALON, 3.0,
@@ -356,7 +366,7 @@ plans = [
                   for k, (x, y, h) in enumerate([(0.14, 0.62, 0.20), (0.86, 0.60, 0.22), (0.30, 0.50, 0.14), (0.70, 0.50, 0.15),
                                                  (0.50, 0.40, 0.10), (0.20, 0.36, 0.12), (0.80, 0.36, 0.12)])],
          cartons=[(0.2, 2.4, L('Mars 2021', 'March 2021', 'Marzo de 2021'), L("l'hébergeur prend feu", 'the web host catches fire',
-                                                                              'el alojamiento arde'), 0.30, 1.0)],
+                                                                              'arde el centro de datos'), 0.30, 1.0)],
          repliques=[r('kristina', 2.6, "Et la sauvegarde ?", "And the backup?", "¿Y la copia de seguridad?", off=True),
                     r('seb', 4.3, "…Au même endroit.", "…Same place.", "…En el mismo sitio.", off=True)],
          bruits=[(0.0, 'whoosh'), (0.8, 'crt'), (4.3, 'soupir')]),
@@ -364,14 +374,14 @@ plans = [
     Plan(4.6, SALON, cam=(0.50, 0.50), zoom=(1.0, 5.0), cam_y=0.635,
          acteurs=[seb([(0, M('seb-m04-bras-le-long')), (1.0, M('seb-m02-blase'))], x=0.5, y=0.95, h=0.46)],
          bandeaux=[(1.4, 4.6, L('Ce t-shirt ? seoaddict.co', 'This t-shirt? seoaddict.co', '¿Esta camiseta? seoaddict.co'),
-                    L('« Dernière sauvegarde : — »', '“Last backup: —”', '«Última copia: —»'), 0.16, 0.9)],
+                    L('« Dernière sauvegarde : — »', '“Backup: never. Same server.”', '«Copia: nunca. Mismo servidor.»'), 0.16, 0.9)],
          repliques=[r('seb', 1.5, "Le t-shirt ? Sur seoaddict.co.", "The t-shirt? On seoaddict.co.", "¿La camiseta? En seoaddict.co.",
                       sous_titre=False)],
          bruits=[(0.0, 'whoosh'), (1.4, 'ding')]),
     # 31. Kristina lève les yeux au ciel ; l'appel à l'abonnement est la blague
     gros_plan('kristina', fige(KT[3]), SALON, 4.4, [], h=0.36, y=0.62, cam=0.72, cam_y=0.45,
               bandeaux=[(0.3, 4.4, L('Abonne-toi.', 'Subscribe.', 'Suscríbete.'),
-                         L('Nous, on a fait une sauvegarde.', 'We made a backup this time.', 'Esta vez hicimos copia.'), 0.145, 1.1)],
+                         L('Nous, on a fait une sauvegarde.', 'We made a backup this time.', 'Esta vez, con copia de seguridad.'), 0.145, 1.1)],
               bruits=[(0.3, 'pop')]),
     # 32. LA BOUCLE : Sébastien, dans le pull, fier, à la caméra
     Plan(4.0, SALON, cam=(0.55, 0.55), zoom=(1.45, 1.50), cam_y=0.63,

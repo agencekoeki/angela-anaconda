@@ -30,12 +30,12 @@ statut: "v2, deuxième passe le 30/10/2026"
 **Ce que l'épisode récolte de la saison** (chaque récolte se comprend seule : rien ne suppose d'avoir vu les autres épisodes)
 - **La flamme** (ép. 1) : elle s'éteint en fumée à « Sébastien, c'est qui ? », renaît chez le boulanger.
 - **« Juste une petite idée »** (ép. 1) : c'est ce qu'il dit quand la flamme renaît, et c'est ce qui le remet au travail.
-- **L'heure** (ép. 1 et 9) : l'audit fini à `09:00:03` ; la lumière qui baisse à `21:00` ; la boucle au même `09:00:03`.
+- **L'heure** (ép. 1 et 10) : l'audit fini à `09:00:03` ; la lumière qui baisse à `21:00` ; la boucle au même `09:00:03`.
 - **« Terminé ! »** (ép. 1) devient « Audit terminé ! », « Mots-clés : terminé ! », « Rapport : terminé ! » ; et « Merci, Tara ! » devient « Merci, Sébastien ! ».
-- **Le boulanger** (ép. 3 et 9) : celui que l'IA citait avant lui, et qui le tutoie depuis, a maintenant besoin de lui pour trier ce que l'IA lui a écrit. Il paie en baguette.
+- **Le boulanger** (ép. 3 et 10) : celui que l'IA citait avant lui, et qui le tutoie depuis, a maintenant besoin de lui pour trier ce que l'IA lui a écrit. Il paie en baguette.
 - **La statue** (ép. 3) : le rêve de gloire avec le chœur des Tara ne revient qu'ici, en écho ; c'est la deuxième et dernière fois de la saison.
 - **La version de Tara** : « TARA 2.0 », au bout d'une saison de versions qui montent ; c'est elle, la nouvelle version qui fait son métier.
-- **Rampette** (ép. 5 et 9) : il suit Tara comme un petit chien (« J'ai Tara », version robot), puis court après la balle de Django et tombe à la renverse.
+- **Rampette** (ép. 5 et 10) : il suit Tara comme un petit chien (« J'ai Tara », version robot), puis court après la balle de Django et tombe à la renverse.
 - **« Je le promène ? »** (Tara, ép. 1) : elle ne sait même pas lancer la balle.
 - **« Même Tara dort »** (ép. 1) : à `21:00`, elle bâille et rentre dans le téléphone.
 
@@ -215,7 +215,7 @@ Même bande-son pour les trois langues. C'est la fin de la saison : le ukulélé
    > Same character as the attached reference: a tiny pocket Tarasque, round lion-cub head with a small mane, big round painted eyes, domed turtle shell with rounded spikes, six short legs, curled scaly tail, ELECTRIC TURQUOISE with a thin pale glow around the outline (never a dark outline). Low-poly 1998 PlayStation-era 3D model, visible facets, blurry low-res texture, stiff pose, flat lighting, painted eyes. A sheet of TWO poses side by side, same scale, floating slightly above the ground: (1) stretching one front paw far forward, concentrating, tongue out, as if trying to push something; (2) a little sad, ears and mane drooping, looking down, paws together. Flat chroma-green background #00B140. No text, no logo.
 4. **Le boulanger, une pose « la liasse »**, image maître `boulanger-planche-poses-v2.png` :
    > Same character as the attached reference: a round baker in his sixties, big grey moustache, bushy eyebrows, small white baker's toque, white jacket and long white apron dusted with flour, canary-yellow neckerchief (his only flashy colour). Original cut-out puppet style: face = high-contrast black-and-white photocopy, milky whites; pale flat cool silver-grey skin; pipe-cleaner limbs with no visible joints; big head. Full body, frontal: he waves a thick stapled stack of blank white pages above his head with one hand, the other hand on his hip, exasperated and amused. Flat chroma-green background #00B140. No text, no letters, no logo.
-5. **Les têtes du boulanger** et **la pose « au téléphone »** de Sébastien : celles des ép. 10 et 11 (à faire là-bas, une seule fois).
+5. **Les têtes du boulanger** et **la pose « au téléphone »** de Sébastien : celles des ép. 10 et 12 (à faire là-bas, une seule fois).
 
 **Les accessoires** (même recette que les décors, sur fond vert, sans texte) : une balle de tennis usée (vert-jaune) ; un carton de bureau (si la pose 1 ne le porte pas bien) ; une liasse de feuilles agrafées ; des confettis.
 
