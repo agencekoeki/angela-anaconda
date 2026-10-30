@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 5 · « Interdit aux robots »"
+title: "Les Tarasconnades · Ép. 6 · « Interdit aux robots »"
 theme: "L'exploration par les robots, robots.txt et l'indexation : bloquer l'exploration n'empêche pas l'indexation"
 duree: "2:49 (169.6 s), 35 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -8,7 +8,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 5 · Interdit aux robots
+# Ép. 6 · Interdit aux robots
 
 **[À CONFIRMER par Sébastien] Kristina a-t-elle un bureau chez ses parents ?** Toute la fiche le suppose : elle travaille chez vous, dans une pièce à elle, et c'est là qu'elle prépare une surprise pour son père. Si ce n'est pas le cas, on garde l'histoire en changeant de pièce (l'atelier, le garage, le bureau de Diana).
 
@@ -224,13 +224,13 @@ Dans le couloir, juste après « Qu'est-ce qu'elle cache ? », pendant que Séba
 
 ## Titre et description proposés pour YouTube (à valider)
 
-- **FR** : « Pourquoi le robot n'entre pas dans le bureau de ma fille 🚫🤖 · Les Tarasconnades ép. 5 »
+- **FR** : « Pourquoi le robot n'entre pas dans le bureau de ma fille 🚫🤖 · Les Tarasconnades ép. 6 »
   « Un panneau "interdit aux robots" sur la porte… et l'IA parle quand même du bureau. Parce que robots.txt empêche d'explorer, pas d'indexer : une page bloquée peut apparaître dans Google, sans description, si d'autres pages parlent d'elle. Pour rester hors de Google, c'est noindex, et le robot doit pouvoir le lire (documentation de Google Search Central). Le t-shirt de Sébastien : seoaddict.co/fr/… #robotstxt #seo #indexation »
   - commentaire épinglé : « Vous aussi, vous avez une page "interdite aux robots"… qui sort quand même dans Google ? 👀 »
-- **EN** : « Why won't the robot go into my daughter's office 🚫🤖 · Les Tarasconnades ep. 5 »
+- **EN** : « Why won't the robot go into my daughter's office 🚫🤖 · Les Tarasconnades ep. 6 »
   « A "no robots" sign on the door… and the AI still talks about the office. Because robots.txt stops crawling, not indexing: a blocked page can still show up in Google, without a description, if other pages talk about it. To stay out of Google, use noindex, and let the robot read it (Google Search Central documentation). Sébastien's t-shirt: [EN link] #robotstxt #seo #indexing »
   - pinned comment: « Do you also have a "no robots" page… that still shows up on Google? 👀 »
-- **ES** : « ¿Por qué el robot no entra en el despacho de mi hija? 🚫🤖 · Les Tarasconnades ep. 5 »
+- **ES** : « ¿Por qué el robot no entra en el despacho de mi hija? 🚫🤖 · Les Tarasconnades ep. 6 »
   « Un cartel de "prohibido robots" en la puerta… y la IA sigue hablando del despacho. Porque robots.txt impide rastrear, no indexar: una página bloqueada puede salir en Google, sin descripción, si otras páginas hablan de ella. Para quedar fuera de Google: noindex, y que el robot pueda leerlo (documentación de Google Search Central). La camiseta de Sébastien: [enlace ES] #robotstxt #seo #indexación »
   - comentario fijado: « ¿Tú también tienes una página "prohibida a los robots"… que igual sale en Google? 👀 »
 

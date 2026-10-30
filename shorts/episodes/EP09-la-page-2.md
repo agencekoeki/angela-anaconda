@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 8 · « La page 2 »"
+title: "Les Tarasconnades · Ép. 9 · « La page 2 »"
 theme: "Le classement : la page 2 que (presque) personne ne lit ; les clics s'effondrent après le top 10 sans tomber à zéro, et le haut de la page a changé (aperçus IA)"
 duree: "2:48 (168.9 s), 33 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 8 · La page 2
+# Ép. 9 · La page 2
 
 **L'idée** : la vieille blague du métier (« le meilleur endroit pour cacher un corps, c'est la page 2 ») appliquée au cadeau de Noël de Doudou (le sapin clignote dans le salon, la guirlande est en sépia dans le souvenir de Noël dernier). Sébastien demande à Tara de classer les endroits de la maison comme une page de résultats, et cache le cadeau de Diana en position 11. Il a raison : presque personne ne va en page 2. Presque.
 
@@ -180,7 +180,7 @@ La « Page suivante » du classement de Tara est la page 2 telle qu'on la voit s
 
 **Déjà là** : salon vertical (`aa-decor-09-salon-vertical`), cuisine verticale (`aa-decor-18`), bureau de jour (`aa-decor-14`) ; Sébastien (têtes `t02` à `t05`, discours, poses clés, course, `s1`, `m02`, `m04`), Diana (parle, planche expressions découpée, `banque/diana-jour-1..4` : téléphone à deux pouces, fou rire), Kristina (têtes, parle), Tara (4 poses), Django (trot, assis), Olympe (`o1`, `o2`), la flamme.
 
-| À fabriquer | Pour | Prompt (ChatGPT, conversation neuve ; recette commune des humains de l'ép. 6 pour les personnages) |
+| À fabriquer | Pour | Prompt (ChatGPT, conversation neuve ; recette commune des humains de l'ép. 7 pour les personnages) |
 |---|---|---|
 | **La buanderie**, décor vertical | plans 17-20, 28-31 | `Vertical 2:3 (1024×1536) interior: a small laundry room in a Provençal house, a white washing machine, an ironing board standing folded against the wall with a narrow dark gap behind it, a laundry basket, shelves with detergent bottles (plain, no labels), a small high window. Cheap late-1990s low-poly 3D, the whole world DULL and muted, greyish, slightly dark and murky, low contrast, as if seen on an old CRT TV; flat ambient light with hard dark contact shadows; blurry low-res stretched photo textures on cheap low-poly shapes; dusty, forgotten, empty and a little lonely. Rendering reference ONLY for the attached mood board: do not copy any place, sign, character or layout. No people, no text, no logos.` |
 | **Sébastien, planche « cachettes »** (`aa-seb-m04-bras-le-long`) | plans 1, 5, 15-17 | `Four poses: 1) crouching, sliding a small wrapped present under a sofa cushion, looking over his shoulder; 2) putting a small wrapped present inside an open fridge, on tiptoe; 3) crouching behind an ironing board, hiding a small present, finger on his lips; 4) holding a small wrapped present against his cheek, whispering, sly half-smile. The present: plain blue wrapping paper with a yellow ribbon. HYPER FLASHY fuchsia-pink t-shirt, charcoal diagonal-striped boardshorts, dark flip-flops, Polynesian lizard tattoo on the LEFT lower leg.` |
@@ -203,11 +203,11 @@ La « Page suivante » du classement de Tara est la page 2 telle qu'on la voit s
 
 ## Titre et description proposés pour la mise en ligne (à valider)
 
-- **FR** : « J'ai caché le cadeau de ma compagne en page 2 de Google 🎁 · Les Tarasconnades ép. 8 » — « Le meilleur endroit pour cacher quelque chose ? La page 2 : en août 2025, les positions 11 à 20 ont reçu 1,77 % des clics sur ordinateur aux États-Unis (1,52 % sur mobile), d'après une étude Ahrefs sur des données Search Console. Moins de deux sur cent… pas zéro. Et quand un résumé IA s'affiche en haut, on clique encore moins (Pew Research, 2025). Le t-shirt de Sébastien : [lien FR de la fiche] #seo #google #classement »
+- **FR** : « J'ai caché le cadeau de ma compagne en page 2 de Google 🎁 · Les Tarasconnades ép. 9 » — « Le meilleur endroit pour cacher quelque chose ? La page 2 : en août 2025, les positions 11 à 20 ont reçu 1,77 % des clics sur ordinateur aux États-Unis (1,52 % sur mobile), d'après une étude Ahrefs sur des données Search Console. Moins de deux sur cent… pas zéro. Et quand un résumé IA s'affiche en haut, on clique encore moins (Pew Research, 2025). Le t-shirt de Sébastien : [lien FR de la fiche] #seo #google #classement »
   - commentaire épinglé : « Vous, vous allez en page 2 ? Soyez honnêtes. »
-- **EN** : « I hid my partner's present on page 2 of Google 🎁 · Les Tarasconnades ep. 8 » — « The best hiding place? Page 2: in August 2025, positions 11–20 got 1.77% of desktop clicks in the US (1.52% on mobile), per an Ahrefs study of Search Console data. Fewer than two in a hundred… not zero. And when an AI summary shows up top, people click even less (Pew Research, 2025). Sébastien's t-shirt: [EN link] #seo #google #rankings »
+- **EN** : « I hid my partner's present on page 2 of Google 🎁 · Les Tarasconnades ep. 9 » — « The best hiding place? Page 2: in August 2025, positions 11–20 got 1.77% of desktop clicks in the US (1.52% on mobile), per an Ahrefs study of Search Console data. Fewer than two in a hundred… not zero. And when an AI summary shows up top, people click even less (Pew Research, 2025). Sébastien's t-shirt: [EN link] #seo #google #rankings »
   - pinned comment: « Do you ever go to page 2? Be honest. »
-- **ES** : « Escondí el regalo de mi pareja en la página 2 de Google 🎁 · Les Tarasconnades ep. 8 » — « ¿El mejor escondite? La página 2: en agosto de 2025, las posiciones 11 a 20 recibieron el 1,77 % de los clics en ordenador en EE. UU. (1,52 % en móvil), según un estudio de Ahrefs con datos de Search Console. Menos de dos de cada cien… pero no cero. Y cuando arriba aparece un resumen de IA, se hace aún menos clic (Pew Research, 2025). La camiseta de Sébastien: [enlace ES] #seo #google #posicionamiento »
+- **ES** : « Escondí el regalo de mi pareja en la página 2 de Google 🎁 · Les Tarasconnades ep. 9 » — « ¿El mejor escondite? La página 2: en agosto de 2025, las posiciones 11 a 20 recibieron el 1,77 % de los clics en ordenador en EE. UU. (1,52 % en móvil), según un estudio de Ahrefs con datos de Search Console. Menos de dos de cada cien… pero no cero. Y cuando arriba aparece un resumen de IA, se hace aún menos clic (Pew Research, 2025). La camiseta de Sébastien: [enlace ES] #seo #google #posicionamiento »
   - comentario fijado: « ¿Tú vas a la página 2? Sé sincero. »
 
 Les titres nomment le moteur : ce sont des textes de mise en ligne, pas des répliques, et c'est ce que les gens tapent. [À TRANCHER, Sébastien : le garder ou écrire « en page 2 » seul.]

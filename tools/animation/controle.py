@@ -142,6 +142,10 @@ PROPORTIONS = {
     'olympe-bonjour-2': 0.28, 'olympe-bonjour-3': 0.28, 'olympe-bonjour': 0.38,
     'olympe-aboie-1': 0.17, 'olympe-aboie': 0.24, 'olympe-o1': 0.25, 'olympe-': 0.30,
     'patchy-': 0.18, 'tara-': 0.25, 'boulanger-': 0.95,
+    # les cinq chats de la planche « espions » (ép. 3) : 1 Kali, 2 Lilou, 3 Souka, 4 Titan, 5 Patchy ; un peu généreux,
+    # c'est un dessin animé (Sébastien, 30/10/2026 : « le chien, il est ridiculement petit »)
+    'chats-face-1': 0.31, 'chats-face-2': 0.30, 'chats-face-3': 0.29, 'chats-face-4': 0.40, 'chats-face-5': 0.25,
+    'chats-gauche-1': 0.31, 'chats-gauche-2': 0.30, 'chats-gauche-3': 0.29, 'chats-gauche-4': 0.40, 'chats-gauche-5': 0.25,
 }
 HUMAINS = {'seb', 'diana', 'kristina', 'boulanger'}
 SANS_TAILLE = {'ecran', 'flamme'}

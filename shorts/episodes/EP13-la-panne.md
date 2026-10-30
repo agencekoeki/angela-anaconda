@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 12 · « La panne »"
+title: "Les Tarasconnades · Ép. 13 · « La panne »"
 theme: "La dépendance à l'IA, et le retour au papier (ce qu'on écrit soi-même, on s'en souvient)"
 duree: "2:41 (161.6 s), 34 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 12 · La panne
+# Ép. 13 · La panne
 
 **La question** (posée à la première seconde, par Sébastien, devant l'écran gris) : « L'IA ne répond plus… on fait comment ? » On dit « l'IA » ; on la voit ensuite figée dans la vitre, sous un démarrage qui bégaie (« TARA 1.99 · Chargement… · … ») ; le prénom se dit au plan 6 (« Tara, une recette… »). La fin répond : on fait comme avant, au papier, et on s'en souvient mieux.
 
@@ -81,7 +81,7 @@ statut: "v2, deuxième passe le 30/10/2026"
 | 17 | 1:11 | 5,2 s |  | Cuisine, plan au ras du sol | Sébastien allongé, le menton sur les bras (à faire) ; Olympe couchée, la tête levée, contente d'elle | Il s'allonge à côté d'Olympe, exactement comme elle ; elle le regarde : enfin quelqu'un qui la comprend | Olympe : « Ouaf. » |
 | 18 | 1:16 | 4,2 s | **le clin d'œil boutique** | Cuisine, zoom sur le t-shirt | Sébastien debout (`m04`, puis `m02`, blasé, doigt vers nous) | L'imprimé « Débranchez, rebranchez » : il le lit à l'envers, regarde la caméra, blasé ; dring ; bandeau | Sébastien (sans sous-titre) : « Le t-shirt ? Sur seoaddict.co. » |
 | 19 | 1:20 | 6,6 s | **le retournement** (la moitié) : le papier | Cuisine, plan large | Diana descend un vieux livre de recettes du placard ; Kristina déplie une carte routière géante qui l'enveloppe ; Sébastien souffle sur son carnet ; Django éternue | Un nuage de farine, une carte qui avale Kristina, un nuage de poussière | Diana : « Le vieux livre ! » — Sébastien : « Mon carnet ! » |
-| 20 | 1:27 | 3,8 s | les stylos (1) | Bureau de jour, plan serré | Sébastien assis, écrit au stylo (pose de l'ép. 11) | Radio-réveil `13:00` ; le stylo gratte, rien ne sort | Sébastien : « Sec. » |
+| 20 | 1:27 | 3,8 s | les stylos (1) | Bureau de jour, plan serré | Sébastien assis, écrit au stylo (pose de l'ép. 12) | Radio-réveil `13:00` ; le stylo gratte, rien ne sort | Sébastien : « Sec. » |
 | 21 | 1:30 | 3,0 s | (2) | Bureau, plan serré | Sébastien | Radio-réveil `13:05` ; le deuxième stylo, pareil ; il le jette | Sébastien : « Sec ! » |
 | 22 | 1:33 | 5,2 s | (3) | Bureau, plan moyen | Django assis, un crayon mâchouillé dans la gueule (à faire) ; Sébastien | Radio-réveil `13:10` ; Django lui tend le crayon ; il écrit ; tada | Sébastien : « Merci, Django. » |
 | 23 | 1:39 | 6,4 s |  | Cuisine, plan large | Diana cuisine dans un nuage de farine ; Kristina revient, la carte en lambeaux, une baguette sous le bras ; au fond, Sébastien écrit | Radio-réveil `15:00` | Kristina : « Arles, c'est par là ? » — Diana : « C'est la boulangerie. » |
@@ -91,7 +91,7 @@ statut: "v2, deuxième passe le 30/10/2026"
 | 27 | 1:59 | 4,4 s | **tout est perdu** | Coupe sèche : gros plan | Sébastien `seb-t05` (le cri) | Radio-réveil `16:58` ; le téléphone sonne (ding ding) | Sébastien : « Le client ! Je ne peux pas me relire ! » |
 | 28 | 2:03 | 3,0 s |  | Plein écran (fond `crt`) | Tara : sourire, puis parle | Le redémarrage s'écrit (« TARA 1.99 · Redémarrage… ») ; elle réapparaît derrière la vitre | Tara : « Bonjour ! J'ai raté quoi ? » |
 | 29 | 2:06 | 9,0 s |  | Bureau de jour, plan moyen | Sébastien debout, le téléphone à l'oreille, les yeux fermés, l'index levé (à faire) ; le carnet fermé sur le bureau ; Tara qui écoute | Il ne regarde ni l'écran ni ses notes | le client (au téléphone) (off) : « Alors, ce rapport ? » — Sébastien : « Trois priorités. La vitesse. Les titres. Les liens. » — le client (au téléphone) (off) : « Parfait ! » |
-| 30 | 2:15 | 4,4 s |  | Gros plan | Diana, tête « sourcil levé » (de l'ép. 11), puis attendrie | — | Diana : « Tu le sais par cœur ? » — Sébastien (off) : « Je l'ai écrit. » |
+| 30 | 2:15 | 4,4 s |  | Gros plan | Diana, tête « sourcil levé » (de l'ép. 12), puis attendrie | — | Diana : « Tu le sais par cœur ? » — Sébastien (off) : « Je l'ai écrit. » |
 | 31 | 2:20 | 8,6 s | **la pépite** | Gros plan | Kristina, tête pince-sans-rire, puis elle rit (`kristina-tete-3`) ; Diana, à côté, rit avec elle | Le bandeau s'écrit au-dessus d'elle ; à la fin du plan, l'insert de la page arXiv de l'étude (capture C), la phrase du résumé sur la citation de son propre texte surlignée | Kristina : « Ce qu'on écrit soi-même, on s'en souvient mieux. » |
 | 32 | 2:28 | 5,4 s | **la chute** | Bureau de jour, plan moyen | Sébastien (`s2`, main ouverte) ; Tara (fière) ; Django pose le crayon sur le clavier | Radio-réveil `17:05` ; il regarde son carnet, puis l'écran | Tara : « Je le mets au propre ? » — Sébastien : « Oui. Ça, oui. » |
 | 33 | 2:34 | 3,6 s | l'appel | Bureau, bandeau | — | Le bandeau ; l'écran derrière grésille une fois | Kristina (off) (sans sous-titre) : « Abonne-toi. Tant que ça marche. » |
@@ -219,11 +219,11 @@ Même bande-son pour les trois langues.
 
 ## Titre et description proposés (à valider)
 
-- **FR** : « L'IA est en panne. On fait comment ? 📵 · Les Tarasconnades ép. 12 » — « Lundi, 9 h : l'IA ne répond plus. Recette, route, rapport client : la famille ressort le papier. Une étude préliminaire du MIT (2025, 54 personnes) : juste après avoir écrit avec une IA, 83 % des participants ne savaient pas citer leur propre texte, contre environ 11 % sans IA. Le t-shirt de Sébastien : [lien FR de la fiche]. #ia #memoire #papier »
+- **FR** : « L'IA est en panne. On fait comment ? 📵 · Les Tarasconnades ép. 13 » — « Lundi, 9 h : l'IA ne répond plus. Recette, route, rapport client : la famille ressort le papier. Une étude préliminaire du MIT (2025, 54 personnes) : juste après avoir écrit avec une IA, 83 % des participants ne savaient pas citer leur propre texte, contre environ 11 % sans IA. Le t-shirt de Sébastien : [lien FR de la fiche]. #ia #memoire #papier »
   - commentaire épinglé : « Le jour où votre IA tombe en panne, vous ressortez quoi en premier ? »
-- **EN** : « The AI's down. Now what? 📵 · Les Tarasconnades ep. 12 » — « Monday, 9 AM: the AI stops answering. Recipe, directions, client report: the family goes back to paper. A preliminary MIT study (2025, 54 people): right after writing with AI, 83% of participants couldn't quote their own text, versus about 11% without AI. Sébastien's t-shirt: [EN product link]. #ai #memory #paper »
+- **EN** : « The AI's down. Now what? 📵 · Les Tarasconnades ep. 13 » — « Monday, 9 AM: the AI stops answering. Recipe, directions, client report: the family goes back to paper. A preliminary MIT study (2025, 54 people): right after writing with AI, 83% of participants couldn't quote their own text, versus about 11% without AI. Sébastien's t-shirt: [EN product link]. #ai #memory #paper »
   - pinned comment: « The day your AI goes down, what's the first thing you dig out? »
-- **ES** : « La IA no funciona. ¿Y ahora qué? 📵 · Les Tarasconnades ep. 12 » — « Lunes, 9 h: la IA deja de responder. Receta, ruta, informe para el cliente: la familia vuelve al papel. Un estudio preliminar del MIT (2025, 54 personas): justo después de escribir con IA, el 83 % no sabía citar su propio texto, frente a un 11 % sin IA. La camiseta de Sébastien: [enlace ES]. #ia #memoria #papel »
+- **ES** : « La IA no funciona. ¿Y ahora qué? 📵 · Les Tarasconnades ep. 13 » — « Lunes, 9 h: la IA deja de responder. Receta, ruta, informe para el cliente: la familia vuelve al papel. Un estudio preliminar del MIT (2025, 54 personas): justo después de escribir con IA, el 83 % no sabía citar su propio texto, frente a un 11 % sin IA. La camiseta de Sébastien: [enlace ES]. #ia #memoria #papel »
   - comentario fijado: « El día que tu IA se cae, ¿qué es lo primero que sacas del cajón? »
 
 ## À trancher par Sébastien

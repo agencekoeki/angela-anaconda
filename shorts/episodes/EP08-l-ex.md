@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 7 · « L'ex »"
+title: "Les Tarasconnades · Ép. 8 · « L'ex »"
 theme: "Changer d'IA, garder ses habitudes : ce que l'ancienne « savait » de toi, c'est ce que tu lui as dit, et ça se déménage"
 duree: "2:42 (162.4 s), 31 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 7 · L'ex
+# Ép. 8 · L'ex
 
 **L'idée** : la première IA de Sébastien, avec qui il a passé trois ans, vit encore dans un vieux portable beige rangé dans un carton. Elle n'a **pas de nom** ni de marque : c'est « l'ex », « l'ancienne ». Le jour où Diana veut la jeter, il la serre dans ses bras, et Tara, l'IA de maintenant, devient jalouse. Le ton est tendre et drôle : personne n'a tort, personne n'est méchant, l'ex est une vieille amie qui passe le relais.
 
@@ -171,7 +171,7 @@ Le contenu de la liste est **inventé pour l'épisode** : ce n'est pas la vraie 
 - `pop` sec à la première image ; `boing` sur « Mon EX ?! ».
 - **La voix de l'ex** (nouvelle dans `moteur.py`) : le gazouillis de modem de Tara, mais plus grave (vers 420 Hz au lieu de 620), plus lent, avec un petit souffle de ventilateur dessous ; ses sous-titres en ambre.
 - **L'allumage de l'ex** : un `crt` plus long, avec le bruit d'un vieux disque dur qui gratte (nouveau : une rafale de `clavier` très grave et irrégulière). Son extinction : le sifflement qui s'éteint, et `soupir`.
-- Le crépitement d'impression (le même nouveau bruit que l'ép. 6, l'imprimante) quand la liste sort.
+- Le crépitement d'impression (le même nouveau bruit que l'ép. 7, l'imprimante) quand la liste sort.
 - Les tentatives : `pop` sur chaque réponse de Tara, `pouet` sur « Demande à ton ex. ».
 - Le flagrant délit : la lumière qui claque (`pop` fort), `scratch`.
 - Le rêve : l'ondulation et **les clochettes** ; les deux voix (ambre et turquoise) en accord sur « Comme d'hab ! » ; sortie : `scratch`.
@@ -181,7 +181,7 @@ Le contenu de la liste est **inventé pour l'épisode** : ce n'est pas la vraie 
 
 **Déjà là** : bureau de jour (`aa-decor-14`), bureau d'avant (`aa-decor-11`), salon vertical (`aa-decor-09-salon-vertical`), plage (`aa-decor-15`) ; Sébastien (têtes `t01` à `t05`, discours, poses clés, `s1`, `m02`, `m04`), Diana (parle, pyjama), Kristina (têtes, parle), Tara (4 poses), Django (trot), Olympe (`o1`), Titan (planche : assis en roi, avachi sur le flanc, marche fière, bâillement, à découper), la flamme, l'écran allumé.
 
-| À fabriquer | Pour | Prompt (ChatGPT, conversation neuve ; recette commune des humains de l'ép. 6 pour les personnages) |
+| À fabriquer | Pour | Prompt (ChatGPT, conversation neuve ; recette commune des humains de l'ép. 7 pour les personnages) |
 |---|---|---|
 | **L'ex, planche de 4 états** (personnage nouveau, un objet) | plans 5-7, 11, 20, 24, 27-29 | `A sheet of four states of the same object, cheap late-1990s low-poly 3D like a 1998 PlayStation-era prop: an old chunky BEIGE laptop (no brand, no logo, no text, no sticker), slightly yellowed plastic, a small screen. 1) closed; 2) open, screen glowing warm AMBER, on the screen a simple friendly face made of amber pixels: two small square eyes and a blinking cursor as a smile; 3) same, the cursor-smile open as if talking; 4) screen almost off, a single tiny amber dot in the centre. Visible facets, blurry low-res texture, flat lighting, muted colours except the amber glow. Same scale, evenly spaced, flat chroma green background #00B140, no text.` |
 | **Le débarras**, décor vertical, jour et nuit | plans 12, 20-22 | `Vertical 2:3 (1024×1536) interior: a small storage cupboard under the stairs in a Provençal house, shelves with cardboard boxes, an old vacuum cleaner, a folded deckchair, a hanging bare light bulb, a dusty floor, a door frame on the right. Cheap late-1990s low-poly 3D, the whole world DULL and muted, greyish, slightly dark and murky, low contrast, as if seen on an old CRT TV; flat ambient light with hard dark contact shadows; blurry low-res stretched photo textures on cheap low-poly shapes; empty and a little lonely. Rendering reference ONLY for the attached mood board: do not copy any place, sign, character or layout. No people, no text, no logos.` Puis : `Same image, at night: light bulb off, only a cold blue moonlight from the door, very dark.` |
@@ -202,11 +202,11 @@ Le contenu de la liste est **inventé pour l'épisode** : ce n'est pas la vraie 
 
 ## Titre et description proposés pour la mise en ligne (à valider)
 
-- **FR** : « Mon IA est jalouse de mon ex 💔 · Les Tarasconnades ép. 7 » — « Trois ans avec la même IA, et la nouvelle ne sait pas ce que veut dire « comme d'hab ». Ce que l'ancienne savait de toi, c'est ce que tu lui as dit : demande-lui de l'écrire, relis, et donne-le à la nouvelle (certaines IA proposent cet import depuis mars 2026). Le t-shirt de Sébastien : [lien FR de la fiche] #ia #seo #habitudes »
+- **FR** : « Mon IA est jalouse de mon ex 💔 · Les Tarasconnades ép. 8 » — « Trois ans avec la même IA, et la nouvelle ne sait pas ce que veut dire « comme d'hab ». Ce que l'ancienne savait de toi, c'est ce que tu lui as dit : demande-lui de l'écrire, relis, et donne-le à la nouvelle (certaines IA proposent cet import depuis mars 2026). Le t-shirt de Sébastien : [lien FR de la fiche] #ia #seo #habitudes »
   - commentaire épinglé : « Vous avez changé d'IA ? Qu'est-ce qui vous a le plus manqué ? »
-- **EN** : « My AI is jealous of my ex 💔 · Les Tarasconnades ep. 7 » — « Three years with the same AI, and the new one doesn't know what "the usual" means. What the old one knew about you is what you told it: ask it to write it down, check it, and hand it to the new one (some AIs offer this import since March 2026). Sébastien's t-shirt: [EN link] #ai #seo #habits »
+- **EN** : « My AI is jealous of my ex 💔 · Les Tarasconnades ep. 8 » — « Three years with the same AI, and the new one doesn't know what "the usual" means. What the old one knew about you is what you told it: ask it to write it down, check it, and hand it to the new one (some AIs offer this import since March 2026). Sébastien's t-shirt: [EN link] #ai #seo #habits »
   - pinned comment: « Switched AI? What did you miss most? »
-- **ES** : « Mi IA tiene celos de mi ex 💔 · Les Tarasconnades ep. 7 » — « Tres años con la misma IA, y la nueva no sabe qué es «lo de siempre». Lo que la antigua sabía de ti es lo que tú le contaste: pídele que lo escriba, revísalo y dáselo a la nueva (algunas IA ofrecen esta importación desde marzo de 2026). La camiseta de Sébastien: [enlace ES] #ia #seo #hábitos »
+- **ES** : « Mi IA tiene celos de mi ex 💔 · Les Tarasconnades ep. 8 » — « Tres años con la misma IA, y la nueva no sabe qué es «lo de siempre». Lo que la antigua sabía de ti es lo que tú le contaste: pídele que lo escriba, revísalo y dáselo a la nueva (algunas IA ofrecen esta importación desde marzo de 2026). La camiseta de Sébastien: [enlace ES] #ia #seo #hábitos »
   - comentario fijado: « ¿Has cambiado de IA? ¿Qué es lo que más echaste de menos? »
 
 ## À trancher par Sébastien

@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 3 · « Personne ne me cite »"
+title: "Les Tarasconnades · Ép. 4 · « Personne ne me cite »"
 theme: "Le GEO : être cité par les IA (une IA répète ce que les autres disent de toi)"
 duree: "2:47 (167.2 s), 33 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 3 · Personne ne me cite
+# Ép. 4 · Personne ne me cite
 
 **La question** (posée à la première seconde, par Kristina) : pourquoi l'IA ne connaît pas papa ? On dit « l'IA » à l'ouverture ; le prénom « Tara » ne vient qu'après, écrit au démarrage de l'ordinateur, avec sa version : « TARA 1.1 · Nouveau : connaît tout Tarascon » (trois secondes, le temps de lire ; la version monte d'un cran à chaque épisode).
 
@@ -220,13 +220,13 @@ Juste après l'autocitation (« Je me cite partout ! »), au moment où il croit
 
 ## Titre et description proposés pour YouTube (à valider)
 
-- **FR** : « Pour l'IA, ma chienne est plus célèbre que moi 🐕 · Les Tarasconnades ép. 3 »
+- **FR** : « Pour l'IA, ma chienne est plus célèbre que moi 🐕 · Les Tarasconnades ép. 4 »
   « L'IA ne sait pas qui je suis. Elle connaît le boulanger. Elle connaît ma chienne. Je me cite partout : rien. Une IA ne te croit pas sur parole, elle répète ce que les autres disent de toi. C'est ça, le GEO. (Étude Ahrefs 2025 sur 75 000 marques : être mentionné sur le Web est le facteur le plus lié à la visibilité dans les réponses IA de Google.) Le t-shirt de Sébastien : seoaddict.co/fr/… #geo #seo #ia »
   - commentaire épinglé : « Demandez à votre IA qui vous êtes. Elle vous appelle comment ? 🐕 »
-- **EN** : « To AI, my dog is more famous than me 🐕 · Les Tarasconnades ep. 3 »
+- **EN** : « To AI, my dog is more famous than me 🐕 · Les Tarasconnades ep. 4 »
   « The AI doesn't know who I am. It knows the baker. It knows my dog. I quote myself everywhere: nothing. AI won't take your word for it, it repeats what others say about you. That's GEO. (Ahrefs 2025 study of 75,000 brands: web mentions are the factor most correlated with visibility in Google's AI answers.) Sébastien's t-shirt: [EN link] #geo #seo #ai »
   - pinned comment: « Ask your AI who you are. What does it call you? 🐕 »
-- **ES** : « Para la IA, mi perra es más famosa que yo 🐕 · Les Tarasconnades ep. 3 »
+- **ES** : « Para la IA, mi perra es más famosa que yo 🐕 · Les Tarasconnades ep. 4 »
   « La IA no sabe quién soy. Conoce al panadero. Conoce a mi perra. Me cito por todas partes: nada. La IA no te cree por tu palabra, repite lo que los demás dicen de ti. Eso es el GEO. (Estudio de Ahrefs 2025 sobre 75.000 marcas: las menciones en la web son el factor más ligado a la visibilidad en las respuestas de IA de Google.) La camiseta de Sébastien: [enlace ES] #geo #seo #ia »
   - comentario fijado: « Pregúntale a tu IA quién eres. ¿Cómo te llama? 🐕 »
 
@@ -236,5 +236,5 @@ Juste après l'autocitation (« Je me cite partout ! »), au moment où il croit
 - **La capture réelle** (plan 12) : si, en vrai, l'IA te cite, on garde la capture pour le commentaire épinglé et on rejoue l'insert dans le moteur. D'accord ?
 - **Le graphique d'Ahrefs** : seulement dans la description, ou aussi dans la vidéo (courte citation) ? Et le bandeau peut-il nommer la source (« Ahrefs, 2025 ») ?
 - **Le tutoiement en anglais** : l'anglais n'a pas de « tu » ; on le rend par le prénom et un « mate » (« Morning, Sébastien! Another croissant, mate? » — « He called me by my name! »). Ça te va ?
-- **La carte d'anniversaire** (pour toi, écrite par Kristina avec l'IA) : c'est la seule date de fête qui reste dans la saison (l'ép. 8 passe à Noël, l'ép. 11 à une lettre pour rien). On la garde ?
+- **La carte d'anniversaire** (pour toi, écrite par Kristina avec l'IA) : c'est la seule date de fête qui reste dans la saison (l'ép. 9 passe à Noël, l'ép. 12 à une lettre pour rien). On la garde ?
 - **La voix du boulanger** : la hauteur de son babil (plus grave que toi), à choisir avant la fabrication.

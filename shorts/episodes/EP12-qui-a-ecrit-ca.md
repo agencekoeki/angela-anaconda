@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 11 · « Qui a écrit ça ? »"
+title: "Les Tarasconnades · Ép. 12 · « Qui a écrit ça ? »"
 theme: "Texte humain, texte d'IA : ce que ça change quand c'est une lettre d'amour (l'effort perçu)"
 duree: "2:45 (165.6 s), 36 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 11 · Qui a écrit ça ?
+# Ép. 12 · Qui a écrit ça ?
 
 **La question** (posée à la première seconde, par Diana, la lettre à la main) : « Cette lettre… c'est toi ? Ou c'est l'IA ? » La fin répond, au même cadre : « Cette lettre… c'est toi. »
 
@@ -218,11 +218,11 @@ Même bande-son pour les trois langues.
 
 ## Titre et description proposés (à valider)
 
-- **FR** : « Ma lettre d'amour : c'est moi ou l'IA ? 💌 · Les Tarasconnades ép. 11 » — « Diana reçoit une lettre trop parfaite. Ce n'était pas l'IA… c'était pire. Une étude de l'université d'État de l'Ohio (2023) : un message retouché par une IA, ou par quelqu'un d'autre, rend la relation moins satisfaisante ; ce qu'on attend, c'est l'effort. Le t-shirt de Sébastien : [lien FR de la fiche]. #ia #ecriture #amour »
+- **FR** : « Ma lettre d'amour : c'est moi ou l'IA ? 💌 · Les Tarasconnades ép. 12 » — « Diana reçoit une lettre trop parfaite. Ce n'était pas l'IA… c'était pire. Une étude de l'université d'État de l'Ohio (2023) : un message retouché par une IA, ou par quelqu'un d'autre, rend la relation moins satisfaisante ; ce qu'on attend, c'est l'effort. Le t-shirt de Sébastien : [lien FR de la fiche]. #ia #ecriture #amour »
   - commentaire épinglé : « Vous avez déjà fait écrire un message perso par une IA ? On ne dira rien. »
-- **EN** : « My love letter: me or the AI? 💌 · Les Tarasconnades ep. 11 » — « Diana gets a letter that's a little too perfect. It wasn't the AI… it was worse. An Ohio State University study (2023): a message polished by AI, or by someone else, makes people less satisfied with the relationship; what we want is the effort. Sébastien's t-shirt: [EN product link]. #ai #writing #love »
+- **EN** : « My love letter: me or the AI? 💌 · Les Tarasconnades ep. 12 » — « Diana gets a letter that's a little too perfect. It wasn't the AI… it was worse. An Ohio State University study (2023): a message polished by AI, or by someone else, makes people less satisfied with the relationship; what we want is the effort. Sébastien's t-shirt: [EN product link]. #ai #writing #love »
   - pinned comment: « Ever had an AI write a personal message for you? We won't tell. »
-- **ES** : « Mi carta de amor: ¿yo o la IA? 💌 · Les Tarasconnades ep. 11 » — « Diana recibe una carta demasiado perfecta. No fue la IA… fue peor. Un estudio de la Universidad Estatal de Ohio (2023): un mensaje retocado por una IA, o por otra persona, deja la relación menos satisfactoria; lo que esperamos es el esfuerzo. La camiseta de Sébastien: [enlace ES]. #ia #escritura #amor »
+- **ES** : « Mi carta de amor: ¿yo o la IA? 💌 · Les Tarasconnades ep. 12 » — « Diana recibe una carta demasiado perfecta. No fue la IA… fue peor. Un estudio de la Universidad Estatal de Ohio (2023): un mensaje retocado por una IA, o por otra persona, deja la relación menos satisfactoria; lo que esperamos es el esfuerzo. La camiseta de Sébastien: [enlace ES]. #ia #escritura #amor »
   - comentario fijado: « ¿Alguna vez una IA escribió un mensaje personal por ti? No diremos nada. »
 
 ## À trancher par Sébastien

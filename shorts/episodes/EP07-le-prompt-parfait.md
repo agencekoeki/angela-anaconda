@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 6 · « Le prompt parfait »"
+title: "Les Tarasconnades · Ép. 7 · « Le prompt parfait »"
 theme: "Bien parler à une IA : ce qui aide vraiment (le but, le contexte, un exemple) et ce qui ne sert à rien (menaces, pourboires, « tu es le meilleur expert du monde », trois pages de décor)"
 duree: "2:41 (161.2 s), 32 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 6 · Le prompt parfait
+# Ép. 7 · Le prompt parfait
 
 **L'idée** : Sébastien a suivi « une formation » sur les prompts. Le vendredi soir, le boulanger fait des pizzas (c'est écrit sur son ardoise) et les livre ; ils se connaissent et se tutoient. Ce vendredi, ce n'est plus Diana qui les commande (dix secondes au téléphone) : c'est l'IA, avec un prompt de trois pages. Une tarasconnade parfaite : le monsieur qui transforme une commande de pizzas en œuvre complète, et la famille qui a faim.
 
@@ -211,11 +211,11 @@ Recette commune des prompts humains (à coller en tête, avec l'image maître du
 
 ## Titre et description proposés pour la mise en ligne (à valider)
 
-- **FR** : « J'ai écrit un prompt de 3 pages pour commander une pizza 🍕 · Les Tarasconnades ép. 6 » — « Trois pages, des menaces, un pourboire d'un milliard… et toujours pas de pizza. Kristina, elle, commande en 21 mots. Ce qui aide vraiment une IA : le but, le contexte, un exemple. Menacer l'IA ou lui promettre un pourboire : aucun effet mesurable (Wharton Generative AI Labs, 2025). Le t-shirt de Sébastien : [lien FR de la fiche] #ia #prompt #seo »
+- **FR** : « J'ai écrit un prompt de 3 pages pour commander une pizza 🍕 · Les Tarasconnades ép. 7 » — « Trois pages, des menaces, un pourboire d'un milliard… et toujours pas de pizza. Kristina, elle, commande en 21 mots. Ce qui aide vraiment une IA : le but, le contexte, un exemple. Menacer l'IA ou lui promettre un pourboire : aucun effet mesurable (Wharton Generative AI Labs, 2025). Le t-shirt de Sébastien : [lien FR de la fiche] #ia #prompt #seo »
   - commentaire épinglé : « Votre pire prompt, c'était quoi ? (En moins de 21 mots.) »
-- **EN** : « I wrote a 3-page prompt to order a pizza 🍕 · Les Tarasconnades ep. 6 » — « Three pages, threats, a billion-dollar tip… and still no pizza. Kristina orders in 21 words. What really helps an AI: the goal, the context, an example. Threatening or tipping the AI: no measurable effect (Wharton Generative AI Labs, 2025). Sébastien's t-shirt: [EN link] #ai #prompt #seo »
+- **EN** : « I wrote a 3-page prompt to order a pizza 🍕 · Les Tarasconnades ep. 7 » — « Three pages, threats, a billion-dollar tip… and still no pizza. Kristina orders in 21 words. What really helps an AI: the goal, the context, an example. Threatening or tipping the AI: no measurable effect (Wharton Generative AI Labs, 2025). Sébastien's t-shirt: [EN link] #ai #prompt #seo »
   - pinned comment: « What was your worst prompt? (Under 21 words.) »
-- **ES** : « Escribí un prompt de 3 páginas para pedir una pizza 🍕 · Les Tarasconnades ep. 6 » — « Tres páginas, amenazas, una propina de mil millones… y ni una pizza. Kristina la pide en 21 palabras. Lo que de verdad ayuda a una IA: el objetivo, el contexto, un ejemplo. Amenazar a la IA o prometerle propina: ningún efecto medible (Wharton Generative AI Labs, 2025). La camiseta de Sébastien: [enlace ES] #ia #prompt #seo »
+- **ES** : « Escribí un prompt de 3 páginas para pedir una pizza 🍕 · Les Tarasconnades ep. 7 » — « Tres páginas, amenazas, una propina de mil millones… y ni una pizza. Kristina la pide en 21 palabras. Lo que de verdad ayuda a una IA: el objetivo, el contexto, un ejemplo. Amenazar a la IA o prometerle propina: ningún efecto medible (Wharton Generative AI Labs, 2025). La camiseta de Sébastien: [enlace ES] #ia #prompt #seo »
   - comentario fijado: « ¿Cuál fue tu peor prompt? (En menos de 21 palabras.) »
 
 ## À trancher par Sébastien

@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 9 · « Mots-clés à table »"
+title: "Les Tarasconnades · Ép. 10 · « Mots-clés à table »"
 theme: "Mots-clés et intention de recherche : le mot-clé, c'est ce qu'on tape ; l'intention, c'est ce qu'on veut ; le même mot porte des envies différentes"
 duree: "2:48 (168.4 s), 32 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 9 · Mots-clés à table
+# Ép. 10 · Mots-clés à table
 
 **L'idée** : après une journée de recherche de mots-clés, Sébastien continue à table. « Pain. » « Sel. » « Django. Gratin. Table. » Le premier marche, le deuxième vexe la cuisinière, le troisième était un avertissement que personne n'a compris. Tara, elle, traduit les intentions… un peu trop bien.
 
@@ -65,7 +65,7 @@ statut: "v2, deuxième passe le 30/10/2026"
 | 5 | 0:11 | 2,0 s |  | volet bleu | — | carton : « Ce matin… » | — |
 | 6 | 0:13 | 6,6 s | le monde d'avant | bureau de jour | Sébastien de dos (`s1`) ; Tara dans l'écran du milieu (parle) ; Django assis à côté de la chaise | VEN. 09:00 ; les premiers post-it | Sébastien : « Tara. Gratin. Recherches. » — Tara : « Voilà les mots-clés ! » |
 | 7 | 0:20 | 6,4 s |  | plein écran cathodique (`fond='crt'`) | Tara derrière la vitre, fière | les lignes s'écrivent : « TARA 1.7 · Mots-clés · gratin dauphinois · gratin recette · gratin trop salé que faire · gratin chien » | — |
-| 8 | 0:26 | 7,2 s |  | bureau de jour | Tara, la tête penchée (*pose de l'ép. 6*) ; Sébastien de dos | elle attend une réponse ; il réfléchit, longtemps | Tara : « Vous cherchez quoi : la recette, en commander un, ou le sauver ? » — Sébastien : « …Gratin. » |
+| 8 | 0:26 | 7,2 s |  | bureau de jour | Tara, la tête penchée (*pose de l'ép. 7*) ; Sébastien de dos | elle attend une réponse ; il réfléchit, longtemps | Tara : « Vous cherchez quoi : la recette, en commander un, ou le sauver ? » — Sébastien : « …Gratin. » |
 | 9 | 0:34 | 4,6 s |  | bureau de jour | Sébastien, gros plan `t04` béat, la flamme | — | Sébastien : « Trois mots. Toute une vie. » |
 | 10 | 0:38 | 6,0 s |  | bureau de jour | Sébastien de dos ; Diana à la porte, un torchon sur l'épaule (planche parole) | VEN. 13:00 ; deux fois plus de post-it | Diana : « Chéri, tu manges ? » — Sébastien : « Faim. Plus tard. Merci. » |
 | 11 | 0:44 | 2,2 s | **le déclencheur** | volet bleu | — | carton : « Puis, à table… » | — |
@@ -177,9 +177,9 @@ Dans les trois langues, les mots-clés gardent l'article qui manque et l'ordre b
 
 ## Ce qu'il faut fabriquer
 
-**Déjà là** : bureau de jour (`aa-decor-14`), cuisine verticale (`aa-decor-18`) ; Sébastien (têtes `t01`, `t03`, `t04`, `t05`, discours, poses clés, `s1`, `m02`, `m04`), Diana (parle, planche expressions découpée, `banque/diana-jour-1..4` : bras croisés sourcil levé, main sur le front, fou rire), Kristina (têtes, parle), Tara (4 poses, et la pose « tête penchée » de l'ép. 6), Django (assis), Souka (planche : assis, marche, en boule, étirement, à découper), la flamme, l'écran allumé.
+**Déjà là** : bureau de jour (`aa-decor-14`), cuisine verticale (`aa-decor-18`) ; Sébastien (têtes `t01`, `t03`, `t04`, `t05`, discours, poses clés, `s1`, `m02`, `m04`), Diana (parle, planche expressions découpée, `banque/diana-jour-1..4` : bras croisés sourcil levé, main sur le front, fou rire), Kristina (têtes, parle), Tara (4 poses, et la pose « tête penchée » de l'ép. 7), Django (assis), Souka (planche : assis, marche, en boule, étirement, à découper), la flamme, l'écran allumé.
 
-| À fabriquer | Pour | Prompt (ChatGPT, conversation neuve ; recette commune des humains de l'ép. 6 pour les personnages) |
+| À fabriquer | Pour | Prompt (ChatGPT, conversation neuve ; recette commune des humains de l'ép. 7 pour les personnages) |
 |---|---|---|
 | **La salle à manger**, décor vertical | plans 1-2, 11-30 | `Vertical 2:3 (1024×1536) interior: a Provençal dining room seen from the front, a wooden table with a plain tablecloth set for three (plates, glasses, a bread basket in the middle, an empty space for a dish), three chairs, a tall wooden sideboard on the right, a window with blue-grey shutters at the back. Cheap late-1990s low-poly 3D, the whole world DULL and muted, greyish, slightly dark and murky, low contrast, as if seen on an old CRT TV; flat ambient light with hard dark contact shadows; blurry low-res stretched photo textures on cheap low-poly shapes; flat sticker decorations on the walls. Rendering reference ONLY for the attached mood board: do not copy any place, sign, character or layout. No people, no text, no logos.` Puis, la même image **sans les chaises du premier plan** (les personnages assis s'y posent) et une découpe **du bord de table au premier plan** (couche devant les corps). |
 | **Sébastien, planche « à table »** (`aa-seb-m04-bras-le-long`) | plans 2, 13-16, 19-20, 25, 30 | `Four poses, seen from the front, SEATED at a table (the table edge will be added later, so draw him from the waist up as if sitting): 1) holding a fork upright, very dignified, saying one word; 2) tasting, grimacing, cheeks puffed; 3) pointing behind the viewer with his index finger, urgent; 4) holding a slice of bread, sheepish smile rising mostly on his left side. HYPER FLASHY fuchsia-pink t-shirt.` |
@@ -201,11 +201,11 @@ Dans les trois langues, les mots-clés gardent l'article qui manque et l'ordre b
 
 ## Titre et description proposés pour la mise en ligne (à valider)
 
-- **FR** : « Mon père parle en mots-clés à table 🧀 · Les Tarasconnades ép. 9 » — « « Pain. » Ça marche. « Sel. Trop. » Ça vexe. « Django. Gratin. Table. » Personne ne comprend… et le chien mange le gratin. Le mot-clé, c'est ce qu'on tape ; l'intention, c'est ce qu'on veut. En 2019, Google l'a écrit lui-même : on lui tape des « mots-clés », pas ce qu'on dirait naturellement, alors il cherche le sens (blog de Google, « Understanding searches better than ever before »). Le t-shirt de Sébastien : [lien FR de la fiche] #seo #motscles #intention »
+- **FR** : « Mon père parle en mots-clés à table 🧀 · Les Tarasconnades ép. 10 » — « « Pain. » Ça marche. « Sel. Trop. » Ça vexe. « Django. Gratin. Table. » Personne ne comprend… et le chien mange le gratin. Le mot-clé, c'est ce qu'on tape ; l'intention, c'est ce qu'on veut. En 2019, Google l'a écrit lui-même : on lui tape des « mots-clés », pas ce qu'on dirait naturellement, alors il cherche le sens (blog de Google, « Understanding searches better than ever before »). Le t-shirt de Sébastien : [lien FR de la fiche] #seo #motscles #intention »
   - commentaire épinglé : « Écrivez votre dernière recherche, telle quelle. On devine l'intention. »
-- **EN** : « My dad talks in keywords at dinner 🧀 · Les Tarasconnades ep. 9 » — « "Bread." Works. "Salt. Too much." Offends. "Django. Gratin. Table." Nobody gets it… and the dog eats the gratin. The keyword is what you type; the intent is what you want. In 2019, Google said it itself: people type "keyword-ese", not how they'd naturally ask, so it looks for the meaning (Google blog, "Understanding searches better than ever before"). Sébastien's t-shirt: [EN link] #seo #keywords #searchintent »
+- **EN** : « My dad talks in keywords at dinner 🧀 · Les Tarasconnades ep. 10 » — « "Bread." Works. "Salt. Too much." Offends. "Django. Gratin. Table." Nobody gets it… and the dog eats the gratin. The keyword is what you type; the intent is what you want. In 2019, Google said it itself: people type "keyword-ese", not how they'd naturally ask, so it looks for the meaning (Google blog, "Understanding searches better than ever before"). Sébastien's t-shirt: [EN link] #seo #keywords #searchintent »
   - pinned comment: « Type your last search, exactly as you typed it. We'll guess the intent. »
-- **ES** : « Mi padre habla con palabras clave en la mesa 🧀 · Les Tarasconnades ep. 9 » — « «Pan.» Funciona. «Sal. Demasiada.» Ofende. «Django. Gratín. Mesa.» Nadie entiende… y el perro se come el gratín. La palabra clave es lo que escribes; la intención, lo que quieres. En 2019 Google lo escribió: le tecleamos «palabras clave», no lo que diríamos con naturalidad, así que busca el sentido (blog de Google, «Understanding searches better than ever before»). La camiseta de Sébastien: [enlace ES] #seo #palabrasclave #intencion »
+- **ES** : « Mi padre habla con palabras clave en la mesa 🧀 · Les Tarasconnades ep. 10 » — « «Pan.» Funciona. «Sal. Demasiada.» Ofende. «Django. Gratín. Mesa.» Nadie entiende… y el perro se come el gratín. La palabra clave es lo que escribes; la intención, lo que quieres. En 2019 Google lo escribió: le tecleamos «palabras clave», no lo que diríamos con naturalidad, así que busca el sentido (blog de Google, «Understanding searches better than ever before»). La camiseta de Sébastien: [enlace ES] #seo #palabrasclave #intencion »
   - comentario fijado: « Escribe tu última búsqueda, tal cual. Adivinamos la intención. »
 
 ## À trancher par Sébastien

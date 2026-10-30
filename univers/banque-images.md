@@ -18,8 +18,8 @@ Sébastien, 30/10/2026 : « construis des choses, et on verra plus tard comment 
 | `aa-decor-13-chambre-nuit-vertical.png` | la chambre de nuit | ép. 1 |
 | `aa-decor-14-bureau-jour-vertical.png` | le bureau de jour, trois écrans ; vitres `VITRES` dans `short_ep01.py`, retrouvées par `calage.py` | ép. 1 |
 | `aa-decor-15-plage-vertical.png` | la plage (l'Espiguette), parasol, serviette rayée, phare | ép. 1 (le passé) |
-| `aa-decor-16-boulangerie-vertical.png` | l'intérieur de la boulangerie : comptoir, vitrine de pains, panières, ardoise vierge, porte à clochette | ép. 3 (le boulanger) |
-| `aa-decor-17-rue-tarascon-vertical.png` | une ruelle de Tarascon, le château au bout, une devanture de boulangerie | plans d'installation, ép. 3 |
+| `aa-decor-16-boulangerie-vertical.png` | l'intérieur de la boulangerie : comptoir, vitrine de pains, panières, ardoise vierge, porte à clochette | ép. 4 (le boulanger) |
+| `aa-decor-17-rue-tarascon-vertical.png` | une ruelle de Tarascon, le château au bout, une devanture de boulangerie | plans d'installation, ép. 4 |
 | `aa-decor-18-cuisine-vertical.png` | la cuisine (version verticale de la cuisine validée) | scènes de famille |
 | `aa-decor-19-agility-vertical.png` | le terrain d'agility : haie, pneu, palissade, slalom, tunnel | épisodes avec les chiens |
 | `aa-decor-20-jardin-vertical.png` | le jardin de la maison : mur de pierre, volets bleu-gris, olivier, lavandes, petite piscine, gamelle | scènes avec les animaux |

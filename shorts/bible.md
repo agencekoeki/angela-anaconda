@@ -114,7 +114,8 @@ Et tout du long : un changement visible toutes les 10 à 15 s (lieu, cadrage, in
 ## 8. Le format et la lisibilité
 
 - **9:16, 1080 × 1920, 24 images par seconde**, H.264, son AAC. Le moteur est celui du film (`tools/animation/`), en mode vertical.
-- **Les plans** : beaucoup de gros plans (le vertical aime les visages), des plans larges qui glissent sur les décors, les personnages en pied à environ 45 % de la hauteur.
+- **Les plans** : beaucoup de gros plans (le vertical aime les visages), des plans larges qui glissent sur les décors.
+- **La taille à l'écran** (règle du 30/10/2026, à partir de l'ép. 3 ; Sébastien : « les personnages, ils sont vraiment petits par rapport à l'univers », « le chien, il est ridiculement petit », « 2/3 de vide tout en haut ») : en pied, un humain occupe **environ 70 % de la hauteur de l'écran** (hauteur 0,46 du décor × zoom 1,5), les pieds posés en bas du cadre (`cam_y = pieds − 0,47 / zoom`) ; on ne laisse pas de grand vide au-dessus des têtes. Quand un plan veut montrer un objet loin dans le décor (sur une table basse, au fond), on fait un **insert** (le plan serré sur l'objet) plutôt qu'un plan large où il serait un point. Les animaux sont **un peu plus grands que nature**, c'est un dessin animé : un chat assis fait de 25 à 40 % d'un humain debout (table `PROPORTIONS` de `controle.py`), et un plan sur un animal seul le fait monter à 50 ou 65 % de l'écran. L'ép. 2 garde l'ancien cadrage (décision de Sébastien).
 - **Les zones sûres** [SAVOIR : guides publicitaires de Meta, via Billo, mars 2026 ; aucune norme officielle pour les publications ordinaires] : rien d'important dans les 14 % du haut, les 20 à 35 % du bas, ni dans les 6 % de chaque côté. Chez nous : l'heure à 13,5 % du haut, les visages entre 20 et 62 %, les sous-titres centrés à 70 % de la hauteur, sur 72 % de la largeur au plus ; ils descendent volontairement jusqu'à 76 %, ce qui laisse 24 % libres en bas. [PENSER : compromis entre la zone sûre et « pas en plein milieu » (Sébastien, 30/10)]
 - **Les sous-titres** sont incrustés, en **Fredoka grasse** (ronde, « dessin animé », licence OFL), 66 px, blancs (couleur par personnage) cernés de noir épais, une réplique à la fois, deux lignes au plus (à vérifier à l'œil sur la planche d'images-clés : le contrôle ne compte pas les lignes), **au moins 1,5 s à l'écran**. On les écrit pour être lus le son coupé : la vidéo doit se comprendre sans le son.
 - **Leur place** (décision du 30/10 : « pas en plein milieu ») : centrés à **70 % de la hauteur**, dans une **bande réservée de 66 à 76 %**. Plus bas, la légende, le pseudo et les boutons de TikTok, Reels et Shorts les couvriraient. [PENSER : d'après l'interface des applications, pas d'une norme publiée.] **Les plans se composent en laissant cette bande libre de visages** : en gros plan, le bas de la tête à 62 % ; en plan large, les têtes au-dessus. Le contrôle le vérifie.
@@ -139,23 +140,24 @@ L'univers sonore compte autant que l'image, pour ceux qui mettent le son. Le dé
 
 ## 11. Les épisodes de la saison 1
 
-La saison s'allonge (Sébastien, 30/10/2026) : les douze ci-dessous sont un premier lot, d'autres s'y ajoutent, à commencer par **l'épisode sur les EMD, raconté par l'histoire vraie du Pull moche**, devenu l'épisode 2 (« Le nom parfait », fabriqué le 30/10/2026 ; les suivants ont pris un rang de plus). Sujets déjà annoncés par Sébastien pour la suite : « le GEO change-t-il le SEO ? » (son t-shirt « GEO is the new SEO » : rien ne change, on recommence), l'EMD et les entités, l'E-E-A-T (qu'il pratiquait dans le médical avant que le mot existe).
+La saison s'allonge (Sébastien, 30/10/2026) : les douze ci-dessous sont un premier lot, d'autres s'y ajoutent, à commencer par **l'épisode sur les EMD, raconté par l'histoire vraie du Pull moche** (le 2), puis **« On est écoutés »** (le 3, demandé le 30/10/2026 : « un côté politique », « un peu à la 1984 », plus de chats que de chiens), devenu l'épisode 2 (« Le nom parfait », fabriqué le 30/10/2026 ; les suivants ont pris un rang de plus). Sujets déjà annoncés par Sébastien pour la suite : « le GEO change-t-il le SEO ? » (son t-shirt « GEO is the new SEO » : rien ne change, on recommence), l'EMD et les entités, l'E-E-A-T (qu'il pratiquait dans le médical avant que le mot existe).
 
 | # | Titre | La question | Le thème |
 |---|---|---|---|
 | 1 | **Juste une petite idée** | L'IA devait me faire gagner du temps : où est-il passé ? | l'IA nous fait-elle travailler moins ou plus ? (le paradoxe de Jevons) ; t-shirt « Timer oublié : 72 h » |
 | 2 | **Le nom parfait** | Un pull moche… c'est un nom de domaine ? | l'EMD (exact match domain), par l'histoire vraie du Pull Moche ; t-shirt « Dernière sauvegarde : — » |
-| 3 | Personne ne me cite | Pourquoi l'IA ne connaît pas papa ? | GEO : être cité par les IA ; t-shirt proposé « Chez moi, je suis cité » |
-| 4 | Olympe a plus d'avis que moi | Pourquoi la chienne est mieux notée que Sébastien ? | SEO local, avis Google |
-| 5 | Interdit aux robots | Pourquoi Rampette ne veut pas entrer dans la chambre de Kristina ? | crawl, robots.txt, indexation |
-| 6 | Le prompt parfait | Peut-on commander une pizza avec un prompt de trois pages ? | bien parler à une IA |
-| 7 | L'ex | Pourquoi Tara est jalouse de l'ancien assistant de Sébastien, oublié dans un vieux portable au grenier ? | changer d'IA, garder ses habitudes (la première IA de Sébastien, sans marque) |
-| 8 | La page 2 | Où cacher le cadeau de Doudou pour que personne ne le trouve ? | le classement, la page 2 que personne ne lit |
-| 9 | Mots-clés à table | Que se passe-t-il quand papa parle en mots-clés ? | mots-clés et intention de recherche |
-| 10 | 400 pages en 3 secondes | Tara peut-elle faire un site toute seule ? | contenu automatique, contenu dupliqué |
-| 11 | Qui a écrit ça ? | La lettre d'amour à Doudou, c'est lui ou Tara ? | texte humain, texte IA |
-| 12 | La panne | Que fait la famille quand Tara ne répond plus ? | dépendance, retour au papier |
-| 13 | Sébastien est remplacé | Si Tara fait son métier mieux que lui, il sert à quoi ? | l'avenir du travail ; fin tendre : Tara ne sait pas jouer avec Django |
+| 3 | **On est écoutés** | L'IA nous écoute-t-elle ? Et si elle s'en va ? | l'IA dans chaque objet de la maison, la peur de critiquer l'outil qu'on utilise, la dépendance à un fournisseur étranger, et la sortie (une IA locale) ; t-shirt « Cet incident sera signalé »
+| 4 | Personne ne me cite | Pourquoi l'IA ne connaît pas papa ? | GEO : être cité par les IA ; t-shirt proposé « Chez moi, je suis cité » |
+| 5 | Olympe a plus d'avis que moi | Pourquoi la chienne est mieux notée que Sébastien ? | SEO local, avis Google |
+| 6 | Interdit aux robots | Pourquoi Rampette ne veut pas entrer dans la chambre de Kristina ? | crawl, robots.txt, indexation |
+| 7 | Le prompt parfait | Peut-on commander une pizza avec un prompt de trois pages ? | bien parler à une IA |
+| 8 | L'ex | Pourquoi Tara est jalouse de l'ancien assistant de Sébastien, oublié dans un vieux portable au grenier ? | changer d'IA, garder ses habitudes (la première IA de Sébastien, sans marque) |
+| 9 | La page 2 | Où cacher le cadeau de Doudou pour que personne ne le trouve ? | le classement, la page 2 que personne ne lit |
+| 10 | Mots-clés à table | Que se passe-t-il quand papa parle en mots-clés ? | mots-clés et intention de recherche |
+| 11 | 400 pages en 3 secondes | Tara peut-elle faire un site toute seule ? | contenu automatique, contenu dupliqué |
+| 12 | Qui a écrit ça ? | La lettre d'amour à Doudou, c'est lui ou Tara ? | texte humain, texte IA |
+| 13 | La panne | Que fait la famille quand Tara ne répond plus ? | dépendance, retour au papier |
+| 14 | Sébastien est remplacé | Si Tara fait son métier mieux que lui, il sert à quoi ? | l'avenir du travail ; fin tendre : Tara ne sait pas jouer avec Django |
 
 **Le choix de l'épisode 1, et le désaccord.** Sébastien a proposé « 24 heures dans la peau d'un SEO depuis l'arrivée de l'IA », en demandant qu'on ne prenne pas son idée pour argent comptant. Trois avis séparés ont été pris, chacun sans connaître les autres :
 - le **scénariste** : c'est le meilleur pilote, parce qu'il présente toute la maison, à condition d'en faire une tarasconnade (« Juste une petite idée ») et de ne pas glorifier le surmenage ;
@@ -183,6 +185,7 @@ Demande de Sébastien (30/10/2026) : à la manière d'un vidéaste qui montre, a
 |---|---|---|
 | 1 · Juste une petite idée | n° 271 « Timer oublié : 72 h » (« J'ai oublié d'arrêter le timer. Le client va adorer la facture. ») | l'homme qui ne s'arrête plus |
 | 2 · Le nom parfait | n° 197 « Dernière sauvegarde : — » (« Sauvegarde : jamais. Emplacement : le même serveur. Restauration : prière. ») | le .com et sa sauvegarde, brûlés au même endroit ; ici, le clin d'œil est la chute (fiche de l'épisode) |
-| 3 · Personne ne me cite | n° 089 « Chez moi, je suis cité » (proposé ; lien et fichier à relever) | être cité par les IA |
+| 3 · On est écoutés | n° 450 « Cet incident sera signalé » (« $ sudo reboot … stagiaire n'est pas dans le fichier sudoers. Cet incident sera signalé. À qui ? Personne ne l'a jamais su. ») | sa peur d'être « signalé » s'il critique son IA ; le clin d'œil est la question « Et si on me signale ? » |
+| 4 · Personne ne me cite | n° 089 « Chez moi, je suis cité » (proposé ; lien et fichier à relever) | être cité par les IA |
 | suivants | à choisir dans le Drive (par exemple n° 273 « À faire (142) », n° 097 « 10 agences, 0 la mienne ») | un flocage par épisode, jamais deux fois le même |
 

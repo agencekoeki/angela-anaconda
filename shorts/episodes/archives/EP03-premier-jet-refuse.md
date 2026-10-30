@@ -11,7 +11,7 @@ statut: "premier jet de 53 s, refusé : trop court (la règle est 2:30 à 2:59),
 
 # Ép. 3 · Personne ne me cite (premier jet refusé, archivé)
 
-> **Ne pas partir de ce fichier.** Il garde la trace du premier essai (53 s). La fiche à suivre est `../EP03-personne-ne-me-cite.md`. Les titres « ép. 1 » plus bas datent d'avant le choix de l'ordre.
+> **Ne pas partir de ce fichier.** Il garde la trace du premier essai (53 s). La fiche à suivre est `../EP04-personne-ne-me-cite.md` (ép. 4 depuis que « On est écoutés » s'est intercalé, le 30/10/2026). Les titres « ép. 1 » plus bas datent d'avant le choix de l'ordre.
 
 > Ce premier jet a servi d'épisode d'essai. Ce que Sébastien y a relevé est devenu des règles : la durée de 2:30 à 2:59, l'écran allumé bleu nuit, le bandeau de l'appel à l'abonnement, « l'image raconte », et l'outil de contrôle `controle.py` (alors nommé `contraste.py`) (qui retrouve ces deux défauts sur ce premier jet).
 

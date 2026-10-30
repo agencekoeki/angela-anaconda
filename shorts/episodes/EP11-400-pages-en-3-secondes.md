@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 10 · « 400 pages en 3 secondes »"
+title: "Les Tarasconnades · Ép. 11 · « 400 pages en 3 secondes »"
 theme: "Le contenu produit en masse et le contenu dupliqué : ce que dit vraiment Google (l'« utilisation abusive de contenu à grande échelle »)"
 duree: "2:43 (163.4 s), 33 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -9,7 +9,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 10 · 400 pages en 3 secondes
+# Ép. 11 · 400 pages en 3 secondes
 
 **La question** (posée à la première seconde, par Sébastien, face à l'écran) : « L'IA peut me faire un site… toute seule ? » On dit « l'IA » ; le prénom s'écrit au démarrage (« TARA 1.8 · Nouveau : sites en 3 secondes »). La fin répond : oui, en trois secondes ; mais quatre cents pages pour personne, c'est du spam, et ce n'est pas parce que c'est l'IA qui les a écrites.
 
@@ -216,11 +216,11 @@ Même bande-son pour les trois langues (babillage, gazouillis de Tara, bruitages
 
 ## Titre et description proposés (à valider)
 
-- **FR** : « L'IA m'a fait 400 pages en 3 secondes 😳 · Les Tarasconnades ép. 10 » — « Une page par village, toutes pareilles. Le robot du moteur en lit trois et tombe à la renverse. Pour Google, produire du contenu en masse pour le classement, c'est du spam, "que cela implique l'automatisation, des humains ou une combinaison des deux" (mars 2024). Le t-shirt de Sébastien : [lien FR de la fiche]. #seo #ia #contenu »
+- **FR** : « L'IA m'a fait 400 pages en 3 secondes 😳 · Les Tarasconnades ép. 11 » — « Une page par village, toutes pareilles. Le robot du moteur en lit trois et tombe à la renverse. Pour Google, produire du contenu en masse pour le classement, c'est du spam, "que cela implique l'automatisation, des humains ou une combinaison des deux" (mars 2024). Le t-shirt de Sébastien : [lien FR de la fiche]. #seo #ia #contenu »
   - commentaire épinglé : « Vous êtes déjà tombé sur un site "une page par ville" ? Il vous a servi à quoi ? »
-- **EN** : « AI made me 400 pages in 3 seconds 😳 · Les Tarasconnades ep. 10 » — « One page per village, all the same. The search robot reads three and falls flat on its back. For Google, mass content made to rank is spam, "whether produced through automation, human efforts, or some combination" (March 2024). Sébastien's t-shirt: [EN product link]. #seo #ai #content »
+- **EN** : « AI made me 400 pages in 3 seconds 😳 · Les Tarasconnades ep. 11 » — « One page per village, all the same. The search robot reads three and falls flat on its back. For Google, mass content made to rank is spam, "whether produced through automation, human efforts, or some combination" (March 2024). Sébastien's t-shirt: [EN product link]. #seo #ai #content »
   - pinned comment: « Ever landed on a "one page per city" website? Did it help you at all? »
-- **ES** : « La IA me hizo 400 páginas en 3 segundos 😳 · Les Tarasconnades ep. 10 » — « Una página por pueblo, todas iguales. El robot del buscador lee tres y se cae patas arriba. Para Google, el contenido en masa para posicionar es spam, lo produzca la automatización, un humano o ambos (marzo de 2024). La camiseta de Sébastien: [enlace ES]. #seo #ia #contenido »
+- **ES** : « La IA me hizo 400 páginas en 3 segundos 😳 · Les Tarasconnades ep. 11 » — « Una página por pueblo, todas iguales. El robot del buscador lee tres y se cae patas arriba. Para Google, el contenido en masa para posicionar es spam, lo produzca la automatización, un humano o ambos (marzo de 2024). La camiseta de Sébastien: [enlace ES]. #seo #ia #contenido »
   - comentario fijado: « ¿Alguna vez caíste en una web de "una página por ciudad"? ¿Te sirvió de algo? »
 
 ## À trancher par Sébastien

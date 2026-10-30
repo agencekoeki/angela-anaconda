@@ -1,5 +1,5 @@
 ---
-title: "Les Tarasconnades · Ép. 4 · « Olympe a plus d'avis que moi »"
+title: "Les Tarasconnades · Ép. 5 · « Olympe a plus d'avis que moi »"
 theme: "Le SEO local : les avis Google (le nombre et la note comptent ; on a le droit de demander, pas d'acheter)"
 duree: "2:42 (162.4 s), 34 plans"
 format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
@@ -8,7 +8,7 @@ last_updated: 2026-10-30
 statut: "v2, deuxième passe le 30/10/2026"
 ---
 
-# Ép. 4 · Olympe a plus d'avis que moi
+# Ép. 5 · Olympe a plus d'avis que moi
 
 **La question** (posée à la première seconde, par Sébastien, téléphone à la main) : pourquoi la chienne est-elle mieux notée que moi ? Il a deux avis ; le club d'agility, où tout le monde parle d'Olympe, en a deux cent quatorze.
 
@@ -213,13 +213,13 @@ Toutes les images partent de l'image maître du personnage, jointe au prompt (m�
 
 ## Titre et description proposés pour YouTube (à valider)
 
-- **FR** : « Ma chienne a 214 avis. Moi, 2. ⭐ · Les Tarasconnades ép. 4 »
+- **FR** : « Ma chienne a 214 avis. Moi, 2. ⭐ · Les Tarasconnades ép. 5 »
   « Sur Google, la chienne est mieux notée que moi. Elle ne fait rien, elle est couchée… mais on demande un avis à chaque visiteur, et on répond à chacun. Google le dit : un nombre élevé d'avis et de bonnes notes peuvent aider le classement local. Demander, oui. Acheter (même avec un croissant), non. Le t-shirt de Sébastien : seoaddict.co/fr/… #seolocal #avisgoogle #seo »
   - commentaire épinglé : « Question piège : 4,9 étoiles avec 2 avis, c'est possible ? 🤔 »
-- **EN** : « My dog has 214 reviews. I have 2. ⭐ · Les Tarasconnades ep. 4 »
+- **EN** : « My dog has 214 reviews. I have 2. ⭐ · Les Tarasconnades ep. 5 »
   « On Google, my dog is better rated than me. She does nothing, she lies down… but every visitor is asked for a review, and every review gets an answer. Google says it: many reviews and good ratings can help local ranking. Asking: yes. Buying (even with a croissant): no. Sébastien's t-shirt: [EN link] #localseo #googlereviews #seo »
   - pinned comment: « Trick question: 4.9 stars with 2 reviews, is that even possible? 🤔 »
-- **ES** : « Mi perra tiene 214 reseñas. Yo, 2. ⭐ · Les Tarasconnades ep. 4 »
+- **ES** : « Mi perra tiene 214 reseñas. Yo, 2. ⭐ · Les Tarasconnades ep. 5 »
   « En Google, mi perra está mejor valorada que yo. No hace nada, está tumbada… pero a cada visitante se le pide una reseña, y cada reseña tiene respuesta. Google lo dice: muchas reseñas y buenas notas pueden ayudar al posicionamiento local. Pedirlas: sí. Comprarlas (aunque sea con un cruasán): no. La camiseta de Sébastien: [enlace ES] #seolocal #reseñasgoogle #seo »
   - comentario fijado: « Pregunta trampa: 4,9 estrellas con 2 reseñas, ¿es posible? 🤔 »
 
@@ -228,4 +228,4 @@ Toutes les images partent de l'image maître du personnage, jointe au prompt (m�
 - **Le commentaire épinglé** (« 4,9 étoiles avec 2 avis, c'est possible ? ») : à garder seulement si l'on vérifie que Google affiche bien une moyenne simple des notes.
 - **Le flocage** n° 030 « 4,9 étoiles (2 avis) » : nom exact du fichier sur le Drive, liens des fiches FR, EN, ES, et la boutique le donne-t-elle commandable ?
 - **La capture « demander des avis »** (plan 21) : sur la fiche de Kōeki ou sur une fiche de test ? (Nom, adresse, note, avis et QR code floutés dans les deux cas.)
-- **Le boulanger client** : il vient au bureau comme client (ils se tutoient depuis l'ép. 3). Ça te va, ou préfères-tu un autre client au début et à la fin ?
+- **Le boulanger client** : il vient au bureau comme client (ils se tutoient depuis l'ép. 4). Ça te va, ou préfères-tu un autre client au début et à la fin ?
