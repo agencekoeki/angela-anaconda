@@ -1,8 +1,8 @@
 import os, sys
-os.environ['FORMAT']='vertical'; sys.path.insert(0,'/home/claude/anim')
+os.environ['FORMAT']='vertical'; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from moteur import *
-D='/mnt/user-data/uploads/angela-anaconda/media-local/decors/aa-decor-11-bureau-vertical.png'
-T='/home/claude/anim/assets/'
+from moteur import MEDIA_LOCAL; D=MEDIA_LOCAL+'/decors/aa-decor-11-bureau-vertical.png'
+T='assets/'
 def ecran(img): return Acteur('ecran', T+img, x=0.527, y=0.407, h=0.062*1.04*4, ombre=False)
 plans=[
  # 1 : Tara devant un écran turquoise (le défaut signalé)

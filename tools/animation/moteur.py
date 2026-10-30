@@ -34,13 +34,35 @@ if VERTICAL:
 LANGUE = os.environ.get('LANGUE', 'fr')
 TAILLE_ST = 66 if VERTICAL else 30            # sous-titres : gros sur téléphone
 TAILLE_CARTON = (104, 58) if VERTICAL else (64, 26)
-Y_ST = 0.70                  # vertical : la ligne des sous-titres (fraction de la hauteur) ; la bande 0,66–0,75 reste libre de visages
+Y_ST = 0.70                  # vertical : la ligne des sous-titres (fraction de la hauteur) ; la bande 0,66–0,76 reste libre de visages
                              # (Sébastien, 30/10 : pas en plein milieu ; plus bas, c'est la légende et les boutons de TikTok)
 ST_MIN = 1.5                 # un sous-titre reste au moins 1,5 s à l'écran (lisible même pour un seul mot)
 SR = 44100
-POLICE = '/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf'
-POLICE_CARTON = '/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf'
 ICI = os.path.dirname(os.path.abspath(__file__))
+os.chdir(ICI)     # les chemins 'assets/…', 'banque/…', 'polices/…' sont relatifs à l'atelier, d'où qu'on lance le script
+
+
+def _police_systeme(nom):
+    """Une police DejaVu : celle du système (Linux), sinon la copie de polices/ (Windows, Mac)."""
+    for c in ('/usr/share/fonts/truetype/dejavu/' + nom, os.path.join(ICI, 'polices', nom)):
+        if os.path.exists(c):
+            return c
+    raise FileNotFoundError(nom + ' : lancer polices/telecharger.sh (voir polices/LISEZ-MOI.md)')
+
+
+def _media_local():
+    """Le dossier media-local (décors, flocages, planches) : $MEDIA_LOCAL, sinon le parent de l'atelier
+    (clone du dépôt privé, ou media-local du PC), sinon ../../media-local (dépôt public), sinon l'upload du conteneur."""
+    for c in (os.environ.get('MEDIA_LOCAL'), os.path.dirname(ICI), os.path.join(ICI, '..', '..', 'media-local'),
+              '/mnt/user-data/uploads/angela-anaconda/media-local'):
+        if c and os.path.isdir(os.path.join(c, 'decors')):
+            return os.path.abspath(c)
+    return None
+
+
+MEDIA_LOCAL = _media_local()
+POLICE = _police_systeme('DejaVuSans-Bold.ttf')
+POLICE_CARTON = _police_systeme('DejaVuSerif-Bold.ttf')
 POLICE_ST = os.path.join(ICI, 'polices', 'Fredoka.ttf')          # sous-titres : ronde, grasse, « dessin animé » (OFL, Google Fonts)
 POLICE_CARTE = os.path.join(ICI, 'polices', 'LuckiestGuy-Regular.ttf')   # la carte-titre (Apache 2.0, Google Fonts)
 
@@ -487,7 +509,7 @@ def dessiner_bandeau(im, texte, sous, k, yk=0.16, taille=1.0):
         TRACE.append(('texte', 'bandeau', texte, (int(W / 2 - larg / 2 + dx), int(yc), int(W / 2 + larg / 2 + dx), int(yc + hb - 30)), (255, 214, 60), min(f.size, f2.size if sous else f.size), True))
 
 
-TRACE = None     # contraste.py y range ce qui est dessiné : acteurs (position, masque) et textes (boîte, couleur, taille)
+TRACE = None     # controle.py y range ce qui est dessiné : acteurs (position, masque) et textes (boîte, couleur, taille)
 
 
 def texte_contour(d, xy, texte, police, fill, contour=(0, 0, 0), ep=3, anchor='mm'):
@@ -536,7 +558,7 @@ def dessiner_carton(im, texte, sous, k, yk=0.70, taille=1.0):
             TRACE.append(('texte', 'carton-sous', sous, sb, (255, 170, 70), f2.size, False, (14, 5, 0), 6))
 
 
-POLICE_MONO = '/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf'
+POLICE_MONO = _police_systeme('DejaVuSansMono-Bold.ttf')
 
 
 def dessiner_horloge(im, texte, t, xk=0.5):
@@ -576,7 +598,7 @@ def dessiner_sous_titre(im, texte, qui):
     pas = int(TAILLE_ST * 1.25)
     if VERTICAL:
         # au-dessus du tiers bas (la légende et les boutons des applications occupent le bas)
-        # zone sûre (guides Meta) : rien d'important sous 65 % de la hauteur, où vivent la légende et les boutons
+        # sous-titres centrés à Y_ST (70 %), dans la bande 0,66–0,76 ; plus bas vivent la légende et les boutons des applis
         y = int(H * Y_ST) - pas * (len(lignes) - 1) // 2
     else:
         y = H - 40 - 38 * (len(lignes) - 1)

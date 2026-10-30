@@ -23,7 +23,9 @@ La fille de Sébastien, « la pépette ». Le prénom s'écrit avec un K. Ses ph
 - Détourage : tête `--flashy 0-35 --force 1.3 --frange 40` ; planche en pied `--flashy 0-24 --flashy-epais 4 --frange 40 --frange-haut 0.36` (sinon la monture dorée vire au rouge).
 
 ## Caractère
-- `[MANQUE : à raconter par Sébastien]`
+- [SAVOIR : Sébastien, 30/10/2026] « Un vrai rayon de soleil », indispensable dans la vie de Diana et de Sébastien. Affable, adorable, intelligente ; elle comprend comment vivre dans ce monde ; très ancrée dans sa génération et pourtant très lucide ; elle adore l'ironie.
+- Dans la série : elle et Diana ont une vraie complicité ; elles **expliquent les choses** et se moquent de Sébastien avec tendresse. Kristina est adulte : jamais « l'ado ».
+- [SAVOIR : Sébastien, 30/10/2026] Elle a vu le premier épisode et l'a trouvé génial.
 
 ## Le prompt d'ancrage
 > Original cut-out puppet character, same family style as Sebastien: face = high-contrast black-and-white photocopy of the young woman in the reference photos, milky whites; her RED/copper chin-length BOB with a straight fringe stays in COLOUR (her flashy accent); thin gold square glasses, dental BRACES visible when she smiles, small nose ring, pearl choker; pale flat cool-grey skin everywhere, pipe-cleaner thin limbs with no visible joints; a sun-with-a-face tattoo on each ankle, line-art tattoos on both upper arms; real photographed fabric clothes, stiff. No logo, no text.

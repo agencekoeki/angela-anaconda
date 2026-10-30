@@ -21,7 +21,7 @@ CARTE_EXEMPLE = {
     'illustration': ['assets/seb-tete-nuit-2.png'], 'flamme': 'assets/flamme-1.png',
     'espece': 'Expert SEO · Tarascon · Taille : une petite idée',
     'attaques': [('Petite idée', '∞', 'Transforme deux heures gagnées en une nuit blanche.')],
-    'pied': ('Faiblesse : Kristina ×2', 'Saison 1 · 1/12 ★'),
+    'pied': ('Faiblesse : Kristina ×2', 'Saison 1 · SEO Addict'),
 }
 OR = (240, 196, 52)
 CREME = (252, 238, 200)

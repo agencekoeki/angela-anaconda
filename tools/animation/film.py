@@ -18,7 +18,7 @@ DIA_T = {'repos': A + 'diana-t00.png', 'A': A + 'diana-t01-A.png', 'O': A + 'dia
 KRI_T = {'repos': A + 'kristina-t00.png', 'A': A + 'kristina-t01-A.png', 'O': A + 'kristina-t01-A.png', 'OU': A + 'kristina-t00.png',
          'IE': A + 'kristina-t00.png', 'MBP': A + 'kristina-t00.png', 'FV': A + 'kristina-t00.png', 'L': A + 'kristina-t01-A.png'}
 
-D = '/mnt/user-data/uploads/angela-anaconda/media-local/decors/'
+D = os.path.join(MEDIA_LOCAL, 'decors') + '/'
 RUE = D + 'aa-decor-10-rue-panorama.png'; SALON = D + 'aa-decor-09-salon.png'
 PLAGE = D + 'aa-decor-06-plage-panorama.png'; CHATEAU = D + 'aa-decor-07-tarascon-chateau-panorama.png'
 AGI = D + 'aa-decor-05-agility-terne.png'; ARENES = D + 'aa-decor-08-arles-arenes-panorama.png'

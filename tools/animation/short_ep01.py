@@ -2,7 +2,7 @@
 
 Usage : LANGUE=fr python3 short_ep01.py                 -> shorts/EP01-fr.mp4 et .srt
         LANGUE=fr python3 short_ep01.py images [k,k…]   -> planche d'images-clés
-        python3 contraste.py short_ep01                  -> contrôle de lisibilité (avant toute livraison)
+        python3 controle.py short_ep01                   -> le contrôle (lisibilité, tailles, places, sous-titres) (avant toute livraison)
 
 La question, posée à la première seconde : l'IA devait me faire gagner du temps… où est-il passé ?
 (On dit « l'IA » d'abord : « Tara » seul, au début, fait décrocher ; Sébastien, 30/10/2026.)
@@ -31,7 +31,7 @@ from moteur import *          # noqa: E402
 
 A = 'assets/'
 M = lambda n: A + n + '.png'
-D = '/mnt/user-data/uploads/angela-anaconda/media-local/decors/'
+D = os.path.join(MEDIA_LOCAL, 'decors') + '/'    # MEDIA_LOCAL : voir moteur._media_local()
 BUREAU1 = D + 'aa-decor-11-bureau-vertical.png'     # avant : un seul écran
 JOUR = D + 'aa-decor-14-bureau-jour-vertical.png'    # après : trois écrans
 NUIT = D + 'aa-decor-12-bureau-nuit-vertical.png'
@@ -141,7 +141,7 @@ def gros_plan(nom, tetes, decor, duree, repliques, expression=None, h=0.40, y=0.
 
 
 # le flocage SEO Addict de l'épisode (un par épisode, en vente sur seoaddict.co) : posé sur le t-shirt rose dans les poses de face
-FLOCAGE = '/mnt/user-data/uploads/angela-anaconda/media-local/flocages/FR-271 - Timer oublié 72 h - pour t-shirt foncé.png'
+FLOCAGE = MEDIA_LOCAL + '/flocages/FR-271 - Timer oublié 72 h - pour t-shirt foncé.png'
 BOUTIQUE = {'fr': 'seoaddict.co/fr/p/timer-oublie-72-h-t-shirt/', 'en': 'seoaddict.co/p/forgotten-timer-72-h-t-shirt/',
             'es': 'seoaddict.co/es/p/timer-olvidado-72-h-camiseta/'}
 
@@ -188,7 +188,7 @@ plans = [
                               L("Relance l'attaque précédente. Sans fin.", 'Repeats the previous attack. Forever.',
                                 'Repite el ataque anterior. Sin fin.'))],
                 'pied': (L('Faiblesse : Kristina ×2', 'Weakness: Kristina ×2', 'Debilidad: Kristina ×2'),
-                         L('Saison 1 · 1/12', 'Season 1 · 1/12', 'Temporada 1 · 1/12'))},
+                         L('Saison 1 · SEO Addict', 'Season 1 · SEO Addict', 'Temporada 1 · SEO Addict'))},
          bruits=[(0.0, 'whoosh'), (0.45, 'tada'), (2.7, 'whoosh')]),
 
     # ---------------------------------------------------------------- AVANT (le passé, en sépia)
@@ -210,9 +210,9 @@ plans = [
     # 6. La plage d'avant : on ne faisait rien (la voix dit « rien », Django dit le contraire)
     Plan(9.4, PLAGE, cam=(0.47, 0.50), zoom=(1.0, 1.04), cam_y=0.55, souvenir=True,
          # (Olympe n'est pas venue : elle refuse la plage ; sur le sable, elle s'y confondait)
-         acteurs=[                  seb([(0, SEB_DISC[0])], x=0.62, y=0.90, h=0.42),
-                  Acteur('diana', DIA_P[1], x=0.40, y=0.93, h=0.42, poses=[(0, DIA_P[1])]),
-                  Acteur('kristina', KRI_P[2], x=0.80, y=0.96, h=0.40, poses=[(0, KRI_P[2])]),
+         acteurs=[                  seb([(0, SEB_DISC[0])], x=0.585, y=0.90, h=0.42),
+                  Acteur('diana', DIA_P[1], x=0.38, y=0.93, h=0.42, poses=[(0, DIA_P[1])]),
+                  Acteur('kristina', KRI_P[2], x=0.745, y=0.96, h=0.40, poses=[(0, KRI_P[2])]),
                   # Django court devant tout le monde (la voix dit « rien », lui ne s'arrête pas)
                   Acteur('django', DJ_SAUT[0], x=0.5, y=0.99, h=taille_animal(0.42, 0.36, 0.91), marche=DJ_SAUT, brut=True, marche_pas=1, saut=0.01,
                          fin=2.6, trajet=[(0.0, -0.1, 0.99), (2.6, 1.15, 0.97)], contour=LISERE_CHIEN),

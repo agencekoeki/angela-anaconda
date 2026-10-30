@@ -1,4 +1,7 @@
-"""Les Tarasconnades · S1E01 · « Personne ne me cite » — un short vertical (9:16), en trois langues.
+"""PREMIER JET REFUSÉ (53 s, écran turquoise) de « Personne ne me cite », gardé pour mémoire : NE PAS EN PARTIR.
+L'épisode 2 se fait à partir de short_ep01.py et de la fiche shorts/episodes/EP02-personne-ne-me-cite.md.
+
+Les Tarasconnades · « Personne ne me cite » — un short vertical (9:16), en trois langues.
 
 Usage : LANGUE=fr python3 short01.py            -> shorts/S1E01-fr.mp4 et .srt
         LANGUE=en python3 short01.py images     -> images-clés seulement
@@ -20,7 +23,7 @@ from moteur import *          # noqa: E402
 
 A = 'assets/'
 M = lambda n: A + n + '.png'
-D = '/mnt/user-data/uploads/angela-anaconda/media-local/decors/'
+D = os.path.join(MEDIA_LOCAL, 'decors') + '/'
 BUREAU = D + 'aa-decor-11-bureau-vertical.png'
 REVE = None
 

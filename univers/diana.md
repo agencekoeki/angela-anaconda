@@ -22,7 +22,10 @@ La compagne de Sébastien. On l'appelle aussi Doud. Les photos de référence so
 - `[À TRANCHER]` les chaussures : sandales plates dans le premier prompt, tongs sombres sur les images validées.
 
 ## Caractère
-- `[MANQUE : à raconter par Sébastien]`
+- [SAVOIR : Sébastien, 30/10/2026] Diana et Sébastien ne font « quasiment qu'un » : ils travaillent ensemble, parlent de tous leurs clients et de tous leurs projets, aiment ce qu'ils font et le partagent. Elle vient du monde de la mode (sa mère était couturière) : c'est elle qui a dessiné le vrai Pull moche.
+- [SAVOIR : Sébastien] C'est souvent elle qui a l'idée de fond (l'affiliation façon curation, venue des États-Unis, pour le Pull moche), et qui vient l'aider quand il ne dort plus.
+- Dans la série : avec Kristina, elle **explique les choses**, et se moque de lui avec plein de tendresse et d'amour (Sébastien : « j'aime beaucoup que ce soit Christina et Diana qui expliquent les choses »).
+- [SAVOIR : Sébastien, 30/10/2026] Elle a vu le premier épisode et l'a trouvé génial.
 
 ## Poses signatures (premières idées)
 - La grimace loufoque, les doigts dans la bouche.
