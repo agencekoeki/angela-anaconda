@@ -16,6 +16,7 @@ Le dépôt public ne contient que ce que le projet a écrit ou dessiné lui-mêm
 | Titres, dates, noms, crédits | Des faits | Aucune |
 | Le code de `tools/` et de `docs/` | Écrit pour le projet | Il n'enregistre rien et ne télécharge rien |
 | Le graphisme de `docs/` | Création originale | Aucun portrait ressemblant, aucun personnage de la série redessiné |
+| Le film d'accueil (`docs/media/bienvenue.mp4`) et son affiche | Création originale : la famille de l'auteur et ses animaux, avec leur accord, dans des décors, des voix et une musique fabriqués pour le projet | Aucune image, aucun son, aucune réplique, aucun personnage de la série ; seul le style est évoqué |
 
 ## 3. Ce qui reste hors du dépôt
 

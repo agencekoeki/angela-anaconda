@@ -29,3 +29,6 @@ desktop.ini
 *~
 .idea/
 .vscode/
+
+# Exception : le film d'accueil, une création originale (voir LICENSE-NOTES.md)
+!docs/media/bienvenue.mp4

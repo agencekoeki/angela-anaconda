@@ -60,6 +60,11 @@ h2{font:400 clamp(24px,3.6vw,34px)/1.1 "Bowlby One",sans-serif;margin:0 0 14px}
 .ep.done .st{color:var(--orange)}
 .ep a.cover{position:absolute;inset:0}
 .ep.done:hover{transform:rotate(0) translateY(-2px)}
+.film{margin:0;background:var(--card);border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink);padding:10px;transform:rotate(-.4deg);position:relative}
+.film:before{content:"";position:absolute;top:-12px;left:18%;width:90px;height:22px;background:#f7e7a6cc;transform:rotate(-4deg);border:1px solid #0001}
+.film:after{content:"";position:absolute;top:-12px;right:18%;width:90px;height:22px;background:#f7e7a6cc;transform:rotate(3deg);border:1px solid #0001}
+.film video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:#000}
+.film figcaption{margin:10px 4px 2px;color:var(--muted);font-size:15px;line-height:1.45}
 footer{padding:36px 0 60px;color:var(--muted);font-size:15px;border-top:2px dashed var(--line);margin-top:20px}
 /* le mode imaginaire : comme dans la série, le réel ondule et les couleurs partent */
 body.dream{filter:hue-rotate(160deg) saturate(1.8)}
@@ -78,13 +83,25 @@ body.dream h1 .l{animation-duration:.35s}
   <h1 id="title" aria-label="Angela Anaconda">Angela Anaconda</h1>
   <p class="sub">L'encyclopédie des fans de la petite fille aux taches de rousseur, de sa bande et de son ennemie jurée, Nanette Manoir. Les 130 histoires racontées scène par scène, sans recopier un seul dialogue.</p>
   <div class="btns">
-    <a class="btn primary" href="#episodes">Les épisodes</a>
+    <a class="btn primary" href="#bienvenue">Le film d'accueil</a>
+    <a class="btn" href="#episodes">Les épisodes</a>
     <a class="btn" href="https://github.com/agencekoeki/angela-anaconda/tree/main/kb">La base sur GitHub</a>
     <button class="btn" id="dream" type="button">Imaginer la revanche</button>
   </div>
 </header>
 
 <main class="wrap">
+  <section id="bienvenue">
+    <h2>Bienvenue, ou presque</h2>
+    <figure class="film">
+      <video controls preload="metadata" playsinline poster="media/bienvenue.jpg" width="1280" height="720">
+        <source src="media/bienvenue.mp4" type="video/mp4">
+        Votre navigateur ne lit pas la vidéo : <a href="media/bienvenue.mp4">la télécharger</a>.
+      </video>
+      <figcaption>Sébastien a préparé un discours pour vous accueillir. Doudou, Kristina, Django, Olympe et Patchy ont un autre avis. Un petit film original de la famille Anaconda, fait à la manière de la série, sans aucune image, aucun son ni aucune réplique de la série. 1 min 42, sous-titré.</figcaption>
+    </figure>
+  </section>
+
   <section>
     <h2>Comment c'est fait</h2>
     <div class="grid3">
