@@ -6,9 +6,9 @@ format: "9:16, 1080 × 1920, 24 i/s ; FR, EN, ES"
 script: "tools/animation/short_ep03.py"
 controle: "tools/animation/controle.py short_ep03 (voir « Le contrôle » plus bas)"
 flocage: "T-shirt « Cet incident sera signalé » (n° 450), seoaddict.co/fr/p/cet-incident-sera-signale-t-shirt/"
-rendus: "media-local/shorts/EP03/ (une vidéo et un .srt par langue, la planche d'images-clés, le rapport du contrôle)"
+rendus: "media-local/shorts/EP03/ (la vidéo à publier, un aperçu et un .srt par langue, la planche d'images-clés, les rapports du contrôle) ; copie dans le dépôt privé agencekoeki/sebastien-anaconda-atelier"
 last_updated: 2026-10-30
-statut: "v1, fabriquée d'un bout à l'autre le 30/10/2026 à la demande de Sébastien ; à regarder par lui"
+statut: "v1, fabriquée d'un bout à l'autre le 30/10/2026 à la demande de Sébastien, rendue en FR, EN, ES (0 ERREUR au contrôle) ; à regarder par lui"
 ---
 
 # Ép. 3 · On est écoutés
@@ -126,4 +126,9 @@ Commentaire épinglé proposé : « Vous parlez à voix basse devant votre encei
 
 ## Les rendus
 
-(une fois rendus)
+Rendus le 30/10/2026, sans erreur, dans `media-local/shorts/EP03/` :
+
+- `EP03-fr.mp4`, `EP03-en.mp4`, `EP03-es.mp4` : les copies **à publier**, telles que rendues (1080 × 1920, 24 i/s, H.264 CRF 18, son AAC ; 154,3 s ; environ 35 Mo chacune, 1,8 Mb/s). Pas de grain sépia dans cet épisode, donc pas de copie allégée à faire : l'original part tel quel.
+- `EP03-xx-apercu.mp4` : les copies à regarder sur le téléphone (environ 18 Mo).
+- `EP03-xx.srt`, `EP03-fr-cles.jpg` (la planche d'images-clés), `controle/` (les rapports du contrôle).
+- Pas encore publié : la mise en ligne se fait avec l'accord de Sébastien, et le t-shirt n° 450 doit d'abord être commandable.
