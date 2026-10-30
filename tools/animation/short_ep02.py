@@ -337,7 +337,7 @@ plans = [
               [r('kristina', 0.3, "Un nom ne classe pas un site.", "A name doesn't rank a site.", "Un nombre no posiciona una web."),
                r('kristina', 2.9, "C'est dedans qui compte.", "What's inside does.", "Lo que cuenta es lo de dentro.")],
               h=0.36, y=0.62, cam=0.72, cam_y=0.45, expression=[(0, KT[0]), (6.6, KT[2])],
-              bandeaux=[(4.4, 8.6, L('EMD : le nom = le mot-clé', 'EMD: the name = the keyword', 'EMD: el nombre = la palabra clave'),
+              bandeaux=[(4.4, 8.6, L('EMD : le nom = le mot-clé', 'EMD: the name = the keyword', 'EMD: nombre = palabra clave'),
                          L("Pour Google, un mot-clé dans le nom n'a « presque aucun effet ». Il juge ce qu'il y a dedans.",
                            'For Google, a keyword in the name has “almost no effect”. It judges what\'s inside.',
                            'Para Google, una palabra clave en el nombre «casi no tiene efecto». Juzga lo de dentro.'), 0.145, 1.0)],

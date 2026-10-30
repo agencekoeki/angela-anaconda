@@ -124,6 +124,13 @@ Sébastien porte le flocage **« Dernière sauvegarde : — »** (n° 197 ; titr
 - **FR** : « J'ai acheté le nom parfait… 🎄 · Les Tarasconnades ép. 2 » — « 👕 Le t-shirt « Dernière sauvegarde : — » est sur seoaddict.co. Le 16 décembre 2016, jour de la Journée du pull moche, on a acheté lepullmoche.shop. Le nom = le mot-clé : on allait être premiers, c'était sûr. Spoiler : un nom ne classe pas un site (pour Google, un mot-clé dans le nom n'a « presque aucun effet »). Ce qui a marché, c'est ce qu'on a mis dedans. Et le .com ? Il a brûlé, avec sa sauvegarde. Au même endroit. 🎬 Vidéo faite à 100 % avec l'IA (Claude et ChatGPT). Les secrets du tournage ? En formation : écris-moi sur LinkedIn (Sébastien Grillot). #seo #emd #nomdedomaine #pullmoche #tarasconnades »
 - **EN** et **ES** : à écrire au moment de la mise en ligne de ces langues, sur le même modèle.
 
-## Le contrôle
+## Le contrôle (30/10/2026)
 
-Voir le rapport dans `media-local/shorts/EP02/`. Résultat et ATTENTION regardées : ci-dessous, ajouté après le contrôle.
+- `controle.py short_ep02`, en français, une mesure par seconde, après les corrections de la relecture : **524 OK, 19 ATTENTION, 0 ERREUR**. En anglais et en espagnol, une mesure toutes les 3 s : 0 ERREUR en anglais ; en espagnol, une ERREUR (le titre du bandeau EMD, 44 px, trop long), corrigée (« EMD: nombre = palabra clave ») et revérifiée : 0 ERREUR.
+- Le premier contrôle complet (avant corrections) avait trouvé 3 défauts, corrigés : le sous-titre du carton du 16 décembre trop petit (raccourci), Django qui se perdait dans le sépia du plan 5 (retiré du plan), Django trop petit à côté de Diana au plan 17 (agrandi).
+- Les ATTENTION restantes, regardées une à une : le carton (l'objet) qui se détache moyennement du carrelage à l'amorce ; Django en plein saut au plan 17 (contour un peu faible) ; les bandeaux « Ce t-shirt ? » et « EMD » posés en partie sur un visage en très gros plan (voulu, comme à l'épisode 1) ; les sous-titres de carton à 50-54 px (le minimum conseillé est 56) ; Sébastien coupé par le bord à la fin du zoom sur le t-shirt (voulu).
+- Une relecture indépendante (un relecteur qui n'avait pas écrit l'épisode) a vérifié les faits, les règles de la bible et les traductions ; ses corrections sont appliquées (bandeau de Google cité mot pour mot, « Et il se vend ! », Tara qui dit « Regarde », carton « Aujourd'hui », sépia de 2019-2021, couronne qui tombe, gloses EN/ES, traductions).
+
+## Les rendus
+
+`media-local/shorts/EP02/` : une vidéo par langue, l'original du rendu (CRF 18, ~660 Mo : le grain du sépia fait monter le débit) gardé dans le conteneur, la **copie de publication** (2 passes à 12 Mb/s, ~235 Mo, au-dessus des 8 Mb/s que YouTube recommande), la copie d'aperçu (~45 Mo) et le `.srt` de chaque langue.

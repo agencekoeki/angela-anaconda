@@ -102,7 +102,7 @@ Sébastien porte le flocage **« Timer oublié : 72 h »** (n° 271 de la boutiq
 | YouTube (Short, public) | chaîne SEO Addict | https://youtube.com/shorts/oauUO2EH34M |
 | TikTok | @sebastiengrillot | https://www.tiktok.com/@sebastiengrillot/video/7702412261075291414 |
 | Instagram (Reel) | @sebastien_grillot | https://www.instagram.com/sebastien_grillot/reel/DfHbPJ7yzaY/ |
-| Facebook (Reel) | page Agence Kōeki (koeki.fr) | voir plus bas |
+| Facebook (Reel) | page Agence Kōeki (koeki.fr) | publié par Sébastien le 30/10/2026 (adresse à relever) |
 
 - Le fichier envoyé partout : la copie de publication `media-local\shorts\EP01\EP01-fr.mp4` (2 passes, 3 500 kb/s). Couverture : la carte (`EP01-miniature-carte-1080x1920.jpg`) sur Instagram.
 - La légende ouvre sur le t-shirt, puis l'histoire, puis « vidéo faite à 100 % avec l'IA (Claude et ChatGPT) », la formation et le contact LinkedIn ; cinq hashtags au plus : `#ia #seo #productivite #tarasconnades #dessinanime` (quatre sur TikTok). Sur Facebook, les deux liens sont écrits en entier (t-shirt et LinkedIn), puisqu'ils y sont cliquables.
