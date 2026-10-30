@@ -1,11 +1,13 @@
 ---
 title: "Le film d'accueil du site : « Bienvenue, ou presque »"
-statut: "v4 en ligne sur le site le 30/10/2026"
+statut: "v4 en ligne sur le site le 30/10/2026 ; c'est l'ÉPISODE ALPHA, le maître étalon du ton et du style"
 duree: "1 min 42"
 last_updated: 2026-10-30
 ---
 
 # Le film d'accueil : « Bienvenue, ou presque »
+
+> **L'épisode alpha.** Sébastien, le 30/10/2026 : c'est « la trame qu'on ne doit surtout pas modifier sous aucun prétexte », le maître étalon de tout ce qui suivra (les shorts « Les Tarasconnades », `shorts/bible.md`). On peut ajouter des scènes, des lieux, des tenues, des personnages ; le ton ne dévie pas. La seule réserve : le scénario saute parfois du coq à l'âne, et quelqu'un sans contexte perd le fil. Les règles d'écriture des shorts corrigent ce point.
 
 Le film qui accueille le visiteur en haut de la page du site (`docs/media/bienvenue.mp4`). 16:9, 1280 × 720, 24 images par seconde, personnages animés par remplacement « sur deux images », caméra en continu, sous-titres. La commande de Sébastien : environ 1 min 30, le même délire que la série (séquences, coupes, enchaînements, contre-pied), tout le monde dedans, et une invitation drôle et décalée. Le script est `tools/animation/film.py`, l'atelier complet est dans `media-local/atelier-animation/`, les versions v1 à v4 dans `media-local/films/`.
 
