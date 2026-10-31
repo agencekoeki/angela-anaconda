@@ -29,3 +29,4 @@ Un film est une liste de `Plan` (fichier `film.py`). Chaque plan donne son déco
 - Dépendances : `pip install numpy pillow scipy scikit-image`, `ffmpeg`. Polices : `polices/` (`telecharger.sh`) ; DejaVu vient du système sous Linux, sinon de `polices/`.
 - Les scripts se lancent d'où l'on veut : `moteur.py` se place dans son dossier et trouve `media-local` seul (`MEDIA_LOCAL`, voir `_media_local()`).
 - `python3 short_ep01.py images` (planche d'images-clés), `python3 controle.py short_ep01`, puis `REPRENDRE=1 bash rendre3.sh` en arrière-plan (12 à 15 min par langue en vertical) et `bash livraison/compresser.sh EP01`. Pour les épisodes 2 et 3 : `bash rendre3-ep02.sh` et `bash rendre3-ep03.sh`, les trois langues l'une après l'autre (sur deux cœurs, compter bien plus longtemps).
+- `renum.py <dépôt> <début> <fin> [appliquer]` : décale d'un rang les numéros d'épisodes dans les textes du dépôt quand un épisode s'intercale (voir son en-tête).

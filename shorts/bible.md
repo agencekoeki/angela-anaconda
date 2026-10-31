@@ -140,13 +140,13 @@ L'univers sonore compte autant que l'image, pour ceux qui mettent le son. Le dé
 
 ## 11. Les épisodes de la saison 1
 
-La saison s'allonge (Sébastien, 30/10/2026) : les douze ci-dessous sont un premier lot, d'autres s'y ajoutent, à commencer par **l'épisode sur les EMD, raconté par l'histoire vraie du Pull moche** (le 2), puis **« On est écoutés »** (le 3, demandé le 30/10/2026 : « un côté politique », « un peu à la 1984 », plus de chats que de chiens), devenu l'épisode 2 (« Le nom parfait », fabriqué le 30/10/2026 ; les suivants ont pris un rang de plus). Sujets déjà annoncés par Sébastien pour la suite : « le GEO change-t-il le SEO ? » (son t-shirt « GEO is the new SEO » : rien ne change, on recommence), l'EMD et les entités, l'E-E-A-T (qu'il pratiquait dans le médical avant que le mot existe).
+La saison s'allonge (Sébastien, 30/10/2026) : elle compte maintenant quatorze épisodes. Deux se sont intercalés dans le premier lot de douze, et les suivants ont chaque fois pris un rang de plus : **l'épisode sur les EMD, raconté par l'histoire vraie du Pull moche**, devenu le 2 (« Le nom parfait », fabriqué le 30/10/2026), puis **« On est écoutés »**, devenu le 3 (demandé et fabriqué le 30/10/2026 : « un côté politique », « un peu à la 1984 », plus de chats que de chiens). Sujets déjà annoncés par Sébastien pour la suite : « le GEO change-t-il le SEO ? » (son t-shirt « GEO is the new SEO » : rien ne change, on recommence), l'EMD et les entités, l'E-E-A-T (qu'il pratiquait dans le médical avant que le mot existe).
 
 | # | Titre | La question | Le thème |
 |---|---|---|---|
 | 1 | **Juste une petite idée** | L'IA devait me faire gagner du temps : où est-il passé ? | l'IA nous fait-elle travailler moins ou plus ? (le paradoxe de Jevons) ; t-shirt « Timer oublié : 72 h » |
 | 2 | **Le nom parfait** | Un pull moche… c'est un nom de domaine ? | l'EMD (exact match domain), par l'histoire vraie du Pull Moche ; t-shirt « Dernière sauvegarde : — » |
-| 3 | **On est écoutés** | L'IA nous écoute-t-elle ? Et si elle s'en va ? | l'IA dans chaque objet de la maison, la peur de critiquer l'outil qu'on utilise, la dépendance à un fournisseur étranger, et la sortie (une IA locale) ; t-shirt « Cet incident sera signalé »
+| 3 | **On est écoutés** | L'IA nous écoute-t-elle ? Et si elle s'en va ? | l'IA dans chaque objet de la maison, la peur de critiquer l'outil qu'on utilise, la dépendance à un fournisseur étranger, et la sortie (une IA locale) ; t-shirt « Cet incident sera signalé » |
 | 4 | Personne ne me cite | Pourquoi l'IA ne connaît pas papa ? | GEO : être cité par les IA ; t-shirt proposé « Chez moi, je suis cité » |
 | 5 | Olympe a plus d'avis que moi | Pourquoi la chienne est mieux notée que Sébastien ? | SEO local, avis Google |
 | 6 | Interdit aux robots | Pourquoi Rampette ne veut pas entrer dans la chambre de Kristina ? | crawl, robots.txt, indexation |
