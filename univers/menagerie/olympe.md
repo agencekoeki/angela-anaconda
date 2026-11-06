@@ -1,20 +1,20 @@
 ---
 title: "Olympe"
-espece: "Chienne, colley à poil long bleu merle"
+espece: "Chienne, colley à poil long bleu merle feu"
 statut_image_maitre: "portrait de face validé"
-last_updated: 2026-10-30
+last_updated: 2026-11-06
 ---
 
 # Olympe
 
-Chienne, colley à poil long bleu merle. Image maître : `media-local/illustrations-brutes/aa-portrait-olympe.png`, hors Git.
+Chienne, colley à poil long **bleu merle feu**. Image maître : `media-local/illustrations-brutes/aa-portrait-olympe.png`, hors Git, pour le style ; ses couleurs ont été corrigées le 06/11/2026 (planches v3, `media-local/references/valides/olympe/`).
 
 ## Reconnaissable à
 
 - Une silhouette de colley à poil long, façon Lassie, et non de berger australien.
 - Un museau très long et fin, en coin, avec de petits yeux en amande.
 - De petites oreilles mi-dressées, à la pointe cassée.
-- Une robe bleu merle avec des marques fauve clair sur la face, les sourcils et les pattes.
+- Une robe **bleu merle feu** (Sébastien, 06/11/2026) : le museau **tout feu**, **aucun blanc sur le dessus de la tête**, des reflets cuivrés sur le dos et les flancs. Elle est moins bleu merle que Django. Le feu est sa couleur vive. [SAVOIR : dit par Sébastien le 06/11/2026 ; le premier portrait lui mettait une liste blanche sur le crâne]
 - Une énorme collerette blanche, une crinière qui lui fait un jabot.
 - La tête haute, l'air altier. Elle a la même taille que Django : moyenne, jamais énorme.
 
@@ -45,4 +45,4 @@ Elle est couchée en bas de page. Si on la survole, elle lève la tête et aboie
 
 ## Prompt d'ancrage
 
-> Low-poly 1998 PlayStation-era 3D model of a BLUE MERLE ROUGH COLLIE (Lassie-type long coat): very long narrow wedge muzzle, small almond eyes, small semi-erect ears with tipped-over tips, silver-grey coat marbled with black, light tan face, eyebrow and leg markings, huge white ruff, white muzzle tip and legs, long feathered tail carried LOW, hanging down (never curled over the back, even in a play bow). Rather stiff, never supple. Haughty, head held high. Medium size, same scale as Django. Visible facets, blurry low-res texture, stiff pose, flat lighting, muted colours, painted eyes.
+> Low-poly 1998 PlayStation-era 3D model of a BLUE MERLE ROUGH COLLIE (Lassie-type long coat): very long narrow wedge muzzle, small almond eyes, small semi-erect ears with tipped-over tips, silver-grey coat marbled with black, warm copper-tan ('blue merle with tan') with copper reflections on the back, the WHOLE muzzle fire-tan with NO white stripe, NO white on top of the head, huge white ruff, white legs, long feathered tail carried LOW, hanging down (never curled over the back, even in a play bow). Rather stiff, never supple. Haughty, head held high. Medium size, same scale as Django. Visible facets, blurry low-res texture, stiff pose, flat lighting, muted colours, painted eyes.

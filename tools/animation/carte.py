@@ -103,7 +103,7 @@ def face(cle):
             ic = fl_ico.crop(fl_ico.getchannel('A').getbbox()); ic = ic.resize((int(ic.width * 40 / ic.height), 40))
             im.alpha_composite(ic, (88 - ic.width // 2, y + 8))
         _texte_ajuste(d, (134, y + 28), M.en_langue(nom), 46, W - 330, M.police_carte, ENCRE, anchor='lm')
-        d.text((W - 64, y + 28), degats, font=M.ImageFont.truetype(M.POLICE, 50), fill=ENCRE, anchor='rm')   # ∞ et × : Fredoka ne les a pas
+        d.text((W - 64, y + 28), M.en_langue(degats), font=M.ImageFont.truetype(M.POLICE, 50), fill=ENCRE, anchor='rm')   # ∞ et × : Fredoka ne les a pas
         fd = f_st(30)
         yy = y + 70
         for l in _lignes(d, M.en_langue(desc), fd, W - 140):

@@ -53,7 +53,7 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter
 from skimage.color import rgb2lab
 
-IGNORE = {'ecran'}          # les lueurs d'écran font partie du décor
+IGNORE = {'ecran', 'fumee', 'etoile', 'mur-gloire', 'mur-coupures', 'portail-qr', 'ardoise-fr', 'ardoise-en', 'ardoise-es'}   # le décor et ses accessoires          # les lueurs d'écran font partie du décor
 
 
 def lum(rgb):
@@ -137,15 +137,25 @@ def frontiere(img, m, marge=24):
 # du nom de fichier qui correspond l'emporte. Sébastien, 30/10/2026 : « attention à la taille ; le chien, parfois, il
 # est minuscule ». À compléter quand une nouvelle pose ou un nouveau personnage arrive.
 PROPORTIONS = {
+    # les chiens ×1,3 depuis le 06/11/2026 (Sébastien : « les chiens, ils sont souvent beaucoup trop petits ») ; Titan, le maine coon,
+    # peut être géant (« on peut même le faire aussi grand qu'un chien »)
     'seb-': 1.0, 'diana-pyjama': 0.52, 'diana-': 0.96, 'kristina-nuit': 0.95, 'kristina-': 0.95,
-    'django-assis': 0.42, 'django-saut': 0.36, 'django-': 0.40,
-    'olympe-bonjour-2': 0.28, 'olympe-bonjour-3': 0.28, 'olympe-bonjour': 0.38,
-    'olympe-aboie-1': 0.17, 'olympe-aboie': 0.24, 'olympe-o1': 0.25, 'olympe-': 0.30,
+    'django-assis': 0.55, 'django-saut': 0.47, 'django-': 0.52,
+    'olympe-bonjour-2': 0.36, 'olympe-bonjour-3': 0.36, 'olympe-bonjour': 0.49,
+    'olympe-aboie-1': 0.22, 'olympe-aboie': 0.31, 'olympe-o1': 0.33, 'olympe-': 0.39,
     'patchy-': 0.18, 'tara-': 0.25, 'boulanger-': 0.95,
     # les cinq chats de la planche « espions » (ép. 3) : 1 Kali, 2 Lilou, 3 Souka, 4 Titan, 5 Patchy ; un peu généreux,
     # c'est un dessin animé (Sébastien, 30/10/2026 : « le chien, il est ridiculement petit »)
-    'chats-face-1': 0.31, 'chats-face-2': 0.30, 'chats-face-3': 0.29, 'chats-face-4': 0.40, 'chats-face-5': 0.25,
-    'chats-gauche-1': 0.31, 'chats-gauche-2': 0.30, 'chats-gauche-3': 0.29, 'chats-gauche-4': 0.40, 'chats-gauche-5': 0.25,
+    'chats-face-1': 0.31, 'chats-face-2': 0.30, 'chats-face-3': 0.29, 'chats-face-4': 0.55, 'chats-face-5': 0.25,
+    'chats-gauche-1': 0.31, 'chats-gauche-2': 0.30, 'chats-gauche-3': 0.29, 'chats-gauche-4': 0.55, 'chats-gauche-5': 0.25,
+    # ép. 4 et 5 (06/11/2026) : la hauteur visible de chaque pose, mesurée sur sa toile (planche_creux / planche_composantes)
+    'seb-ls-1': 0.88, 'seb-ls-2': 0.80, 'seb-ls-3': 1.0, 'seb-ls-4': 0.60, 'seb-tire-olympe': 0.94,
+    'seb-pl-1': 0.91, 'seb-pl-2': 0.97, 'seb-pl-3': 0.97, 'seb-pl-4': 0.97,
+    'seb-pq-1': 0.78, 'seb-pq-2': 0.78, 'seb-pq-3': 0.96, 'seb-pq-4': 0.96,
+    'seb-cc-1': 0.87, 'seb-cc-2': 0.85, 'seb-cc-3': 1.0, 'seb-cc-4': 0.91,
+    'diana-ca-2': 0.87, 'diana-ca': 0.96, 'kristina-jour-2': 0.75, 'boulanger-v3-2': 0.86,
+    'olympe-ls-1': 0.48, 'olympe-ls-2': 0.40, 'olympe-ls-3': 0.53, 'olympe-ls-4': 0.43,
+    'django-calin-1': 0.30, 'django-calin-2': 0.50, 'django-calin-3': 0.53, 'django-calin-4': 0.55,
 }
 HUMAINS = {'seb', 'diana', 'kristina', 'boulanger'}
 SANS_TAILLE = {'ecran', 'flamme'}

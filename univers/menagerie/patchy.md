@@ -16,7 +16,7 @@ Petit chat gris et blanc. Image maître : `media-local/illustrations-brutes/aa-p
 - Un **petit** chat, très léger.
 - Un bandeau gris en masque sur les yeux.
 - Une liste blanche en V inversé sur le front.
-- Une tache grise décalée sous le nez rose, comme une moustache, et une autre tache grise au menton.
+- Une tache grise décalée sous le nez rose, comme une moustache, et une autre tache grise au menton. **Les taches sur le nez** sont ce qu'on reconnaît d'abord (Sébastien, 06/11/2026 : « Patchy… il a des taches sur le nez ») : on les vérifie sur chaque image.
 - Un plastron et des pattes blanches, des yeux jaune-vert plissés.
 
 ## Caractère

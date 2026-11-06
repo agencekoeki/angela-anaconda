@@ -23,6 +23,7 @@ Le jour J (le 30/10/2026), l'épisode 1 est sorti sur les quatre réseaux ; l'é
 | semaine 5 | 9 · La page 2 ; 10 · Mots-clés à table | mardi, vendredi |
 | semaine 6 | 11 · 400 pages en 3 secondes ; 12 · Qui a écrit ça ? | mardi, vendredi |
 | semaine 7 | 13 · La panne ; 14 · Sébastien est remplacé | mardi, vendredi (fin de saison) |
+| ensuite | 15 · l'E-E-A-T ; 16 · les entités nommées ; 17 · schema.org | à écrire avec Sébastien (demandés le 06/11/2026, dans cet ordre ; bible, § 11) |
 
 L'ordre des épisodes 4 à 14 peut bouger selon l'actualité. Deux épisodes se sont intercalés le 30/10/2026, à la demande de Sébastien : le 2, « Le nom parfait » (EMD), et le 3, « On est écoutés » (l'IA qui écoute partout, la dépendance) ; « Personne ne me cite », l'ancien n° 2, est devenu le 4. L'épisode 9 cache un cadeau de Noël : il gagne à sortir en décembre, quitte à échanger sa place avec un autre.
 

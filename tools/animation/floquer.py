@@ -13,7 +13,7 @@ from PIL import Image
 from scipy import ndimage
 
 # poses où l'on voit le devant du t-shirt (préfixes de nom de fichier)
-POSES_DE_FACE = ('seb-discours', 'seb-cles', 'seb-m0', 'seb-s2', 'seb-k00')
+POSES_DE_FACE = ('seb-discours', 'seb-cles', 'seb-m0', 'seb-s2', 'seb-k00', 'seb-cc-', 'seb-ls-3', 'seb-pl-2', 'seb-pl-3', 'seb-pl-4', 'seb-pq-')
 
 
 def masque_tshirt(a):

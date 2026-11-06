@@ -1,7 +1,7 @@
 ---
 title: "Les Tarasconnades · Saison 1 · la vue d'ensemble (ép. 2 à 14)"
 scope: "Une page pour toute la saison : épisode par épisode, la question, la pépite et qui la dit, le flocage, le rêve et son moment, la version de Tara ; puis la liste unique, dédoublonnée, de ce qu'il faut fabriquer, dans l'ordre où les épisodes en ont besoin."
-last_updated: 2026-10-30
+last_updated: 2026-11-06
 statut: "v2, deuxième passe le 30/10/2026 ; l'ép. 1 est dans le dépôt (shorts/episodes/EP01-juste-une-petite-idee.md)"
 ---
 
@@ -24,7 +24,7 @@ La série est publiée sur la chaîne **SEO Addict**. Chaque fiche détaillée e
 |---|---|---|---|---|---|---|
 | 2 · Le nom parfait | 2:36 (156,1 s) | Kristina : « C'est quoi, ce truc ? » (un pull moche) | **Kristina** : « Un nom ne classe pas un site. C'est dedans qui compte. » (le bandeau : Google, « presque aucun effet ») | n° 197 « Dernière sauvegarde : — » | le roi du pull moche, couronne, pulls qui volent · 1:35 (61 %, plus tôt que la règle : il doit précéder la révélation des chiffres) | Tara apparaît dans le présent, hors de l'écran, sans démarrage |
 | 3 · On est écoutés | 2:34 (154,3 s) | Sébastien, tout bas : « Chut… l'IA nous écoute. » | **Diana** : « Le vrai problème, ce n'est pas qu'elle écoute. C'est que toute notre boîte tourne chez eux. » (le bandeau : la dépendance, juin 2025, sous serment au Sénat) | n° 450 « Cet incident sera signalé » | 1984 en drôle : Tara géante qui écoute tout, les cinq chats en garde, puis « SERVICE INTERROMPU » · 1:31 (59 %, plus tôt que la règle : il doit précéder la pépite et la sortie) | pas de démarrage de Tara ; la seule version affichée est **TARA MAISON 0.1**, la petite Tara locale, ambre, hors ligne |
-| 4 · Personne ne me cite | 2:47 (167,2 s) | Kristina : « Papa… l'IA ne sait pas qui tu es. » | **Kristina** : « L'IA ne te croit pas sur parole. Elle répète ce que les autres disent de toi. » | n° 089 « Chez moi, je suis cité » | sa statue sur la place, le **chœur des Tara** (« Sébastien ! ») · 1:58 (71 %) | **1.1** · « Nouveau : connaît tout Tarascon » |
+| 4 · Personne ne me cite | 2:58 (178,6 s), fabriqué le 06/11/2026 | Kristina : « Papa… l'IA ne sait pas qui tu es. » | **Kristina** : « L'IA ne te croit pas sur parole. Elle répète ce que les autres disent de toi. » | n° 089 « Chez moi, je suis cité » | sa statue sur la place, le **chœur des Tara** (« Sébastien ! ») · 2:01 (68 %, un peu plus tôt que la règle : la rue de la boulangerie s'est découpée en quatre plans serrés juste avant) | **1.1** · « Nouveau : connaît tout Tarascon » |
 | 5 · Olympe a plus d'avis que moi | 2:42 (162,4 s) | Sébastien : « Deux avis. Et la chienne… 214 ?! » | **Diana** : « Plus d'avis, de bonnes notes : ça peut te faire remonter. Mais ça se demande. » | n° 030 « 4,9 étoiles (2 avis) » | il est Olympe : couché au milieu du parcours, une collerette, une pluie d'étoiles · 1:54 (71 %) | **1.2** · « Nouveau : compte les étoiles » |
 | 6 · Interdit aux robots | 2:49 (169,6 s) | Sébastien : « Pourquoi le robot n'entre pas dans le bureau de ma fille ? » | **Kristina** : « Pour qu'il n'en parle pas… il faut le laisser entrer. Et lui dire : pas un mot. » | n° 010 « noindex, nofollow introverti » | Sébastien en araignée de fer-blanc, qui « lit » tout Tarascon · 2:00 (71 %) | **1.3** · « Plan de la maison : introuvable » |
 | 7 · Le prompt parfait | 2:41 (161,2 s) | Sébastien : « Ce soir, l'IA commande la pizza. » | **Kristina** : « Le but, le contexte, un exemple. Le reste, c'est de la déco. » | n° 2038 « Les 47 prompts qui vont changer ta vie » | il lit son chapitre 47 à une pizza géante qui pleure · 1:53 (71 %) | **1.4** · « Lecture… 1 437 mots » |
@@ -36,7 +36,9 @@ La série est publiée sur la chaîne **SEO Addict**. Chaque fiche détaillée e
 | 13 · La panne | 2:41 (161,6 s) | Sébastien : « L'IA ne répond plus… on fait comment ? » | **Kristina** : « Ce qu'on écrit soi-même, on s'en souvient mieux. » | n° 433 « Débranchez, rebranchez » | Frère Sébastien, moine copiste aux lettrines parfaites · 1:53 (70 %) | **1.99** · « Chargement… · … » qui bégaie, puis « Redémarrage… » |
 | 14 · Sébastien est remplacé | 2:36 (156,8 s) | Sébastien : « Si l'IA fait mon métier mieux que moi… je sers à quoi ? » | **Diana** : « Elle fait des tâches. Toi, tu fais un métier. » | n° 065 « Humain dans la boucle » | la statue revient, le **chœur des Tara** (« Irrempla-ça-ble ! ») · 1:52 (72 %) | **2.0** · « Nouveau : fait le métier de Sébastien » |
 
-Pépites : Kristina 6 (ép. 2, 4, 6, 7, 10, 13), Diana 6 (ép. 3, 5, 8, 9, 12, 14), Tara 1 (ép. 11). Toutes les durées sont entre 2:34 et 2:49 (l'ép. 3 : 2:34, l'ép. 2 : 2:36).
+Pépites : Kristina 6 (ép. 2, 4, 6, 7, 10, 13), Diana 6 (ép. 3, 5, 8, 9, 12, 14), Tara 1 (ép. 11). Toutes les durées sont entre 2:34 et 2:58 (l'ép. 3 : 2:34, l'ép. 2 : 2:36 ; l'ép. 4, refait le 06/11/2026 avec des plans plus serrés : 2:58).
+
+**À écrire ensuite (demandés le 06/11/2026, dans cet ordre)** : 15 · l'E-E-A-T ; 16 · les entités nommées ; 17 · schema.org. Le détail se décide avec Sébastien (bible, § 11).
 
 ## Ce qu'il faut fabriquer pour toute la saison
 

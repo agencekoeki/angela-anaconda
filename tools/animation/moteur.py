@@ -295,9 +295,29 @@ class Plan:
     crt: dict = None                               # fond='crt' : {'lignes': [(t, texte)], 'barre': (t0, t1), 'allume': t}
     carte: dict = None                             # la carte-titre qui se retourne (carte.py)
     lumiere: tuple = None                          # (debut, fin) : la lumière revient (fondu depuis le noir)
+    pluie: float = 0.0                             # dehors en automne : une petite pluie (0,5 légère, 1 franche), devant tout le monde
 
 
 # ---------------------------------------------------------------- dessin
+def dessiner_pluie(im, t, force=0.5):
+    """Une petite pluie d'automne : le jour un peu gris-bleu, des traits fins en biais qui tombent, deux plans de profondeur."""
+    w, h = im.size
+    im = Image.blend(im, Image.new('RGB', im.size, (120, 135, 160)), 0.10 * force)
+    calque = Image.new('RGBA', im.size, (0, 0, 0, 0))
+    d = ImageDraw.Draw(calque)
+    rnd = random.Random(11)
+    for i in range(int(160 * force)):
+        loin = i % 3 != 0                                # deux tiers au loin : plus courts, plus pâles, plus lents
+        long_ = h * (0.025 if loin else 0.05)
+        vit = h * (1.1 if loin else 1.9)
+        x0 = rnd.random() * (w + 0.3 * h); y0 = rnd.random() * (h + long_)
+        y = (y0 + t * vit) % (h + long_) - long_
+        x = x0 - 0.18 * (y + long_)
+        a_ = int((70 if loin else 120) * min(1.0, force * 1.4))
+        d.line([(x, y), (x - 0.18 * long_, y + long_)], fill=(225, 232, 245, a_), width=2 if loin else 3)
+    return Image.alpha_composite(im.convert('RGBA'), calque).convert('RGB')
+
+
 def fond_reve(t, w, h):
     im = Image.new('RGB', (w, h))
     d = ImageDraw.Draw(im)
@@ -782,7 +802,7 @@ def dessiner_plan(p, t, monde_cache={}, sans=None):
             spr = spr.resize((max(1, round(rx1 - rx0)), max(1, round(ry1 - ry0))), Image.BILINEAR)
             px, py = round(rx0), round(ry0)
         elif a.gros_plan:
-            px = W / 2 - spr.width / 2
+            px = W * ax - spr.width / 2           # x = 0,5 : centré (deux têtes côte à côte : chats de l'ép. 4)
             py = H * ay - spr.height - bond
         elif procedural:
             px = ax * W - spr.width / 2
@@ -829,6 +849,8 @@ def dessiner_plan(p, t, monde_cache={}, sans=None):
     for (p0, p1, n, zone, devant, *g) in p.postits:
         if devant:
             im = dessiner_postits(im, t, p0, p1, n, zone, *(g or [3]))
+    if p.pluie:
+        im = dessiner_pluie(im, t, p.pluie)
     if p.fond == 'reve':
         confettis(im, t); feux(im, t, [(0.25, 0.3, 0.0), (0.75, 0.25, 0.5), (0.5, 0.15, 1.0)])
     if p.souvenir:
@@ -1019,6 +1041,33 @@ def bruit(nom, n=None):
     if nom == 'pop':
         x = np.arange(int(SR * 0.12)) / SR
         return 0.4 * np.sin(2 * np.pi * (600 + 2000 * x) * x) * np.exp(-x * 40)
+    if nom == 'pouf':
+        # un faux avis qui part en fumée (ép. 5) : un souffle sourd et court
+        d = 0.5; m = int(SR * d); x = np.arange(m) / SR
+        w = np.convolve(rnd.normal(0, 1, m), np.ones(90) / 90, mode='same')
+        return 1.6 * w * np.minimum(1, x / 0.01) * np.exp(-x * 7)
+    if nom == 'clac':
+        # une porte, un volet : un claquement de bois
+        d = 0.25; m = int(SR * d); x = np.arange(m) / SR
+        return 0.6 * rnd.normal(0, 1, m) * np.exp(-x * 45) + 0.25 * np.sin(2 * np.pi * 180 * x) * np.exp(-x * 30)
+    if nom == 'miaou':
+        # un chat : la voyelle monte puis retombe (mi-a-ou)
+        d = 0.6; m = int(SR * d); x = np.arange(m) / SR
+        f = 520 + 380 * np.sin(np.pi * x / d) ** 1.5 - 120 * x / d
+        ph = 2 * np.pi * np.cumsum(f) / SR
+        s = np.sin(ph) + 0.5 * np.sin(2 * ph) + 0.25 * np.sin(3 * ph)
+        return 0.16 * s * np.sin(np.pi * x / d) ** 0.6
+    if nom == 'ronron':
+        # le ronronnement : un souffle grave pulsé à 25 Hz
+        d = 1.6; m = int(SR * d); x = np.arange(m) / SR
+        w = np.convolve(rnd.normal(0, 1, m), np.ones(40) / 40, mode='same')
+        return 0.9 * w * (0.55 + 0.45 * np.sin(2 * np.pi * 25 * x)) * np.sin(np.pi * x / d) ** 0.5
+    if nom == 'grrr':
+        # Olympe qui proteste : un grondement bas
+        d = 0.8; m = int(SR * d); x = np.arange(m) / SR
+        s = np.sign(np.sin(2 * np.pi * 95 * x)) * (0.6 + 0.4 * np.sin(2 * np.pi * 18 * x)) + rnd.normal(0, 0.3, m)
+        s = np.convolve(s, np.ones(20) / 20, mode='same')
+        return 0.3 * s * np.sin(np.pi * x / d) ** 0.7
     return np.zeros(10)
 
 
@@ -1061,7 +1110,7 @@ def babil(texte, voix):
     """Le babillage : une petite note par syllabe, à la hauteur de la voix du personnage."""
     if voix == 'tara':
         return gazouillis(texte)
-    base = {'seb': 150, 'diana': 245, 'kristina': 280}.get(voix, 200)
+    base = {'seb': 150, 'diana': 245, 'kristina': 280, 'boulanger': 108, 'client': 185}.get(voix, 200)
     formes = formes_du_texte(texte)
     d = duree_replique(texte); n = int(SR * d); out = np.zeros(n)
     rnd = np.random.default_rng(len(texte))

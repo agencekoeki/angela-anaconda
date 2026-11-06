@@ -140,7 +140,7 @@ L'univers sonore compte autant que l'image, pour ceux qui mettent le son. Le dé
 
 ## 11. Les épisodes de la saison 1
 
-La saison s'allonge (Sébastien, 30/10/2026) : elle compte maintenant quatorze épisodes. Deux se sont intercalés dans le premier lot de douze, et les suivants ont chaque fois pris un rang de plus : **l'épisode sur les EMD, raconté par l'histoire vraie du Pull moche**, devenu le 2 (« Le nom parfait », fabriqué le 30/10/2026), puis **« On est écoutés »**, devenu le 3 (demandé et fabriqué le 30/10/2026 : « un côté politique », « un peu à la 1984 », plus de chats que de chiens). Sujets déjà annoncés par Sébastien pour la suite : « le GEO change-t-il le SEO ? » (son t-shirt « GEO is the new SEO » : rien ne change, on recommence), l'EMD et les entités, l'E-E-A-T (qu'il pratiquait dans le médical avant que le mot existe).
+La saison s'allonge (Sébastien, 30/10/2026) : elle compte quatorze épisodes écrits, et trois sujets de plus demandés le 06/11/2026 (15 à 17, ci-dessous). Deux se sont intercalés dans le premier lot de douze, et les suivants ont chaque fois pris un rang de plus : **l'épisode sur les EMD, raconté par l'histoire vraie du Pull moche**, devenu le 2 (« Le nom parfait », fabriqué le 30/10/2026), puis **« On est écoutés »**, devenu le 3 (demandé et fabriqué le 30/10/2026 : « un côté politique », « un peu à la 1984 », plus de chats que de chiens). Sujets déjà annoncés par Sébastien pour la suite : « le GEO change-t-il le SEO ? » (son t-shirt « GEO is the new SEO » : rien ne change, on recommence), l'EMD et les entités, l'E-E-A-T (qu'il pratiquait dans le médical avant que le mot existe).
 
 | # | Titre | La question | Le thème |
 |---|---|---|---|
@@ -158,6 +158,11 @@ La saison s'allonge (Sébastien, 30/10/2026) : elle compte maintenant quatorze �
 | 12 | Qui a écrit ça ? | La lettre d'amour à Doudou, c'est lui ou Tara ? | texte humain, texte IA |
 | 13 | La panne | Que fait la famille quand Tara ne répond plus ? | dépendance, retour au papier |
 | 14 | Sébastien est remplacé | Si Tara fait son métier mieux que lui, il sert à quoi ? | l'avenir du travail ; fin tendre : Tara ne sait pas jouer avec Django |
+| 15 | *(à écrire)* | *(à écrire)* | **l'E-E-A-T** (expérience, expertise, autorité, fiabilité), qu'il enseigne en formation et pratiquait dans le médical avant que le mot existe |
+| 16 | *(à écrire)* | *(à écrire)* | **les entités nommées** : comment Google et les IA reconnaissent une personne, un lieu, une marque |
+| 17 | *(à écrire)* | *(à écrire)* | **schema.org** : les données structurées, dire aux machines qui est qui |
+
+**Les épisodes 15 à 17 (demandés par Sébastien le 06/11/2026)** : « dans les suivants, j'aime beaucoup qu'on parle de l'EEAT, ensuite des entités nommées, et ensuite de schema.org. C'est des trucs que je dis pas mal en formation en ce moment. » L'ordre est le sien. Le détail (la question, la pépite, le rêve, le flocage) s'écrit avec lui avant la fabrication : « on pourra en parler un peu plus en détail ». [PENSER] Les trois se suivent bien : on prouve qui l'on est (E-E-A-T), les machines reconnaissent qui l'on est (les entités), on le leur dit dans leur langue (schema.org). Le rang définitif dans la saison (à la suite du 14, ou intercalés plus tôt) reste à décider avec lui.
 
 **Le choix de l'épisode 1, et le désaccord.** Sébastien a proposé « 24 heures dans la peau d'un SEO depuis l'arrivée de l'IA », en demandant qu'on ne prenne pas son idée pour argent comptant. Trois avis séparés ont été pris, chacun sans connaître les autres :
 - le **scénariste** : c'est le meilleur pilote, parce qu'il présente toute la maison, à condition d'en faire une tarasconnade (« Juste une petite idée ») et de ne pas glorifier le surmenage ;

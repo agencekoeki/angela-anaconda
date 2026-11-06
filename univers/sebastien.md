@@ -2,7 +2,7 @@
 title: "Sébastien Anaconda"
 personnage: "Sébastien Anaconda"
 statut_image_maitre: "en cours"
-last_updated: 2026-10-29
+last_updated: 2026-11-06
 ---
 
 # Sébastien Anaconda
@@ -10,7 +10,7 @@ last_updated: 2026-10-29
 ## Reconnaissable à
 
 - Le visage est une photo en noir et blanc très contrastée, façon photocopie, aux blancs laiteux. La seule couleur du visage, ce sont les **iris bleu vif**, comme les taches de rousseur d'Angela sont sa seule touche de couleur.
-- Le crâne est rasé, avec une barbe courte poivre et sel, des **lunettes de vue** à monture rectangulaire foncée et des oreilles bien dégagées. Comme chez Angela, la tête est grosse sur un corps filiforme.
+- Le crâne est rasé : **toujours les cheveux très, très courts, un peu dégarni** (Sébastien, 06/11/2026 : « j'ai toujours… les cheveux très très courts » ; jamais de touffe, même mouillé), avec une barbe courte poivre et sel, des **lunettes de vue** à monture rectangulaire foncée et des oreilles bien dégagées. Comme chez Angela, la tête est grosse sur un corps filiforme.
 - **Le visage est légèrement asymétrique, et c'est un trait de reconnaissance.** Il faut le garder sur chaque visage de rechange, sans jamais le forcer en grimace :
   - la paupière droite (à gauche de l'image quand il est de face) tombe un peu ;
   - l'œil droit se ferme parfois à moitié, selon la direction du regard ;
@@ -33,6 +33,11 @@ last_updated: 2026-10-29
   - La semelle blanche porte de gros crampons en dents de scie.
   - **Les lacets sont mouchetés orange et noir.** C'est le détail qui les fait reconnaître.
   - Elles se portent avec des socquettes blanches. Elles n'ont aucun logo.
+- **La tenue de pluie** (automne, dehors ; depuis l'ép. 4, 06/11/2026). Sébastien : « moi, dehors, je ne sors jamais en tongs, en short et en t-shirt quand il pleut… il faut toujours que mon t-shirt rose soit identifiable » :
+  - une veste de pluie gris anthracite, **toujours ouverte** sur le t-shirt rose, qui reste bien visible ;
+  - un pantalon long gris foncé ;
+  - les chaussures de trail ci-dessus.
+  Les planches validées : `media-local/references/valides/sebastien/pluie-1-veste-ouverte.png` et `pluie-2-veste-ouverte.png` (hors Git). Il la garde dedans quand il arrive de la rue.
 - **Une deuxième paire de lunettes**, à monture claire (vue sur une photo aux pivoines).
 - **Les accessoires possibles** : des lunettes de sport à verres miroir, un sac à dos noir à bretelles rouges, une laisse, et le sweat rouge à capuche (celui sur lequel Patchy grimpait).
 
