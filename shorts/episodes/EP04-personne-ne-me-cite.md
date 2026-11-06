@@ -173,3 +173,9 @@ statut: "v4, refait le 06/11/2026 : cadres serrés, pluie d'automne, animaux d'a
 ## Les rendus (06/11/2026)
 
 `media-local/shorts/EP04/` (hors Git public) : `EP04-fr.mp4`, `EP04-en.mp4`, `EP04-es.mp4` (les originaux du rendu, 1080 × 1920, 24 i/s, 2:58, à publier tels quels), leurs `.srt`, les aperçus légers, la planche d'images-clés et les rapports de contrôle. Le rêve tombe à 2:01 (68 %), un peu plus tôt que la règle de la saison (70 à 78 %) : la rue de la boulangerie s'est découpée en quatre plans serrés juste avant.
+
+## La mise en ligne
+
+- **YouTube** (SEO Addict) : programmé le mardi 10/11/2026 à 18 h (heure de Paris), https://youtube.com/shorts/mTgLUZpTUl4 ; titre et description FR ci-dessus (le lien du t-shirt en premier), case IA « non », pas conçu pour les enfants. [SAVOIR : YouTube Studio, 06/11/2026]
+- **LinkedIn** (profil perso) : confié le 06/11/2026 au Projet Réseaux Sociaux, conversation « Shorts Tarasconnades sur LinkedIn » (claude.ai/chat/bb1f6706-c0d6-44cb-b7e2-f7556be43398) : vérifier ce qui est déjà programmé pour l'ép. 1, l'accroche voulue par Sébastien, puis la planification des ép. 1 à 4.
+- TikTok, Instagram, Facebook : pas encore.
